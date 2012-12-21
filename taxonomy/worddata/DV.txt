@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W12610" class="vocabword" onclick="selword('12610','DV')">DV</td></tr>
+<tr><td id="W12611" class="vocabword" onclick="selword('12611','DVM')">DVM</td></tr>
+<tr><td id="W12612" class="vocabword" onclick="selword('12612','DVMS')">DVMS</td></tr>
+<tr><td id="W12613" class="vocabword" onclick="selword('12613','DVS')">DVS</td></tr>
+<tr><td id="W14773" class="vocabword" onclick="selword('14773','Dvapara Yuga')">Dvapara Yuga</td></tr>
+<tr><td id="W14774" class="vocabword" onclick="selword('14774','Dvina')">Dvina</td></tr>
+<tr><td id="W14775" class="vocabword" onclick="selword('14775','Dvina Bay')">Dvina Bay</td></tr>
+<tr><td id="W14776" class="vocabword" onclick="selword('14776','Dvinsk')">Dvinsk</td></tr>
+<tr><td id="W14777" class="vocabword" onclick="selword('14777','Dvorak')">Dvorak</td></tr>
+<tr><td id="W14778" class="vocabword" onclick="selword('14778','Dvorck')">Dvorck</td></tr>
+</table>

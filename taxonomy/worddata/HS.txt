@@ -1,0 +1,21 @@
+<table width='100%'>
+<tr><td id="W21139" class="vocabword" onclick="selword('21139','HS')">HS</td></tr>
+<tr><td id="W21140" class="vocabword" onclick="selword('21140','HSH')">HSH</td></tr>
+<tr><td id="W21141" class="vocabword" onclick="selword('21141','HSM')">HSM</td></tr>
+<tr><td id="W23319" class="vocabword" onclick="selword('23319','Hs')">Hs</td></tr>
+<tr><td id="W23320" class="vocabword" onclick="selword('23320','Hsfan Chiao')">Hsfan Chiao</td></tr>
+<tr><td id="W23321" class="vocabword" onclick="selword('23321','Hsfan T%27ung')">Hsfan T%27ung</td></tr>
+<tr><td id="W23322" class="vocabword" onclick="selword('23322','Hsfan Tsung')">Hsfan Tsung</td></tr>
+<tr><td id="W23323" class="vocabword" onclick="selword('23323','Hsi')">Hsi</td></tr>
+<tr><td id="W23324" class="vocabword" onclick="selword('23324','Hsia')">Hsia</td></tr>
+<tr><td id="W23325" class="vocabword" onclick="selword('23325','Hsia-men')">Hsia-men</td></tr>
+<tr><td id="W23326" class="vocabword" onclick="selword('23326','Hsian')">Hsian</td></tr>
+<tr><td id="W23327" class="vocabword" onclick="selword('23327','Hsiang')">Hsiang</td></tr>
+<tr><td id="W23328" class="vocabword" onclick="selword('23328','Hsin Hsfeh')">Hsin Hsfeh</td></tr>
+<tr><td id="W23329" class="vocabword" onclick="selword('23329','Hsin-hai-lien')">Hsin-hai-lien</td></tr>
+<tr><td id="W23330" class="vocabword" onclick="selword('23330','Hsingan')">Hsingan</td></tr>
+<tr><td id="W23331" class="vocabword" onclick="selword('23331','Hsingborg')">Hsingborg</td></tr>
+<tr><td id="W23332" class="vocabword" onclick="selword('23332','Hsining')">Hsining</td></tr>
+<tr><td id="W23333" class="vocabword" onclick="selword('23333','Hsinking')">Hsinking</td></tr>
+<tr><td id="W23334" class="vocabword" onclick="selword('23334','Hsu')">Hsu</td></tr>
+</table>

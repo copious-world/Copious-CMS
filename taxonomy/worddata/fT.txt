@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W129923" class="vocabword" onclick="selword('129923','ft')">ft</td></tr>
+<tr><td id="W129924" class="vocabword" onclick="selword('129924','ft-L')">ft-L</td></tr>
+<tr><td id="W129925" class="vocabword" onclick="selword('129925','ft-l')">ft-l</td></tr>
+<tr><td id="W129926" class="vocabword" onclick="selword('129926','ft-lb')">ft-lb</td></tr>
+<tr><td id="W129927" class="vocabword" onclick="selword('129927','ft-pdl')">ft-pdl</td></tr>
+<tr><td id="W129928" class="vocabword" onclick="selword('129928','fth')">fth</td></tr>
+<tr><td id="W129929" class="vocabword" onclick="selword('129929','fthm')">fthm</td></tr>
+<tr><td id="W129930" class="vocabword" onclick="selword('129930','ftp')">ftp</td></tr>
+</table>

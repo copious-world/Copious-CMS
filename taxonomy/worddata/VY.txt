@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W50360" class="vocabword" onclick="selword('50360','Vyatka')">Vyatka</td></tr>
+<tr><td id="W50361" class="vocabword" onclick="selword('50361','Vyborg')">Vyborg</td></tr>
+<tr><td id="W50362" class="vocabword" onclick="selword('50362','Vycor')">Vycor</td></tr>
+<tr><td id="W50363" class="vocabword" onclick="selword('50363','Vyernyi')">Vyernyi</td></tr>
+<tr><td id="W50364" class="vocabword" onclick="selword('50364','Vyner')">Vyner</td></tr>
+<tr><td id="W50365" class="vocabword" onclick="selword('50365','Vyrene')">Vyrene</td></tr>
+<tr><td id="W50366" class="vocabword" onclick="selword('50366','Vyse')">Vyse</td></tr>
+<tr><td id="W50367" class="vocabword" onclick="selword('50367','Vyshinsky')">Vyshinsky</td></tr>
+</table>

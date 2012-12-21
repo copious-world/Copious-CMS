@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W12601" class="vocabword" onclick="selword('12601','DS')">DS</td></tr>
+<tr><td id="W12602" class="vocabword" onclick="selword('12602','DSC')">DSC</td></tr>
+<tr><td id="W12603" class="vocabword" onclick="selword('12603','DSM')">DSM</td></tr>
+<tr><td id="W12604" class="vocabword" onclick="selword('12604','DSO')">DSO</td></tr>
+<tr><td id="W12605" class="vocabword" onclick="selword('12605','DSS')">DSS</td></tr>
+<tr><td id="W12606" class="vocabword" onclick="selword('12606','DST')">DST</td></tr>
+<tr><td id="W12607" class="vocabword" onclick="selword('12607','DSW')">DSW</td></tr>
+<tr><td id="W12608" class="vocabword" onclick="selword('12608','DSc')">DSc</td></tr>
+<tr><td id="W14506" class="vocabword" onclick="selword('14506','Ds')">Ds</td></tr>
+<tr><td id="W14507" class="vocabword" onclick="selword('14507','Dseldorf')">Dseldorf</td></tr>
+</table>

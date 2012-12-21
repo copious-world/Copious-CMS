@@ -1,0 +1,69 @@
+<table width='100%'>
+<tr><td id="W27059" class="vocabword" onclick="selword('27059','Khabarovsk')">Khabarovsk</td></tr>
+<tr><td id="W27060" class="vocabword" onclick="selword('27060','Khabur')">Khabur</td></tr>
+<tr><td id="W27061" class="vocabword" onclick="selword('27061','Khachaturian')">Khachaturian</td></tr>
+<tr><td id="W27062" class="vocabword" onclick="selword('27062','Khafaje')">Khafaje</td></tr>
+<tr><td id="W27063" class="vocabword" onclick="selword('27063','Khafre')">Khafre</td></tr>
+<tr><td id="W27064" class="vocabword" onclick="selword('27064','Khai')">Khai</td></tr>
+<tr><td id="W27065" class="vocabword" onclick="selword('27065','Khaibar Pass')">Khaibar Pass</td></tr>
+<tr><td id="W27066" class="vocabword" onclick="selword('27066','Khajeh')">Khajeh</td></tr>
+<tr><td id="W27067" class="vocabword" onclick="selword('27067','Khakass')">Khakass</td></tr>
+<tr><td id="W27068" class="vocabword" onclick="selword('27068','Khalid')">Khalid</td></tr>
+<tr><td id="W27069" class="vocabword" onclick="selword('27069','Khalil')">Khalil</td></tr>
+<tr><td id="W27070" class="vocabword" onclick="selword('27070','Khalin')">Khalin</td></tr>
+<tr><td id="W27071" class="vocabword" onclick="selword('27071','Khalk')">Khalk</td></tr>
+<tr><td id="W27072" class="vocabword" onclick="selword('27072','Khalkha')">Khalkha</td></tr>
+<tr><td id="W27073" class="vocabword" onclick="selword('27073','Khalkidike')">Khalkidike</td></tr>
+<tr><td id="W27074" class="vocabword" onclick="selword('27074','Khalkidiki')">Khalkidiki</td></tr>
+<tr><td id="W27075" class="vocabword" onclick="selword('27075','Khalkis')">Khalkis</td></tr>
+<tr><td id="W27076" class="vocabword" onclick="selword('27076','Khalsa')">Khalsa</td></tr>
+<tr><td id="W27077" class="vocabword" onclick="selword('27077','Khama')">Khama</td></tr>
+<tr><td id="W27078" class="vocabword" onclick="selword('27078','Khan')">Khan</td></tr>
+<tr><td id="W27079" class="vocabword" onclick="selword('27079','Khania')">Khania</td></tr>
+<tr><td id="W27080" class="vocabword" onclick="selword('27080','Khanna')">Khanna</td></tr>
+<tr><td id="W27081" class="vocabword" onclick="selword('27081','Khano')">Khano</td></tr>
+<tr><td id="W27082" class="vocabword" onclick="selword('27082','Kharijite')">Kharijite</td></tr>
+<tr><td id="W27083" class="vocabword" onclick="selword('27083','Kharkov')">Kharkov</td></tr>
+<tr><td id="W27084" class="vocabword" onclick="selword('27084','Khartoum')">Khartoum</td></tr>
+<tr><td id="W27085" class="vocabword" onclick="selword('27085','Khartoum North')">Khartoum North</td></tr>
+<tr><td id="W27086" class="vocabword" onclick="selword('27086','Khasi')">Khasi</td></tr>
+<tr><td id="W27087" class="vocabword" onclick="selword('27087','Khaskovo')">Khaskovo</td></tr>
+<tr><td id="W27088" class="vocabword" onclick="selword('27088','Khatti')">Khatti</td></tr>
+<tr><td id="W27089" class="vocabword" onclick="selword('27089','Khattish')">Khattish</td></tr>
+<tr><td id="W27090" class="vocabword" onclick="selword('27090','Khattusas')">Khattusas</td></tr>
+<tr><td id="W27091" class="vocabword" onclick="selword('27091','Khayy')">Khayy</td></tr>
+<tr><td id="W27092" class="vocabword" onclick="selword('27092','Khayycm')">Khayycm</td></tr>
+<tr><td id="W27093" class="vocabword" onclick="selword('27093','Khekass Autonomous Region')">Khekass Autonomous Region</td></tr>
+<tr><td id="W27094" class="vocabword" onclick="selword('27094','Khelat')">Khelat</td></tr>
+<tr><td id="W27095" class="vocabword" onclick="selword('27095','Kherson')">Kherson</td></tr>
+<tr><td id="W27096" class="vocabword" onclick="selword('27096','Khichabia')">Khichabia</td></tr>
+<tr><td id="W27097" class="vocabword" onclick="selword('27097','Khieu')">Khieu</td></tr>
+<tr><td id="W27098" class="vocabword" onclick="selword('27098','Khingan Mountains')">Khingan Mountains</td></tr>
+<tr><td id="W27099" class="vocabword" onclick="selword('27099','Khios')">Khios</td></tr>
+<tr><td id="W27100" class="vocabword" onclick="selword('27100','Khirbet Qumran')">Khirbet Qumran</td></tr>
+<tr><td id="W27101" class="vocabword" onclick="selword('27101','Khiva')">Khiva</td></tr>
+<tr><td id="W27102" class="vocabword" onclick="selword('27102','Khlyst')">Khlyst</td></tr>
+<tr><td id="W27103" class="vocabword" onclick="selword('27103','Khlysty')">Khlysty</td></tr>
+<tr><td id="W27104" class="vocabword" onclick="selword('27104','Khmer')">Khmer</td></tr>
+<tr><td id="W27105" class="vocabword" onclick="selword('27105','Khmer Republic')">Khmer Republic</td></tr>
+<tr><td id="W27106" class="vocabword" onclick="selword('27106','Khmer Rouge')">Khmer Rouge</td></tr>
+<tr><td id="W27107" class="vocabword" onclick="selword('27107','Khnum')">Khnum</td></tr>
+<tr><td id="W27108" class="vocabword" onclick="selword('27108','Kho')">Kho</td></tr>
+<tr><td id="W27109" class="vocabword" onclick="selword('27109','Khoikhoi')">Khoikhoi</td></tr>
+<tr><td id="W27110" class="vocabword" onclick="selword('27110','Khoisan')">Khoisan</td></tr>
+<tr><td id="W27111" class="vocabword" onclick="selword('27111','Khojent')">Khojent</td></tr>
+<tr><td id="W27112" class="vocabword" onclick="selword('27112','Khond')">Khond</td></tr>
+<tr><td id="W27113" class="vocabword" onclick="selword('27113','Khorma')">Khorma</td></tr>
+<tr><td id="W27114" class="vocabword" onclick="selword('27114','Khos')">Khos</td></tr>
+<tr><td id="W27115" class="vocabword" onclick="selword('27115','Khosrow')">Khosrow</td></tr>
+<tr><td id="W27116" class="vocabword" onclick="selword('27116','Khotan')">Khotan</td></tr>
+<tr><td id="W27117" class="vocabword" onclick="selword('27117','Khoury')">Khoury</td></tr>
+<tr><td id="W27118" class="vocabword" onclick="selword('27118','Khrushchev')">Khrushchev</td></tr>
+<tr><td id="W27119" class="vocabword" onclick="selword('27119','Khudari')">Khudari</td></tr>
+<tr><td id="W27120" class="vocabword" onclick="selword('27120','Khufu')">Khufu</td></tr>
+<tr><td id="W27121" class="vocabword" onclick="selword('27121','Khulna')">Khulna</td></tr>
+<tr><td id="W27122" class="vocabword" onclick="selword('27122','Khutbah')">Khutbah</td></tr>
+<tr><td id="W27123" class="vocabword" onclick="selword('27123','Khuzistan')">Khuzistan</td></tr>
+<tr><td id="W27124" class="vocabword" onclick="selword('27124','Khyber Pass')">Khyber Pass</td></tr>
+<tr><td id="W27125" class="vocabword" onclick="selword('27125','Khyber knife')">Khyber knife</td></tr>
+</table>

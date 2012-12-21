@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W23734" class="vocabword" onclick="selword('23734','IX')">IX</td></tr>
+<tr><td id="W24750" class="vocabword" onclick="selword('24750','Ixelles')">Ixelles</td></tr>
+<tr><td id="W24751" class="vocabword" onclick="selword('24751','Ixion')">Ixion</td></tr>
+<tr><td id="W24752" class="vocabword" onclick="selword('24752','Ixionian')">Ixionian</td></tr>
+<tr><td id="W24753" class="vocabword" onclick="selword('24753','Ixtaccihuatl')">Ixtaccihuatl</td></tr>
+<tr><td id="W24754" class="vocabword" onclick="selword('24754','Ixtacihuatl')">Ixtacihuatl</td></tr>
+</table>

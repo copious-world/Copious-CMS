@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W34890" class="vocabword" onclick="selword('34890','NG')">NG</td></tr>
+<tr><td id="W35792" class="vocabword" onclick="selword('35792','Ng')">Ng</td></tr>
+<tr><td id="W35793" class="vocabword" onclick="selword('35793','Ngaliema Mountain')">Ngaliema Mountain</td></tr>
+<tr><td id="W35794" class="vocabword" onclick="selword('35794','Nganhwei')">Nganhwei</td></tr>
+<tr><td id="W35795" class="vocabword" onclick="selword('35795','Ngo')">Ngo</td></tr>
+<tr><td id="W35796" class="vocabword" onclick="selword('35796','Nguni')">Nguni</td></tr>
+<tr><td id="W35797" class="vocabword" onclick="selword('35797','Nguyen')">Nguyen</td></tr>
+</table>

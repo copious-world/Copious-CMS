@@ -1,0 +1,37 @@
+
+			<table style="text-align: left; height: 35px; width: 100%; font-weight:bold;" border="0" cellpadding="1" cellspacing="0" ID="Table1">
+				<tbody>
+					<tr>
+						<form id="loginform" method="post" action="javascript:loginAuth();" target="_self">
+							<td id="imgholder" align="center" valign="middle" width="75%" style="background-color: rgb(252, 252, 224);padding-left:12px;">
+								<div id="SIGNINDIV">
+									Sign In: &nbsp;<a href="javascript:showform('buttonImgSignUp');" style="padding-top:4px;vertical-align:middle;">
+										<img id="buttonImgSignUp" src="buttonUp.jpg" border="0" height="20px"></a>
+									<span id="multiLangInput">
+								<select id="langchoice" name="langchoice">
+											<option value="English">English</option>
+											<option value="Russian">Russian</option>
+											<option value="Chinese">Chinese</option>
+										</select>
+								&nbsp; 
+								<input maxlength="16" value="" name="username" id="username" size="20" onkeypress="decipherText('username');">
+								<span id="multiLangOutput" style="color:darkgreen;border: 1px green solid;text-decoration:none;">
+									&nbsp;</span>
+								<input type="submit" value="sign in" ID="Submit2" NAME="Submit1">
+							</span>
+									<span id="multiLangPass">
+								<span id="authUserName" style="color:darkgreen;border: 1px green solid;text-decoration:none;">
+									&nbsp;
+								</span>
+								Enter Password:&nbsp;
+								<input type="password" value="" maxlength="16" name="PN_password" id="PN_password" size="20">
+								<input type="submit" value="sign in" ID="Submit1" NAME="Submit1">
+							</span>
+								</div>
+								<div id="signedInDone">
+								</div>
+							</td>
+						</form>
+					</tr>
+				</tbody>
+			</table>

@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W49494" class="vocabword" onclick="selword('49494','VT fuze')">VT fuze</td></tr>
+<tr><td id="W49495" class="vocabword" onclick="selword('49495','VTC')">VTC</td></tr>
+<tr><td id="W49496" class="vocabword" onclick="selword('49496','VTO')">VTO</td></tr>
+<tr><td id="W49497" class="vocabword" onclick="selword('49497','VTOL')">VTOL</td></tr>
+<tr><td id="W50341" class="vocabword" onclick="selword('50341','Vt')">Vt</td></tr>
+<tr><td id="W50342" class="vocabword" onclick="selword('50342','Vtarj')">Vtarj</td></tr>
+<tr><td id="W50343" class="vocabword" onclick="selword('50343','Vte')">Vte</td></tr>
+<tr><td id="W50344" class="vocabword" onclick="selword('50344','Vtehsta')">Vtehsta</td></tr>
+<tr><td id="W50345" class="vocabword" onclick="selword('50345','Vtern')">Vtern</td></tr>
+<tr><td id="W50346" class="vocabword" onclick="selword('50346','Vtesse')">Vtesse</td></tr>
+</table>

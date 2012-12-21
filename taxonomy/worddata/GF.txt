@@ -1,0 +1,7 @@
+<table width='100%'>
+<tr><td id="W18616" class="vocabword" onclick="selword('18616','GFTU')">GFTU</td></tr>
+<tr><td id="W19502" class="vocabword" onclick="selword('19502','Gfiraldes')">Gfiraldes</td></tr>
+<tr><td id="W19503" class="vocabword" onclick="selword('19503','Gflek Bogaz')">Gflek Bogaz</td></tr>
+<tr><td id="W19504" class="vocabword" onclick="selword('19504','Gfnz')">Gfnz</td></tr>
+<tr><td id="W19505" class="vocabword" onclick="selword('19505','Gfnzian')">Gfnzian</td></tr>
+</table>

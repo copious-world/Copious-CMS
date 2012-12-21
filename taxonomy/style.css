@@ -1,0 +1,61 @@
+
+@import url("/hosted/css/copious_menus.css");
+@import url("/hosted/css/peacenamesstyles.css");
+
+ 
+@import url("/hosted/css/classydex/style.css");
+@import url("/hosted/css/classydex/classydex.css");
+@import url("/hosted/css/classydex/stylesheet.css");
+
+
+body {
+	padding:0px;
+	margin: 0px;
+}
+
+
+.vocab_element {
+	width:25%;
+	border: solid 2px gold;
+	background-color:#FEFEEE;
+	color: navy;
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+.vocab_descr {
+	width:75%;
+	border: solid 2px gold;
+	background-color:#FFFFDD;
+	color:darkgreen;
+}
+
+
+.vocab_element:hover {
+	background-color:#FFFFCC;
+	color:darkgreen;
+	cursor:pointer;
+}
+
+
+
+.superlink {
+	padding-top:4px;
+	padding-bottom:1px;
+	margin-bottom:3px;
+}
+
+.dobutton {
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:3px;
+	border: 2px solid navy;
+	padding:2px;
+	font-weight:bold;
+	font-size:0.85em;
+	color: darkgreen;
+	background-color:#EFEEDD;
+	text-decoration:none;
+	cursor: pointer;
+}
+

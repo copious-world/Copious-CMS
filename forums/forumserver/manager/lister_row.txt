@@ -1,0 +1,13 @@
+<tr>
+<td width="100%" style="border-bottom:1px brown solid;cursor:pointer;" onclick="showDetails('$ID$',this,event);">
+<br>
+<div>
+<span style="font-size:12;color:black;font-weight:bolder;cursor:pointer;">$entrydate$</span>
+<span style="padding:8;color:navy;font-weight:bold;font-size:10;background-color:#FFFFFC;cursor:pointer;">($shipping_origination$)</span>&nbsp;
+<span id="listertitle$ID$" style="padding:2;color:navy;font-weight:bolder;font-size:16;background-color:#FFFFE0;border:1px black solid;cursor:pointer;">$add_title$</span>
+</div>
+<div>
+&nbsp;&nbsp;<span style="font-family:courier;color:navy;font-weight:bold;font-size:12;background-color:#EEEEEB;cursor:pointer;">$brief_description$</span>
+&nbsp;<span style="color:darkgreen;font-weight:bolder;font-size:12;background-color:#FFFFEC;border-top:1px green solid;border-left:1px green solid;cursor:pointer;">$$offered_price$</span>
+</div>
+</td></tr>

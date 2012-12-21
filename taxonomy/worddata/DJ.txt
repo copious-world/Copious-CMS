@@ -1,0 +1,16 @@
+<table width='100%'>
+<tr><td id="W12571" class="vocabword" onclick="selword('12571','DJ')">DJ</td></tr>
+<tr><td id="W12572" class="vocabword" onclick="selword('12572','DJS')">DJS</td></tr>
+<tr><td id="W12573" class="vocabword" onclick="selword('12573','DJT')">DJT</td></tr>
+<tr><td id="W12574" class="vocabword" onclick="selword('12574','DJourn')">DJourn</td></tr>
+<tr><td id="W13954" class="vocabword" onclick="selword('13954','Djailolo')">Djailolo</td></tr>
+<tr><td id="W13955" class="vocabword" onclick="selword('13955','Djaja')">Djaja</td></tr>
+<tr><td id="W13956" class="vocabword" onclick="selword('13956','Djajapura')">Djajapura</td></tr>
+<tr><td id="W13957" class="vocabword" onclick="selword('13957','Djakarta')">Djakarta</td></tr>
+<tr><td id="W13958" class="vocabword" onclick="selword('13958','Djambi')">Djambi</td></tr>
+<tr><td id="W13959" class="vocabword" onclick="selword('13959','Djebel Kafzeh man')">Djebel Kafzeh man</td></tr>
+<tr><td id="W13960" class="vocabword" onclick="selword('13960','Djerba')">Djerba</td></tr>
+<tr><td id="W13961" class="vocabword" onclick="selword('13961','Djibouti')">Djibouti</td></tr>
+<tr><td id="W13962" class="vocabword" onclick="selword('13962','Djilas')">Djilas</td></tr>
+<tr><td id="W13963" class="vocabword" onclick="selword('13963','Djokjakarta')">Djokjakarta</td></tr>
+</table>

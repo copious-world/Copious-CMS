@@ -1,0 +1,122 @@
+<?php
+
+global $toplevelprodiver;
+global $default_templatefile;
+global $base_service_server_name;
+global $default_context_links;
+global $default_store_links;
+global $default_feature_list;
+
+
+$default_templatefile = "index_template.html";
+$base_service_server_name = 'localhost';
+
+$WELCOME_MESSAGE = "@theme_var_WELCOME_MESSAGE";
+$SERVICE  = "@theme_var_SERVICE";
+$INFORMATION_MSGS  = "@theme_var_INFORMATION_MSGS";
+$SITE_LOGIN_HANDLER = "communityconnect";
+$SITE_WINDOW_VIEW = "div";
+$SITE_USE_BACKNAV = "true";
+$SITE_DIRECTORY = "@theme_var_DIRECTORY";
+$SITE_USE_CUSTOM_LOGO = "@theme_var_USE_CUSTOM_LOGO";
+$SITE_SUPPRESS_SIGNUP = "false";		// Rarely used comes from a button where the signup is assumed.
+$countyLat =  "@theme_var_countyLat";
+$countyLong = "@theme_var_countyLong";
+$countyStartZoom = 1;
+$root_title = "@theme_var_SITE_TITLE";
+
+$toplevelprodiver = "http://$base_service_server_name/drupal/copious/toplevel";
+
+$default_context_links = "";
+$default_store_links = "";
+$default_feature_list = "";
+
+
+///////////////////////////////////////////////////////////////
+
+include("section_instantiations.php");
+
+
+$contact_url = "@theme_var_CONACT_URL";
+$contact_business = "@theme_var_CONACT_BUSINESS_NAME";
+$contact_address_1 = "@theme_var_CONACT_ADDR1";
+$contact_address_2 = "@theme_var_CONACT_ADDR2";
+$contact_email = "@theme_var_CONACT_EMAIL";
+
+
+
+$toplevelfill = array(
+///////////////////////////////////////////////////////////////
+					"@topic1_1" => new TopLevelVar($topic1_1,$topic1_1_src,false),
+///////////////////////////////////////////////////////////////
+					"@WELCOME_MESSAGE" => new TopLevelVar($WELCOME_MESSAGE,""),
+					"@SERVICE" => new TopLevelVar($SERVICE,""),
+					"@INFORMATION_MSGS" => new TopLevelVar($INFORMATION_MSGS,""),
+					"@SITE_LOGIN_HANDLER" => new TopLevelVar($SITE_LOGIN_HANDLER,""),
+					"@SITE_WINDOW_VIEW" => new TopLevelVar($SITE_WINDOW_VIEW,""),
+					"@SITE_USE_BACKNAV" => new TopLevelVar($SITE_USE_BACKNAV,""),
+					"@SITE_DIRECTORY" => new TopLevelVar($SITE_DIRECTORY,""),
+					"@SITE_USE_CUSTOM_LOGO" => new TopLevelVar($SITE_USE_CUSTOM_LOGO,""),
+					"@SITE_SUPPRESS_SIGNUP" => new TopLevelVar($SITE_SUPPRESS_SIGNUP,""),
+					"@countyLat" => new TopLevelVar($countyLat,""),
+					"@countyLong" => new TopLevelVar($countyLong,""),
+					"@countyStartZoom" => new TopLevelVar($countyStartZoom,""),
+///////////////////////////////////////////////////////////////
+					"@contact_url" => new TopLevelVar($contact_url,""),
+					"@contact_business" => new TopLevelVar($contact_business,""),
+					"@contact_address_1" => new TopLevelVar($contact_address_1,""),
+					"@contact_address_2" => new TopLevelVar($contact_address_2,""),
+					"@contact_email" => new TopLevelVar($contact_email,"")
+///////////////////////////////////////////////////////////////
+			);
+
+
+
+
+$default_menu_container =<<<EOBREAK
+				<table border="0" cellspacing="2" width="100%" ID="Table8">
+@menulist
+				</table>
+EOBREAK;
+
+
+$default_menu_form =<<<EOBREAK
+					<tr>
+						<td id="govbutton_topic@index" class="govbutton">
+							@element
+						</td>
+					</tr>
+EOBREAK;
+
+
+
+
+$default_feature_list = array(  );
+
+
+$default_header =  array( );
+
+
+$directories = array(
+	////
+	////
+"root" => array(
+
+	"title" => $root_title,
+	"header" => $default_header,
+	"page_abstract" => "",
+	"article" => "",
+	"breaklayer" => "",
+	"template" => $default_templatefile,
+	"write_header_links" => true,
+	"related_links" => $default_context_links,
+	"related_store_links" => $default_store_links,
+	"features" => $default_feature_list,
+	"remote_data" => null
+
+			),
+
+
+);
+
+?>

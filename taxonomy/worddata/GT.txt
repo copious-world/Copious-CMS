@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W18639" class="vocabword" onclick="selword('18639','GT')">GT</td></tr>
+<tr><td id="W18640" class="vocabword" onclick="selword('18640','GTS')">GTS</td></tr>
+<tr><td id="W20815" class="vocabword" onclick="selword('20815','Gt Br')">Gt Br</td></tr>
+<tr><td id="W20816" class="vocabword" onclick="selword('20816','Gta')">Gta</td></tr>
+<tr><td id="W20817" class="vocabword" onclick="selword('20817','Gteborg')">Gteborg</td></tr>
+<tr><td id="W20818" class="vocabword" onclick="selword('20818','Gterdmerung')">Gterdmerung</td></tr>
+<tr><td id="W20819" class="vocabword" onclick="selword('20819','Gtersloh')">Gtersloh</td></tr>
+<tr><td id="W20820" class="vocabword" onclick="selword('20820','Gtingen')">Gtingen</td></tr>
+</table>

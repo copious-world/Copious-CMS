@@ -1,0 +1,14 @@
+<table width='100%'>
+<tr><td id="W31093" class="vocabword" onclick="selword('31093','MT')">MT</td></tr>
+<tr><td id="W31094" class="vocabword" onclick="selword('31094','MTB')">MTB</td></tr>
+<tr><td id="W31095" class="vocabword" onclick="selword('31095','MTI')">MTI</td></tr>
+<tr><td id="W31096" class="vocabword" onclick="selword('31096','MTO')">MTO</td></tr>
+<tr><td id="W31097" class="vocabword" onclick="selword('31097','MTP')">MTP</td></tr>
+<tr><td id="W31098" class="vocabword" onclick="selword('31098','MTV')">MTV</td></tr>
+<tr><td id="W31099" class="vocabword" onclick="selword('31099','MTh')">MTh</td></tr>
+<tr><td id="W34617" class="vocabword" onclick="selword('34617','Mt')">Mt</td></tr>
+<tr><td id="W34618" class="vocabword" onclick="selword('34618','Mt Rev')">Mt Rev</td></tr>
+<tr><td id="W34619" class="vocabword" onclick="selword('34619','Mtis')">Mtis</td></tr>
+<tr><td id="W34620" class="vocabword" onclick="selword('34620','Mts')">Mts</td></tr>
+<tr><td id="W34621" class="vocabword" onclick="selword('34621','Mtwara')">Mtwara</td></tr>
+</table>

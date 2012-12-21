@@ -1,0 +1,11 @@
+<table width='100%'>
+<tr><td id="W8296" class="vocabword" onclick="selword('8296','CT')">CT</td></tr>
+<tr><td id="W8297" class="vocabword" onclick="selword('8297','CTA')">CTA</td></tr>
+<tr><td id="W8298" class="vocabword" onclick="selword('8298','CTC')">CTC</td></tr>
+<tr><td id="W12242" class="vocabword" onclick="selword('12242','Ct')">Ct</td></tr>
+<tr><td id="W12243" class="vocabword" onclick="selword('12243','Cteatus')">Cteatus</td></tr>
+<tr><td id="W12244" class="vocabword" onclick="selword('12244','Ctenophora')">Ctenophora</td></tr>
+<tr><td id="W12245" class="vocabword" onclick="selword('12245','Ctesiphon')">Ctesiphon</td></tr>
+<tr><td id="W12246" class="vocabword" onclick="selword('12246','Ctesippus')">Ctesippus</td></tr>
+<tr><td id="W12247" class="vocabword" onclick="selword('12247','Ctesius')">Ctesius</td></tr>
+</table>

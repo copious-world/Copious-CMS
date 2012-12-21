@@ -1,0 +1,14 @@
+<table width='100%'>
+<tr><td id="W8306" class="vocabword" onclick="selword('8306','CZ')">CZ</td></tr>
+<tr><td id="W12489" class="vocabword" onclick="selword('12489','Czanne')">Czanne</td></tr>
+<tr><td id="W12490" class="vocabword" onclick="selword('12490','Czarra')">Czarra</td></tr>
+<tr><td id="W12491" class="vocabword" onclick="selword('12491','Czech')">Czech</td></tr>
+<tr><td id="W12492" class="vocabword" onclick="selword('12492','Czecho-Slovakian')">Czecho-Slovakian</td></tr>
+<tr><td id="W12493" class="vocabword" onclick="selword('12493','Czechoslovak')">Czechoslovak</td></tr>
+<tr><td id="W12494" class="vocabword" onclick="selword('12494','Czechoslovakia')">Czechoslovakia</td></tr>
+<tr><td id="W12495" class="vocabword" onclick="selword('12495','Czechoslovakian')">Czechoslovakian</td></tr>
+<tr><td id="W12496" class="vocabword" onclick="selword('12496','Czernowitz')">Czernowitz</td></tr>
+<tr><td id="W12497" class="vocabword" onclick="selword('12497','Czerny')">Czerny</td></tr>
+<tr><td id="W12498" class="vocabword" onclick="selword('12498','Czstochowa')">Czstochowa</td></tr>
+<tr><td id="W12499" class="vocabword" onclick="selword('12499','Czur')">Czur</td></tr>
+</table>

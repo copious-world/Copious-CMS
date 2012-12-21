@@ -1,0 +1,385 @@
+
+.menuclosure {
+	position: absolute;
+	visibility: hidden;
+	top: 0px;
+	left: 0px;
+		
+}
+
+/* below should fix menu being a few pixels away in some themes, and menus disappearing behind other stuff */
+.block-copious_menus {
+  line-height: normal;
+  /*font-size: normal;*/
+  /*position: relative;*/
+  z-index: 10;
+}
+
+/* need this to enable hidding inner span */
+.block-copious_menus h2.title {
+  margin: 0;
+}
+.block-copious_menus h2.title .copious-menu-hide-title {
+  display: none;
+}
+.block-copious_menus h2.title .copious-menu-show-title {
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+p {font: 14px helvetica, arial, sans-serif;}
+.dropcap {
+	font: bolder 160% tahoma, sans serif;
+	margin-right: 10px;
+	color: darkgreen;
+	float: left;
+	background-color:#F0FFA4;
+	padding: 8px;
+	text-transform: uppercase;
+}
+.dropconents {
+	font: bold 200% times, serif;
+	margin-right: 5px;
+	color: darkred;
+	float: left;
+}
+.dropclick{
+	font: 12px bold 'arial black';
+	margin-right: 15px;
+	margin-left: 15px;
+	color: darkgreen;
+	float: left;
+}
+.explainer {
+	font: bold 80% times, serif;
+	margin-right: 10px;
+	margin-left: 15px;
+	color: darkblue;
+	float: left;
+}
+
+.govbutton {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 6px;
+	background-color: #EFFFEE;
+	cursor: pointer;
+	padding: 4px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	font-weight: bold;
+	font-family: georgia;
+	color: darkgreen;
+}
+
+.govbuttonelement {
+	border: 1px solid gold;
+}
+
+
+#urlselections {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.linkclass {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	background-color: #CCCCCC;
+	width: 18%;
+}
+
+.topicclass {
+	position: relative;
+	visibility: hidden;
+	left: 0;
+	width: 98%;
+	z-index: 10000;
+	background-color: #F1FFF1;
+	border: 2px gold solid;
+	margin:6px;
+}
+
+.topicclass-viz {
+	position: relative;
+	visibility: visible;
+	left: 0;
+	width: 98%;
+	z-index: 10000;
+	background-color: #F1FFF1;
+	border: 2px gold solid;
+	margin:6px;
+}
+
+.linkerstyle {
+	padding: 10px;
+	text-decoration: none;
+}
+
+.energylink {
+	text-decoration: none;
+	color: darkgreen;
+	font-weight: bold;
+	
+	vertical-align: middle;
+}
+
+.windowShade {
+	cursor:pointer;
+	background-color: darkgreen;
+	padding-bottom:4px;
+	font-size:0.90em;
+	height:8px;
+	border-bottom:solid 1px gold;
+	font-family:tahoma;
+	font-weight:bold;
+	color:gold;
+}
+
+.monthcell-even {
+	cursor:pointer;
+	border-left:solid 1px gold;
+	border-right:solid 1px red;
+	font-weight: bold;
+	color: darkgreen;
+	font-family: georia;
+	position: relative;
+	left: 0;
+	right: 0;
+	background-color: #FFEAEF;
+
+}
+
+
+.monthcell-odd {
+	cursor:pointer;
+	border-left:solid 1px gold;
+	border-right:solid 1px red;
+	font-weight: bold;
+	color: darkgreen;
+	font-family: georia;
+	position: relative;
+	left: 0;
+	right: 0;
+	background-color: #CAEAE0;
+}
+
+
+.dayschedule {
+	position: absolute;
+	visibility: hidden;
+	left: 60%;
+	top: 60px;
+	z-index: 700;
+	background-color: #FFFFaa;
+	width: 35%;
+	height: 20%;
+	border: orange 3px solid;
+}
+
+.eventttitlesCSS {
+	position: absolute;
+	visibility: hidden;
+	left: 50%;
+	top: 50%;
+	z-index: 650;
+	width: 20%;
+	border: gold 1px solid;
+}
+
+
+#topic1 {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+#topic2 {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	right: 0;
+	z-index: 101;
+	font-size: 1.2em;
+	background-color: yellow;
+	padding: 4;
+}
+#topic3 {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	right: 0;
+	z-index: 102;
+}
+#topic4 {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	right: 0;
+	z-index: 103;
+}
+
+.littleTitle {
+	font-family:georgia;
+	padding:4px;
+	font-weight:bold;
+	color:darkgreen;
+	font-size:1.1em;
+	background-color:#F0FFA4;
+}
+
+.locusBanner {
+	font-family:Georgia;
+	font-weight: bolder;
+	font-size:1.7em;
+	color:gold;
+}
+
+
+.postLocusBanner {
+	font-family:Georgia;
+	font-weight: bold;
+	font-size:1.1em;
+	color:#FCFCe0;
+}
+
+
+.messageStyle {
+	color:darkgreen;
+	font-weight:bold;
+	font-size:1.053m;
+}
+
+#littletitle2 {
+	font-weight:bold;
+	font-size:1.1em;
+	font-style:oblique;
+	letter-spacing:1.5px;
+	color:#994421;
+	margin-left: 16px
+}
+
+.message_type {
+	padding-left:10px;
+	color:darkgreen;
+	font-weight:normal;
+	font-size:0.90em;
+	background-color:#EFEEEE;
+	border: solid 1px darkred;
+}
+
+
+.elegant_submit {
+	border: 2px solid darkgreen;
+	font-weight:bold;
+	font-size:0.85em;
+	font-family:courier;
+	background-color:#EFEAEA;
+	padding:4px;
+	margin:4px;
+	color:navy;
+}
+.elegant_submit:hover {
+	border: 2px solid gold;
+	font-weight:bold;
+	font-size:0.85em;
+	font-style:italic;
+	cursor:pointer;
+	background-color:lightyellow;
+	padding:4px;
+	margin:4px;
+	color:green;
+}
+
+
+.systable {
+	padding:2px;
+	margin:2%;
+	width:96%;
+	background-color:#FEFEDF;
+	color:black;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+}
+
+.td_check {
+	width:5%;
+	text-align:center;
+}
+
+.td_name {
+	width:25%;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.td_descrbe {
+	width:70%;
+	border-right:1px solid lightgray;
+}
+
+
+
+.Form_tablist {
+	margin: 4px;
+	padding: 8px;
+	border: solid 2px gold;
+	background-color:#FFFFDD;
+}
+
+.form_container_tab {
+	border: solid 2px gold;
+	background-color:#FEFECF;
+	padding:8px;
+}
+
+
+.sys_label {
+	font-weight:bold;
+	font-family:Arial;
+	font-size:0.95em;
+	padding:3px;
+	margin-right:8px;
+}
+
+.sys_describe {
+	font-weight:bold;
+	font-family:Arial;
+	font-size:0.95em;
+	margin:8px;
+	color:darkgreen;
+}
+
+.title_header {
+	border:solid 2px navy;
+	background-color:#EEEECF;
+	text-align:center;
+	font-size:1.05em;
+}
+
+
+.sys_table {
+	background-color:#FEFEEF;
+	width:100%;
+}
+
+.sys_td {
+	vertical-align:top;
+	text-align: left;
+	border: solid 1px blue;
+}
+
+
+.form_header {
+	border:solid 1px gold;
+	text-align:left;
+	
+}
+

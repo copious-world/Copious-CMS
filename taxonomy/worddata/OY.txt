@@ -1,0 +1,6 @@
+<table width='100%'>
+<tr><td id="W37572" class="vocabword" onclick="selword('37572','Oyama')">Oyama</td></tr>
+<tr><td id="W37573" class="vocabword" onclick="selword('37573','Oyashio Current')">Oyashio Current</td></tr>
+<tr><td id="W37574" class="vocabword" onclick="selword('37574','Oyo')">Oyo</td></tr>
+<tr><td id="W37575" class="vocabword" onclick="selword('37575','Oys')">Oys</td></tr>
+</table>

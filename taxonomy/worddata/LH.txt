@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W28193" class="vocabword" onclick="selword('28193','LH')">LH</td></tr>
+<tr><td id="W28194" class="vocabword" onclick="selword('28194','LHD')">LHD</td></tr>
+<tr><td id="W29585" class="vocabword" onclick="selword('29585','Lhary')">Lhary</td></tr>
+<tr><td id="W29586" class="vocabword" onclick="selword('29586','Lhasa')">Lhasa</td></tr>
+<tr><td id="W29587" class="vocabword" onclick="selword('29587','Lhasa apso')">Lhasa apso</td></tr>
+<tr><td id="W29588" class="vocabword" onclick="selword('29588','Lhevinne')">Lhevinne</td></tr>
+</table>

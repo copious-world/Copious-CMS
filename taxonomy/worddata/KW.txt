@@ -1,0 +1,32 @@
+<table width='100%'>
+<tr><td id="W26221" class="vocabword" onclick="selword('26221','KW')">KW</td></tr>
+<tr><td id="W26222" class="vocabword" onclick="selword('26222','KWIC')">KWIC</td></tr>
+<tr><td id="W26223" class="vocabword" onclick="selword('26223','KWOC')">KWOC</td></tr>
+<tr><td id="W28086" class="vocabword" onclick="selword('28086','Kwa')">Kwa</td></tr>
+<tr><td id="W28087" class="vocabword" onclick="selword('28087','Kwabena')">Kwabena</td></tr>
+<tr><td id="W28088" class="vocabword" onclick="selword('28088','Kwajalein')">Kwajalein</td></tr>
+<tr><td id="W28089" class="vocabword" onclick="selword('28089','Kwakiutl')">Kwakiutl</td></tr>
+<tr><td id="W28090" class="vocabword" onclick="selword('28090','Kwan')">Kwan</td></tr>
+<tr><td id="W28091" class="vocabword" onclick="selword('28091','Kwan-yin')">Kwan-yin</td></tr>
+<tr><td id="W28092" class="vocabword" onclick="selword('28092','Kwang')">Kwang</td></tr>
+<tr><td id="W28093" class="vocabword" onclick="selword('28093','Kwangchow')">Kwangchow</td></tr>
+<tr><td id="W28094" class="vocabword" onclick="selword('28094','Kwangchowan')">Kwangchowan</td></tr>
+<tr><td id="W28095" class="vocabword" onclick="selword('28095','Kwangju')">Kwangju</td></tr>
+<tr><td id="W28096" class="vocabword" onclick="selword('28096','Kwangsi-Chuang')">Kwangsi-Chuang</td></tr>
+<tr><td id="W28097" class="vocabword" onclick="selword('28097','Kwangtung')">Kwangtung</td></tr>
+<tr><td id="W28098" class="vocabword" onclick="selword('28098','Kwantung')">Kwantung</td></tr>
+<tr><td id="W28099" class="vocabword" onclick="selword('28099','Kwantung Leased Territory')">Kwantung Leased Territory</td></tr>
+<tr><td id="W28100" class="vocabword" onclick="selword('28100','Kwapong')">Kwapong</td></tr>
+<tr><td id="W28101" class="vocabword" onclick="selword('28101','Kwara')">Kwara</td></tr>
+<tr><td id="W28102" class="vocabword" onclick="selword('28102','Kwarteng')">Kwarteng</td></tr>
+<tr><td id="W28103" class="vocabword" onclick="selword('28103','Kwasi')">Kwasi</td></tr>
+<tr><td id="W28104" class="vocabword" onclick="selword('28104','Kwazulu')">Kwazulu</td></tr>
+<tr><td id="W28105" class="vocabword" onclick="selword('28105','Kwei')">Kwei</td></tr>
+<tr><td id="W28106" class="vocabword" onclick="selword('28106','Kweichow')">Kweichow</td></tr>
+<tr><td id="W28107" class="vocabword" onclick="selword('28107','Kweihwating')">Kweihwating</td></tr>
+<tr><td id="W28108" class="vocabword" onclick="selword('28108','Kweilin')">Kweilin</td></tr>
+<tr><td id="W28109" class="vocabword" onclick="selword('28109','Kweisui')">Kweisui</td></tr>
+<tr><td id="W28110" class="vocabword" onclick="selword('28110','Kweiyang')">Kweiyang</td></tr>
+<tr><td id="W28111" class="vocabword" onclick="selword('28111','Kwok')">Kwok</td></tr>
+<tr><td id="W28112" class="vocabword" onclick="selword('28112','Kwon')">Kwon</td></tr>
+</table>

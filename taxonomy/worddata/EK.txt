@@ -1,0 +1,7 @@
+<table width='100%'>
+<tr><td id="W14868" class="vocabword" onclick="selword('14868','EKG')">EKG</td></tr>
+<tr><td id="W15390" class="vocabword" onclick="selword('15390','Ekaterina')">Ekaterina</td></tr>
+<tr><td id="W15391" class="vocabword" onclick="selword('15391','Ekaterinburg')">Ekaterinburg</td></tr>
+<tr><td id="W15392" class="vocabword" onclick="selword('15392','Ekaterinodar')">Ekaterinodar</td></tr>
+<tr><td id="W15393" class="vocabword" onclick="selword('15393','Ekaterinoslav')">Ekaterinoslav</td></tr>
+</table>

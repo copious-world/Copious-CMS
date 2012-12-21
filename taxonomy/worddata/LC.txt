@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W28180" class="vocabword" onclick="selword('28180','LC')">LC</td></tr>
+<tr><td id="W28181" class="vocabword" onclick="selword('28181','LCD')">LCD</td></tr>
+<tr><td id="W28182" class="vocabword" onclick="selword('28182','LCF')">LCF</td></tr>
+<tr><td id="W28183" class="vocabword" onclick="selword('28183','LCI')">LCI</td></tr>
+<tr><td id="W28184" class="vocabword" onclick="selword('28184','LCL')">LCL</td></tr>
+<tr><td id="W28185" class="vocabword" onclick="selword('28185','LCM')">LCM</td></tr>
+<tr><td id="W28186" class="vocabword" onclick="selword('28186','LCT')">LCT</td></tr>
+<tr><td id="W28187" class="vocabword" onclick="selword('28187','LCVP')">LCVP</td></tr>
+</table>

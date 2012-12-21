@@ -1,0 +1,145 @@
+/* Javadoc style sheet */
+
+/* Define colors, fonts and other style attributes here to override the defaults  */
+
+/* Page background color */
+body { background:#FFFFE5; }
+a {
+	text-decoration: none;
+	font-family : "Times New Roman", Times, serif;
+	font-style : italic;
+	font-weight : bold;
+	letter-spacing : normal;
+	font-variant : normal;
+}
+
+td:hover {
+	background-color: transparent
+}
+
+#store_index_section {
+	position: absolute;
+	visibility: hidden;
+	top: 20px;
+	left: 30px;
+	width: 50%;
+	z-index: 100;
+	background-color: #F8F3AB;
+	border-style: solid;
+	border-width: 2;
+	border-color: navy;
+}
+
+.like_store_index_section {
+	position: absolute;
+	visibility: hidden;
+	top: 20px;
+	left: 30px;
+	width: 50%;
+	z-index: 100;
+	background-color: #F8F3AB;
+	border-style: solid;
+	border-width: 2;
+	border-color: navy;
+}
+
+
+.closebutton {
+	background-color: lightgray;
+	border-style: solid;
+	border-width: 1;
+	border-color: darkorange;
+}
+
+.storeindex  {
+	margin-left:24px;
+	font-family: Arial;
+	font-size: 12;
+	font-weight: bold;
+	COLOR: #332210;
+	TEXT-DECORATION: none;
+}
+
+
+#links_index_section {
+	position: absolute;
+	visibility: hidden;
+	top: 20px;
+	left: 30px;
+	width: 60%;
+	z-index: 101;
+	padding-top: 8;
+	background-color: #EEFEFE;
+	border-style: solid;
+	border-width: 2;
+	border-color: navy;
+}
+
+
+.feature_section {
+	position: absolute;
+	visibility: hidden;
+	top: 20px;
+	left: 30px;
+	width: 30%;
+	z-index: 101;
+	padding-top: 8;
+	background-color: #FFFECE;
+	border-style: solid;
+	border-width: 2;
+	border-color: navy;
+}
+
+.paperabstract_section {
+	position: absolute;
+	visibility: hidden;
+	background-color: #fcf8D5;
+	top: 0px;
+	left: 0px;
+	width: 60%;
+	z-index: 50;
+}
+
+
+.paperTitle_section {
+	position: absolute;
+	visibility: hidden;
+	background-color: #fcf8D5;
+	font-weight: bolder;
+	font-family:Arial Black;
+	top: 0px;
+	left: 0px;
+	width: 60%;
+	z-index: 50;
+}
+
+
+.catchTitle_section {
+	position: absolute;
+	visibility: hidden;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	width: 40%;
+	padding-top: 10px;
+	text-align: center;
+	z-index: 50;
+}
+
+#field_content {
+	position: absolute;
+	visibility: hidden;
+	top: 20px;
+	left: 30px;
+	width: 200px;
+	z-index: 100;
+	z-index: 100;
+	background-color: white;
+	border-style: solid;
+	border-width: 2;
+	border-color: blue;
+}
+
+
+
+

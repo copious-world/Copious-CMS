@@ -1,0 +1,19 @@
+<table width='100%'>
+<tr><td id="W49489" class="vocabword" onclick="selword('49489','VLF')">VLF</td></tr>
+<tr><td id="W50239" class="vocabword" onclick="selword('50239','Vlaardingen')">Vlaardingen</td></tr>
+<tr><td id="W50240" class="vocabword" onclick="selword('50240','Vlad')">Vlad</td></tr>
+<tr><td id="W50241" class="vocabword" onclick="selword('50241','Vlada')">Vlada</td></tr>
+<tr><td id="W50242" class="vocabword" onclick="selword('50242','Vladamar')">Vladamar</td></tr>
+<tr><td id="W50243" class="vocabword" onclick="selword('50243','Vladamir')">Vladamir</td></tr>
+<tr><td id="W50244" class="vocabword" onclick="selword('50244','Vladi')">Vladi</td></tr>
+<tr><td id="W50245" class="vocabword" onclick="selword('50245','Vladikavkaz')">Vladikavkaz</td></tr>
+<tr><td id="W50246" class="vocabword" onclick="selword('50246','Vladimar')">Vladimar</td></tr>
+<tr><td id="W50247" class="vocabword" onclick="selword('50247','Vladimir')">Vladimir</td></tr>
+<tr><td id="W50248" class="vocabword" onclick="selword('50248','Vladivostok')">Vladivostok</td></tr>
+<tr><td id="W50249" class="vocabword" onclick="selword('50249','Vlaminck')">Vlaminck</td></tr>
+<tr><td id="W50250" class="vocabword" onclick="selword('50250','Vlissingen')">Vlissingen</td></tr>
+<tr><td id="W50251" class="vocabword" onclick="selword('50251','Vlor')">Vlor</td></tr>
+<tr><td id="W50252" class="vocabword" onclick="selword('50252','Vlos')">Vlos</td></tr>
+<tr><td id="W50253" class="vocabword" onclick="selword('50253','Vltava')">Vltava</td></tr>
+<tr><td id="W50254" class="vocabword" onclick="selword('50254','Vlund')">Vlund</td></tr>
+</table>

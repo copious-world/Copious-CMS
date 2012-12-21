@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W49017" class="vocabword" onclick="selword('49017','Tzekung')">Tzekung</td></tr>
+<tr><td id="W49018" class="vocabword" onclick="selword('49018','Tzigane')">Tzigane</td></tr>
+<tr><td id="W49019" class="vocabword" onclick="selword('49019','Tziganies')">Tziganies</td></tr>
+<tr><td id="W49020" class="vocabword" onclick="selword('49020','Tzigany')">Tzigany</td></tr>
+<tr><td id="W49021" class="vocabword" onclick="selword('49021','Tzong')">Tzong</td></tr>
+<tr><td id="W49022" class="vocabword" onclick="selword('49022','Tzu-po')">Tzu-po</td></tr>
+</table>

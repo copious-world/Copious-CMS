@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W31105" class="vocabword" onclick="selword('31105','MWA')">MWA</td></tr>
+<tr><td id="W31106" class="vocabword" onclick="selword('31106','MWT')">MWT</td></tr>
+<tr><td id="W34796" class="vocabword" onclick="selword('34796','Mw')">Mw</td></tr>
+<tr><td id="W34797" class="vocabword" onclick="selword('34797','Mwambutsa IV')">Mwambutsa IV</td></tr>
+<tr><td id="W34798" class="vocabword" onclick="selword('34798','Mwanza')">Mwanza</td></tr>
+<tr><td id="W34799" class="vocabword" onclick="selword('34799','Mweru')">Mweru</td></tr>
+</table>

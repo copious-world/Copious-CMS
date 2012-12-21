@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W52538" class="vocabword" onclick="selword('52538','Zwart')">Zwart</td></tr>
+<tr><td id="W52539" class="vocabword" onclick="selword('52539','Zweig')">Zweig</td></tr>
+<tr><td id="W52540" class="vocabword" onclick="selword('52540','Zwick')">Zwick</td></tr>
+<tr><td id="W52541" class="vocabword" onclick="selword('52541','Zwickau')">Zwickau</td></tr>
+<tr><td id="W52542" class="vocabword" onclick="selword('52542','Zwicky')">Zwicky</td></tr>
+<tr><td id="W52543" class="vocabword" onclick="selword('52543','Zwiebel')">Zwiebel</td></tr>
+<tr><td id="W52544" class="vocabword" onclick="selword('52544','Zwingli')">Zwingli</td></tr>
+<tr><td id="W52545" class="vocabword" onclick="selword('52545','Zwinglian')">Zwinglian</td></tr>
+<tr><td id="W52546" class="vocabword" onclick="selword('52546','Zwolle')">Zwolle</td></tr>
+<tr><td id="W52547" class="vocabword" onclick="selword('52547','Zworykin')">Zworykin</td></tr>
+</table>

@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</head>
+	<script language="JavaScript">
+	////
+	function check_required_fields() {
+		if ( document.passwordentry.nu_username.value == "" ) {
+			alert("Please enter a value for field, User Name.")
+			return false
+		}
+		if ( document.passwordentry.nu_pass1.value == "" ) {
+			alert("Both password fields require the same password.")
+			return false
+		}
+		if ( document.passwordentry.nu_pass2.value == "" ) {
+			alert("Both password fields require the same password.")
+			return false
+		}
+
+		return true;
+	}
+	
+	function check_same_passwords() {
+		var p1 = document.passwordentry.nu_pass1.value;
+		var p2 = document.passwordentry.nu_pass2.value;
+		if ( p1 == p2 ) {
+			return(true);
+		} else {
+			document.passwordentry.nu_pass1.value = "";
+			document.passwordentry.nu_pass2.value = "";
+			alert("Please be sure that the passwords fields are the same.");
+			return false;
+		}	
+	}
+
+	function submitScript()
+	{
+		var first_test = check_required_fields();
+		
+		if ( first_test ) {
+			first_test = check_same_passwords();
+		}
+		
+		return first_test
+	}
+	
+	function getMemberAgent() {
+		var obj = document.getElementById("agentMail");
+		var txt = obj.value;
+		if ( txt.length > 0 ) {
+			agentSelectionResponse();
+		} else {
+			alert("Please enter an e-mail address for the agent.");
+		}
+	}
+	
+	function fetch_agent_setup() {
+		var obj = document.getElementById("agent_form");
+		var amounttoggle = "";
+		if ( obj.style.visibility == "visible" ) {
+			obj.style.visibility = "hidden";
+			amounttoggle = "$50.00";
+			var agentobj = document.getElementById("member_agent");
+			agentobj.value = '';
+		} else {
+			obj.style.visibility = "visible";
+			amounttoggle = "$40.00";
+		}
+		
+		obj = document.getElementById("alteramount");
+		obj.innerHTML = amounttoggle;
+	}
+	
+	function agentSelectionResponse() {
+	
+		var obj = document.getElementById("agentMail");
+		var txt = obj.value;
+
+		var agentobj = document.getElementById("member_agent");
+		agentobj.value = txt;
+	
+		obj = document.getElementById("agent_accessible");
+		obj.style.visibility = "hidden";
+		
+	}
+	
+	///
+	</script>
+	<body>
+		<form name="passwordentry" action="jobs_placeadd.php" method="post" ID="Form1" onsubmit="return submitScript()">
+			<!--     =============================================================           -->
+			<input type="hidden" id="member_agent" size="80" NAME="member_agent" value=""> 
+			<!--     =============================================================           -->
+			<br>
+			<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EFFFE2;border: 1px orange solid">
+				<div style="width:99%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+					Advertisement Title:
+				</div>
+				&nbsp;&nbsp;<input type="text" id="Text1" size="80" NAME="add_title"> 
+				<!-- 
+	$add_title = "";
+	$brief_description = "";
+	$offered_price = "";
+	
+		$full_description = "";
+
+	$email_address = "";
+	$contact_number = "";
+	$shipping_origination = "";
+-->
+				<table border="0" cellspacing="0" cellpadding="2">
+					<!--     =============================================================           -->
+					<tr>
+						<td width="60%" align="left" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;">
+							<div style="width:98%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+								Brief Description:
+							</div>
+							&nbsp;&nbsp;<input type="text" id="Text2" size="60" NAME="brief_description">
+						</td>
+						<td width="40%" align="left" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;">
+							<div style="width:98%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+								Offered Rate:<br>
+							</div>
+							&nbsp;&nbsp;<input type="text" id="Text5" size="20" NAME="offered_price">
+					</tr>
+					</tr>
+				</table>
+			</div>
+			<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EFF0c2;border: 1px purple solid">
+				<div style="width:99%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+					Full Description:
+				</div>
+				&nbsp;&nbsp;<TEXTAREA name="full_description" rows="10" cols="80" ID="Textarea1"></TEXTAREA>
+			</div>
+			</div>
+			<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EDFFDA;border: 1px red solid">
+				<table border="0" cellspacing="0" cellpadding="2" ID="Table1">
+					<!--     =============================================================           -->
+					<tr>
+						<td width="60%" align="left" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;">
+							<div style="width:98%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+								Email Address:
+							</div>
+							&nbsp;&nbsp;<input type="text" id="Text4" size="60" NAME="email_address">
+						</td>
+						<td width="40%" align="left" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;">
+							<div style="width:98%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+								Contact Number:<br>
+							</div>
+							&nbsp;&nbsp;<input type="text" id="Text6" size="20" NAME="contact_number">
+					</tr>
+					</tr>
+				</table>
+			</div>
+			<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EFF0c2;border: 1px purple solid">
+				<div style="width:99%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+					Job Location:
+				</div>
+				&nbsp;&nbsp;<TEXTAREA name="shipping_origination" rows="3" cols="80" ID="Textarea2"></TEXTAREA>
+			</div>
+			</div>
+			<br>
+			<!--                -->
+			<div align="left">
+				There is a <span id="alteramount" style="font-weight:bold;font-size:120%;">$50.00</span>
+				fee for job offerings: &nbsp;<input type="submit" value="Send AD" ID="Submit1" NAME="Submit1"><br>
+				<div id="agent_accessible">
+					Or <span style="font-weight:bold;font-size:120%;">$40.00</span> if you use the 
+					services of a member agent: &nbsp; <span onclick="fetch_agent_setup();" style="color:green;font-weight:bold;cursor:pointer;background-color:#FFEAEA;border: solid 2px blue; padding: 8px;">
+						Member Agent</span>
+				</div>
+			</div>
+		</form>
+		<style type="text/css">
+			.agentfetcher {
+				background-color: gold;
+				visibility: hidden;
+				padding: 8px;
+				border: 2px darkgreen solid;
+			}
+			.agentfetchButton {
+				color:green;
+				font-weight:bold;
+				cursor:pointer;
+				background-color:#FFEAEA;
+				border: solid 2px blue;
+				padding: 8px;
+			}
+			.agentfetchButton:hover { 
+				background-color:#FFFF11;
+			}
+
+		</style>
+		<!--     =============================================================           -->
+		<!--     =============================================================           -->
+		<div class="agentfetcher" id="agent_form" align="left">
+			<b>Agent E-mail:</b> &nbsp;<input type="text" id="agentMail" size="60" NAME="agentMail">
+			<span id="clicker" class="agentfetchButton" onclick="getMemberAgent();">Use this 
+				Agent</span>
+		</div>
+	</body>
+</html>

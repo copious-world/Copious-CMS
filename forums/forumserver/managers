@@ -1,0 +1,248 @@
+<?php
+
+	// This one is called from 
+
+include 'servicename.php';
+try {
+	include '../../database.php';
+} catch (Exception $e) {
+	echo 'Caught exception: ' .  $e->getMessage();
+}
+
+	function input_lister_row() {
+		$text = implode(file("lister_row.txt"));
+		return($text);
+	}
+
+
+	function input_detail_display() {
+		$text = implode(file("detail_display.txt"));
+		return($text);
+	}
+
+
+	function input_email_format() {
+		$text = implode(file("email_format.txt"));
+		return($text);
+	}
+
+
+	function replace_in_txt_form($txt,$value,$key) {
+		$copikey = "$" . $key . "$";
+		return(str_replace($copikey,$value,$txt));
+	}
+	
+
+
+
+//
+// RETURN PREASSEMBLED ROWS...
+//
+
+	// create_ad_description
+	// returns $addurl
+	//
+	function create_ad_description($ID,$product_type,$add_title,$brief_description,$offered_price,$full_description,$shipping_origination,$entrydate) {
+		global $webhost;
+		//
+		$lister_html_row = input_lister_row();
+		$lister_html_row = replace_in_txt_form($lister_html_row,$ID,'ID');
+		$lister_html_row = replace_in_txt_form($lister_html_row,$add_title,'add_title');
+		$lister_html_row = replace_in_txt_form($lister_html_row,$brief_description,'brief_description');
+		$lister_html_row = replace_in_txt_form($lister_html_row,$offered_price,'offered_price');
+		$lister_html_row = replace_in_txt_form($lister_html_row,$shipping_origination,'shipping_origination');
+		$lister_html_row = replace_in_txt_form($lister_html_row,$entrydate,'entrydate');
+		$lister_html_row = urlencode($lister_html_row);
+		//
+		//
+		$detailed_html = "";
+		$detailed_html = input_detail_display();
+		$detailed_html = replace_in_txt_form($detailed_html,$ID,'ID');
+		$detailed_html = replace_in_txt_form($detailed_html,$product_type,'product_type');
+		$detailed_html = replace_in_txt_form($detailed_html,$add_title,'add_title');
+		$detailed_html = replace_in_txt_form($detailed_html,$offered_price,'offered_price');
+		$detailed_html = replace_in_txt_form($detailed_html,$full_description,'full_description');
+		$detailed_html = replace_in_txt_form($detailed_html,$shipping_origination,'shipping_origination');
+		$detailed_html = replace_in_txt_form($detailed_html,$entrydate,'entrydate');		
+		$detailed_html = urlencode($detailed_html);
+		/*
+		*/
+		$deletion_date = days_from_now($entrydate,5);
+		////
+		$section_maker = "insert into classified_reports ";
+		$section_maker .= "(ID,processed,priviledge_level,priority,refnumber,product_type,lister_html_row,detailed_html,deletion_date,entrydate)";
+		$section_maker .= " VALUES (0,0,0,0,'";
+//		$section_maker .= " VALUES (0,1,0,0,'";
+		$section_maker .= $ID . "','";
+		$section_maker .= $product_type . "','";
+		$section_maker .= $lister_html_row . "','";
+		$section_maker .= $detailed_html . "','";
+		$section_maker .= $deletion_date . "','";
+		$section_maker .= $entrydate . "')";
+
+
+		$q_result = @mysql_query($section_maker) or die (mysql_error());  //
+		
+		
+		$adurl = "http://" . "$webhost/classifieds/docclassifiedserver/manager/userapproval.php?refnumber=$ID&section_number=$product_type";
+		
+		return( $adurl );
+
+	}
+	
+	// returns the status of the user as being new or not...	
+	function update_user($email_address,$contact_number,$lasttime) {
+	
+		$ustatus = 0;
+
+		$section_q = "select count(*) from classified_user where ( email_address = '";
+		$section_q .= $email_address;
+		$section_q .= "' )";
+		//
+		$q_result = @mysql_query($section_q) or die (mysql_error());  // 
+		$row = @mysql_fetch_row($q_result);
+		$counter = $row[0];
+
+		if ( $counter <= 0 ) {
+			$user_maker = "";
+			//
+			$user_maker .= "insert into classified_user (ID,countuse,email_address,contact_number, lasttime)";
+			//
+			$user_maker .= " VALUES (0,1,'";
+			$user_maker .= fixtext($email_address) . "','";
+			$user_maker .= fixtext($contact_number) . "','";
+			$user_maker .= $lasttime . "')";
+			
+			$q_result = @mysql_query($user_maker) or die (mysql_error());  // 
+
+		} else {
+			$section_q = "select countuse from classified_user where ( email_address = '";
+			$section_q .= $email_address;
+			$section_q .= "' )";
+			//
+			$q_result = @mysql_query($section_q) or die (mysql_error());  // 
+			$row = @mysql_fetch_row($q_result);
+			$counter = $row[0];
+			
+			$counter++;
+			$section_q = "update classified_user set countuse = '$counter', lasttime = '$lasttime' where ( email_address = '";
+			$section_q .= $email_address;
+			$section_q .= "' )";
+			//
+			$q_result = @mysql_query($section_q) or die (mysql_error());  //
+			$ustatus = 1;
+		}
+		
+		return($ustatus);
+		//
+	}
+
+
+	//
+	function notify_user($ID,$addurl,$email_address,$contact_number,$ustatus,$nowtime) {
+		if ( $ustatus == 1 ) { // update user
+			$email_txt = input_email_format();		
+		} else {
+			$email_txt = "Copious Classifieds welcomes a new user to the system.\n\n";
+			$email_txt .= "Contact e-mail: " . $email_address . "\n";
+			$email_txt .= "Contact phone: " . $contact_number . "\n";
+			$email_txt .= input_email_format();
+		}
+		$email_txt = replace_in_txt_form($email_txt,$ID,'ID');
+		$email_txt = replace_in_txt_form($email_txt,$addurl,'addurl');
+		$email_txt = replace_in_txt_form($email_txt,$email_address,'email_address');
+		$email_txt = replace_in_txt_form($email_txt,$contact_number,'contact_number');
+		$email_txt = replace_in_txt_form($email_txt,$nowtime,'nowtime');
+		$subject = "Copious Classified ad placement notification.";
+		mail($email_address,$subject,$email_txt);	
+	}
+	
+
+
+	function fetch_section_after_time($last_processing_time) {
+		//
+		$content = $last_processing_time;
+
+		$section_q = "select count(*) from classified_request where ( nowtime >= '";
+		$section_q .= $last_processing_time;
+		$section_q .= "' ) AND ( processed = '0' )";
+		//
+		$q_result = @mysql_query($section_q) or die (mysql_error());  // 
+		$row = @mysql_fetch_row($q_result);
+		$counter = $row[0];
+
+		if ( $counter <= 0 ) {
+			$content = "There are no queries now: " . datetime();
+		} else {
+			//
+			$content = "<tr><td width='15%'></td><td width='18%'></td><td>" . datetime() . "</td></tr>\n";
+				//
+			$section_q = "select * from classified_request where ( nowtime >= '";
+			$section_q .= $last_processing_time;
+			$section_q .= "' ) AND ( processed = '0' )";
+			//
+			$q_result = @mysql_query($section_q) or die (mysql_error());  // 
+			//
+			$colorchoice = "lightyellow";
+			////	
+			while ( $row = @mysql_fetch_array($q_result) ) {
+				//
+				$ID = $row['ID'];
+				//
+				$section_number = urldecode($row['section_number']);
+				$add_title = urldecode($row['add_title']);
+				$brief_description = urldecode($row['brief_description']);
+				$offered_price = $row['offered_price'];
+				$email_address = urldecode($row['email_address']);
+				$contact_number = urldecode($row['contact_number']);
+				$full_description = urldecode($row['full_description']);
+				$shipping_origination = urldecode($row['shipping_origination']);
+				$nowtime = $row['nowtime'];
+				
+				$content .= "<tr><td width='15%' style='background-color:$colorchoice'>$ID</td><td width='18%' style='background-color:$colorchoice'>$section_number</td><td width='33%' style='background-color:$colorchoice'> $email_address </td><td width='33%' style='background-color:$colorchoice'>$contact_number </td></tr>\n";
+
+				//
+				$adurl = create_ad_description($ID,$section_number,$add_title,
+													$brief_description,$offered_price,
+														$full_description,$shipping_origination,$nowtime);
+				//
+				$ustatus = update_user($email_address,$contact_number,$nowtime);
+				notify_user($ID,$adurl,$email_address,$contact_number,$ustatus,$nowtime);
+/*
+*/
+				//
+				if ( $colorchoice == "lightyellow" ) {
+					$colorchoice = "#CCFFDD";
+				} else {
+					$colorchoice = "lightyellow";
+				}
+			}
+
+			$section_q = "update classified_request set processed = '1' where ( nowtime >= '";
+			$section_q .= $last_processing_time;
+			$section_q .= "' ) AND ( processed = '0' )";
+			//
+			$q_result = @mysql_query($section_q) or die (mysql_error());  // 
+/*
+*/
+		}
+		
+		return($content);
+	}
+
+
+
+	////////////////////////////////////////////////////////////
+	
+	$last_processing_time = $_GET['last_processing_time'];
+		
+	error_reporting(E_ALL);
+
+	$reportText = fetch_section_after_time($last_processing_time);
+?>
+
+<table style="text-align: left; width: 100%; height: 100%;" border="0" cellpadding="1" cellspacing="3">
+<?php
+	echo $reportText;
+?>
+</table>

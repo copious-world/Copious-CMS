@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8" />
+		<META NAME="Description" content="Energy Efficiecny Resources">
+		<META NAME="keywords" content="Energy Efficiecny Resources">
+		<META NAME="robots" content="All">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<META NAME="GOOGLEBOT" CONTENT="NOARCHIVE">
+
+		<title>Club Global Warming</title>
+
+<!--  ========================================== --->
+<script language="javascript" type="text/javascript" src="/hosted/js/browserid.js"></script>
+<!--  -->
+<script type="text/javascript" language="javascript">
+
+var gHostbase = homevars.basic.toString();
+gHostbase = gHostbase.substring(gHostbase.indexOf('//') + 2);
+gHostbase = gHostbase.substring(0,gHostbase.lastIndexOf('/',gHostbase.lastIndexOf('/')-1)+1);
+
+var gServiceBase = homevars.basic.toString();
+gServiceBase =  gServiceBase.substring(gServiceBase.indexOf('//') + 2,gServiceBase.lastIndexOf('/'));
+gServiceBase =  gServiceBase.substring(gServiceBase.lastIndexOf('/')+1);
+
+var securityWindow = null;
+
+var WELCOME_MESSAGE = "Club Global Warming Membership.";
+var SERVICE  = "Club Global Warming";
+var INFORMATION_MSGS  = "Your membership will help bring together forces that oppose global warming.";
+var SITE_LOGIN_HANDLER = "communityconnect";
+var SITE_WINDOW_VIEW = "div";
+var SITE_USE_BACKNAV = false;
+var SITE_LOGIN_RESULT = encodeURIComponents("classydex/inuse.php");
+var SITE_USE_CUSTOM_LOGO = false;
+
+
+var loginScrn = "https://" + gHostbase + "index.php";
+
+function loginopener() {
+	//
+	if ( (securityWindow != null ) && securityWindow.closed ) securityWindow = null;
+	////
+	if ( securityWindow == null ) {
+
+		if ( Br == "IE" ) {
+			//
+			var lobj = $("speciallinks");
+			lobj.style.visibility = "visible";
+
+		} else {
+			loginScrn = "https://" + gHostbase + "index.php?WELCOME_MESSAGE=" + encodeURI(WELCOME_MESSAGE);
+				loginScrn += "&SERVICE=" + encodeURI(SERVICE);
+				loginScrn += "&INFORMATION_MSGS=" + encodeURI(INFORMATION_MSGS);
+				loginScrn += "&RELSERVICELOCUS=" + gServiceBase;
+				loginScrn += "&phpfile=" + SITE_LOGIN_HANDLER;
+				if ( SITE_USE_BACKNAV ) loginScrn += "&backnav=" + SITE_LOGIN_RESULT;
+				loginScrn += "&windowView=" + SITE_WINDOW_VIEW;
+		//
+				if ( SITE_USE_CUSTOM_LOGO ) {
+					var logostr = "/hosted/peacenames/img/leftlogo.png";
+					loginScrn += "&leftlogo=" + encodeURIComponent(logostr);
+					logostr = "/hosted/peacenames/img/logo.png";
+					loginScrn += "&rightlogo=" + encodeURIComponent(logostr);
+				}
+		//
+				var w = self.open(loginScrn,"LOGIN","width=900,height=420,resizeble,status");
+				securityWindow = w;
+				w.moveTo(20,20);
+				w.focus();
+		}
+	} else {
+		securityWindow.focus();
+	} 
+}
+
+var countyLat =  "19.27376";
+var countyLong = "-149.03476";
+var countyStartZoom = 1;
+
+
+</script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/dimensions.js"> </script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/jsresources.js"> </script>
+<script language="javascript" type="text/javascript" src="/hosted/js/docjax.js"></script>
+<script language="javascript" type="text/javascript" src="/hosted/js/windowshades.js"></script>
+<script language="javascript">
+	var g_squeeze = 0;
+	if ( g_screenHeight >= 900 ) {
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/stylesheet.css" TITLE="Style">');
+	} else if ( g_screenHeight > 600 ) {
+		g_squeeze = 1;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/stylesheet700.css" TITLE="Style">');
+	} else {
+		g_squeeze = 2;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/stylesheet600.css" TITLE="Style">');
+	}
+</script>
+<script language="javascript">
+
+	var spanID = "sectionplacer";
+
+	function secondary_http_request_response(alertTxt,response) {
+	//
+		
+	//
+	}
+
+	function clear_server_parameters() {
+		spanID = "";
+	}
+
+	function titleBannerEffect() {
+		var dvTitle = $("reltitle");
+		var dvTitleTopper = $("gold_banner");
+		dvTitleTopper.style.top = dvTitle.offsetTop + 12 + "px"; 
+		dvTitleTopper.style.left = dvTitle.offsetLeft + 4 + "px"; 
+		dvTitleTopper.style.width = dvTitle.offsetWidth + "px"; 
+	}
+
+</script>
+<script type="text/javascript" src="/hosted/js/infowindow.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="/hosted/js/oat/loader.js"></script>
+
+@MAPSCHEMA
+
+<script language="JavaScript" type="text/javascript" src="/hosted/js/map_functions.js"> </script>
+	<!--  ========================================== --->
+	<!-- ========= HEAD =========   -->
+	<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/copious_menus.css" TITLE="Style">
+<style type="text/css" >
+	speciallinks = {
+		visibility: hidden;
+		height: 0px;
+		margin-top: 8px;
+	}
+</style>
+</head>
+	<!-- ========= BODY =========   -->
+	<body onresize="titleBannerEffect()">
+			<!-- ========= BODY =========   -->
+			<table style="text-align: left; width: 100%;" border="0" cellpadding="1px" cellspacing="0" ID="Table1">
+				<tbody>
+						<script language="javascript">
+	if ( g_squeeze == 0 ) {
+		document.writeln('<td align="left" style="vertical-align: top;background-color:#FCFCe0" width="60%">');
+	} else if ( g_squeeze == 1 ) {
+		document.writeln('<td align="left" style="vertical-align: top;background-color:#FCFCe0" width="80%">');
+	} else {
+		document.writeln('<td align="left" style="vertical-align: top;background-color:#FCFCe0" width="100%">');
+	}
+						</script>
+						<table style="text-align: left; width: 100%; height: 49px;" border="0" cellpadding="1" cellspacing="0" ID="Table2">
+							<tbody>
+								<tr>
+									<td align="center" style="vertical-align: middle;background-color:#117722" width="50%">
+										<div name="titletrick2" id="titletrick2">
+											<span class="postLocusBanner">
+An Online Community<br>
+Sustainable Future<br>
+Healthy Planet
+
+										</div>
+									</td>
+									<td id="reltitle" align="center" style="vertical-align: middle;background-color:#117722" width="50%">
+										<span name="titletrick1" id="titletrick1">
+											<span class="locusBanner" style="padding:4px;background-color:darkgreen;color:#117722">Club Global Warming</span>
+										</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+<table border="0" cellspacing="0" width="100%" ID="Table11">
+							<tr>
+								<script language="javascript">
+	if ( g_squeeze == 0 ) {
+								document.writeln('<td height="20%" style="font-family:georgia;padding-left:0px;padding-right:16px;valign:middle;margin:8px;border:gray solid 4px;font-size:16px;background-color:#F0FFA4;">');
+	} else {
+								document.writeln('<td height="20%" style="font-family:georgia;font-size:80%;padding-left:16px;padding-right:0px;valign:top;margin:8px;border:gray solid 4px;font-size:14px;background-color:#F0FFA4;">');
+	}
+								</script>
+<script language="javascript" >
+	if ( Br == "IE" ) {
+		document.writeln("<form id=\"linkLogin\" method=\"POST\" action=\"" + loginScrn + "\" target=\"LOGIN\" >");
+	}
+</script>
+								<span style="float:top;padding:2px;font-weight:bold;color:gold;font-size:18px;background-color:darkgreen;">Community 
+									Membership</span>
+								<script language="javascript">
+	if ( g_squeeze < 2 ) {
+								document.writeln('<span style="font-weight:bold;color:drakgreen;margin:8px;">Join Us Here >></span>');
+	}
+								</script>
+
+
+<script language="javascript" >
+	if ( Br == "IE" ) {
+		document.writeln("<span id=\"speciallinks\">");
+		document.writeln("<input type=\"hidden\" name=\"WELCOME_MESSAGE\" value=\"" + (WELCOME_MESSAGE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"SERVICE\" value=\"" + (SERVICE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"INFORMATION_MSGS\" value=\"" + (INFORMATION_MSGS) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"RELSERVICELOCUS\" value=\"" + gServiceBase + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"phpfile\" value=\"" + SITE_LOGIN_HANDLER + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"submit\" value=\"Your Membership\" style=\"font-size:0.9em;background-color:#EFEFEF;padding:2px;border: solid navy 1px;font-weight:bold;cursor:pointer;color:darkgreen\" >");
+		document.writeln("</span>");
+	} else {
+		document.writeln("<span onclick=\"loginopener();\" style=\"font-size:0.9em;background-color:#EFEFEF;padding:2px;border: solid navy 1px;font-weight:bold;cursor:pointer;color:darkgreen\">");
+		document.writeln("Your Membership");
+		document.writeln("</span>");
+	}
+</script>
+								</td>
+<script language="javascript" >
+	if ( Br == "IE" ) {
+		document.writeln("</form>");
+	}
+</script>
+							</tr>
+
+</table>
+						<div>
+							<table border="0" cellspacing="0" width="100%" ID="Table11">
+								<tr>
+									<td valign="top" width="20%">
+										<table border="0" cellspacing="2" width="100%" ID="Table12">
+											<tr>
+												<td id="govbutton1" class="govbutton" onmouseover="jigglebutton(1);">
+													My Place
+												</td>
+											</tr>
+											<tr>
+												<td id="govbutton2" class="govbutton" onmouseover="jigglebutton(2);">
+													My Community
+												</td>
+											</tr>
+											<tr>
+												<td id="govbutton3" class="govbutton" onmouseover="jigglebutton(3);">
+													My Government
+												</td>
+											</tr>
+											<tr>
+												<td id="govbutton6" class="govbutton" onmouseover="jigglebutton(6);">
+													Rebate Programs
+												</td>
+											</tr>
+											<tr>
+												<td id="govbutton4" class="govbutton" onmouseover="jigglebutton(4);">
+													Technology
+												</td>
+											</tr>
+											<tr>
+												<td id="govbutton5" class="govbutton" onmouseover="jigglebutton(5);">
+													Events
+												</td>
+											</tr>
+											<tr>
+												<td id="govbutton7" class="govbutton" onmouseover="jigglebutton(7);">
+													Contact Us
+												</td>
+											</tr>
+											<tr>
+												<td style="text-align:center;vertical-align:middle">
+													<img src="logo-sun.jpg" >
+												</td>
+											</tr>
+										</table>
+
+
+									</td>
+									<td width="80%">
+										<div id="urlselections" style="border: lightgray 3px solid;height:400px;">
+
+						<table border="0" cellspacing="4" width="100%" height="100%" ID="Table3">
+							<tr>
+								<script language="javascript">
+	if ( g_squeeze == 0 ) {
+								document.writeln('<td valign="middle" height="75%" align="center">');
+	} else {
+								document.writeln('<td valign="middle" height="65%" align="center">');
+	}
+								</script>
+								<div id="mapplacement" style="width: 500px; height: 320px">
+								</div>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" height="5%">
+									&nbsp;
+								</td>
+							</tr>
+						</table>
+
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+						</td>
+						<script language="javascript">
+	if ( g_squeeze == 0 ) {
+								document.writeln('<td align="center" style="vertical-align: top;background-color:#FCFCe0" width="40%">');
+	} else {
+								document.writeln('<td align="center" style="vertical-align: top;background-color:#FCFCe0" width="30%">');
+	}
+						</script>
+											<table border="0" cellspacing="0" width="100%" ID="Table95">
+												<tr>
+													<td width="50%">
+														<div style="padding:8px;background-color:#F5FFE5;border:1px gold dotted;">
+															<span class="littleTitle">Energy Efficiency Information</span>
+															<br>
+															<br>
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" ID="Table99">
+																<tr>
+																	<td valign="middle" width="20%">
+																		<a class="energylink" href="http://www.energystar.gov/" target="_blank"><img src="/hosted/img/energystarlogo[1].gif" width="60px">
+																		</a>
+																	</td>
+																	<td valign="middle" align="center">
+																		<a class="energylink" href="http://www.energystar.gov/" target="_blank">Energy Star</a>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</td>
+													<td align="center" valign="top" width="50%">
+														<div style="padding:8px;background-color:#F5FFE5;border:1px gold dotted;">
+															<span class="littleTitle">Energy Saver Resources</span>
+															<br>
+															<br>
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" ID="Table100">
+																<tr>
+																	<td valign="middle" width="20%">
+																		<a class="energylink" href="http://www.consumerenergycenter.org/" target="_blank"><img src="/hosted/img/energysavers_rdax_84x51.gif" width="60px">
+																		</a>
+																	</td>
+																	<td valign="middle" align="center">
+																		<a class="energylink" href="http://www.consumerenergycenter.org/" target="_blank">For 
+																			Home, Work, and Vehicle</a>
+																	</td>
+																</tr>
+															</table>
+															<br>
+														</div>
+													</td>
+												</tr>
+											</table>
+
+											<table border="0" cellspacing="0" width="100%" ID="Table97">
+												<tr>
+													<td width="50%">
+														<div style="padding:8px;background-color:#F5FFE5;border:1px gold dotted;">
+															<span class="littleTitle">Water Conservation</span>
+															<br>
+															<br>
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" ID="Table98">
+																<tr>
+																	<td valign="middle" width="20%">
+																		<a href="http://www.h2ouse.org" class="energylink" target="_blank"><img src="/hosted/img/h2house.gif" border="0" height="60px">
+																		</a>
+																	</td>
+																	<td valign="middle" align="center">
+																		<a href="http://www.h2ouse.org" class="energylink" target="_blank">Water Saver Home</a>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</td>
+													<td align="center" valign="top" width="50%">
+														<div style="padding:8px;background-color:#F5FFE5;border:1px gold dotted;">
+															<span class="littleTitle">Energy Quest for Kids</span>
+															<br>
+															<br>
+															<a href="http://www.energyquest.ca.gov/" class="energylink" target="_blank"><img src="/hosted/img/energy_quest.jpg" height="60px">
+															</a>
+														</div>
+													</td>
+												</tr>
+											</table>
+
+											<table border="0" cellspacing="0" width="100%" ID="Table9">
+												<tr>
+													<td width="100%">
+														<div style="padding:8px;background-color:#F5FFE5;border:1px gold dotted;">
+															<span class="littleTitle">Consumer Support on Gas Pricing</span>
+															<br>
+															<br>
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" ID="Table94">
+																<tr>
+																	<td valign="middle" width="20%">
+																		<a href="http://www.GasBuddy.com" class="energylink" target="_blank"><img src="/hosted/img/gasbuddy_logo.gif" border="0" height="30">
+																		</a>
+																	</td>
+																	<td valign="middle" align="center">
+																		<a href="http://www.GasBuddy.com" class="energylink" target="_blank">GAS Buddy</a>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</td>
+												</tr>
+											</table>
+						<blockquote style="background-color:#FAFAFA;;padding: 8px;border: 1px solid gold;">
+							<div align="center" style="font-weight:bold;font-size:1.8em;color:darkgreen;background-color:gold" >Club Global Warming</div>
+<span style="color:darkred;font-weight:bold;">Let's build the future together.</span>
+
+<br>
+						</blockquote>
+
+
+					</td>
+			</tbody>
+			</table>
+			<table border="0" cellspacing="0" width="100%" ID="Table4">
+				<tbody>
+					<tr>
+						<td bgcolor="darkgreen" height="1" width="100%">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="margin-top:4;margin-bottom:5px;font-weight:bold;color:#004411;font-family:cursive" align="center">
+				<span style="font-size:10px;">This page is developed by <a href="http://www.copious-systems.com" target="_blank">
+						Copious Systems</a></span>
+			</div>
+			<table border="0" cellspacing="0" width="100%" ID="Table5">
+				<tbody>
+					<tr>
+						<td bgcolor="darkgreen" height="1" width="100%">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table border="0" cellspacing="0" width="100%" ID="Table6">
+				<tbody>
+					<tr>
+						<td bgcolor="darkgreen" height="1" width="100%">
+						</td>
+					</tr>
+				</tbody></table>
+			<!-- ======================================= -->
+			<!-- ======================================= -->
+
+
+			<div class="linkclass" id="links1" onmouseover="jigglebutton(1);" onmouseout="resetbutton(1)">
+@menulist_1
+			</div>
+
+
+
+			<div class="linkclass" id="links2" onmouseover="jigglebutton(2);" onmouseout="resetbutton(2)">
+@menulist_2
+			</div>
+
+
+			<div class="linkclass" id="links3" onmouseover="jigglebutton(3);" onmouseout="resetbutton(3)">
+@menulist_3
+			</div>
+
+
+
+			<div class="linkclass" id="links4" onmouseover="jigglebutton(4);" onmouseout="resetbutton(4)">
+@menulist_4
+			</div>
+
+
+
+
+			<div class="linkclass" id="links5" onmouseover="jigglebutton(5);" onmouseout="resetbutton(5)">
+				<table border="0" cellspacing="2" width="100%" ID="Table54">
+					<tr>
+						<td id="govbutton_Calander" class="govbutton" >
+							Calander
+						</td>
+					</tr>
+					<tr>
+						<td id="govbutton_Classifieds" class="govbutton">
+							<a style="text-decoration:none;color:green;" href="http://www.classydex.com/" target="_blank">
+								Classifieds
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+
+			<!-- rebates -->
+			<div class="linkclass" id="links6" onmouseover="jigglebutton(6);" onmouseout="resetbutton(6)">
+@menulist_6
+			</div>
+
+
+
+
+
+			<div class="linkclass" id="links7" onmouseover="jigglebutton(7);" onmouseout="resetbutton(7)">
+				<table border="0" cellspacing="2" width="100%" ID="Table91">
+					<tr>
+						<td id="govbutton_Information" class="govbutton" >
+							Information
+						</td>
+					</tr>
+				</table>
+			</div>
+
+
+
+
+<!-- ======================================= -->
+<!-- START OF DIV WINDOWS.. ====================  -->
+<!-- ======================================= -->
+			<!-- ======================================= -->
+
+
+<div id="topic1_1" class="topicclass" >
+<div style="overflow:auto" >
+@topic1_1
+</div>
+</div>
+
+<!-- My Places - business -->
+<div id="topic1_2" class="topicclass"  >
+<div style="overflow:auto" >
+@topic1_2
+</div>
+</div>
+
+<!-- My Places - car -->
+<div id="topic1_3" class="topicclass"  >
+<div   style="overflow:auto" >
+@topic1_3
+</div>
+</div>
+
+
+<!-- ============ -->
+<!-- My Community - local government 2_1 -->
+<div id="topic2_1" class="topicclass" >
+<div  style="overflow:auto" >
+@topic2_1
+</div>
+</div>
+
+<!-- My Community - utilities 2_2 -->
+<div id="topic2_2" class="topicclass"  >
+<div  style="overflow:auto" >
+@topic2_2
+</div>
+</div>
+
+<!-- My Community - Energy Efficiency 2_3 -->
+<div id="topic2_3"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic2_3
+</div>
+</div>
+
+<!-- My Community - water conservation 2_4 -->
+<div id="topic2_4"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic2_4
+</div>
+</div>
+
+
+
+
+
+
+<!-- My Government - STATE 3_1 -->
+<div id="topic3_1"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic3_1
+</div>
+</div>
+
+
+
+<!-- My Government - Federal 3_2 -->
+<div id="topic3_2" class="topicclass"  >
+<div style="overflow:auto" >
+@topic3_2
+</div>
+</div>
+
+
+
+<!-- ============ -->
+<!--Technology - Energy 4_1 -->
+<div id="topic4_1" class="topicclass" >
+<div  style="overflow:auto" >
+@topic4_1
+</div>
+</div>
+
+
+
+<!--Technology - Water 4_2 -->
+<div id="topic4_2"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic4_2
+</div>
+</div>
+
+
+<!--Technology - Automation 4_3 -->
+<div id="topic4_3"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic4_3
+</div>
+</div>
+
+
+<div id="topic4_4" class="topicclass"  >
+<div  style="overflow:auto" >
+@topic4_4
+</div>
+</div>
+
+
+
+
+<!-- ======================================= -->
+<!-- Rebates - Homes 6-1 -->
+<div id="topic6_1"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic6_1
+</div>
+</div>
+
+
+<!-- Rebates - Business 6-2 -->
+<div id="topic6_2"  class="topicclass" >
+<div  style="overflow:auto" >
+@topic6_2
+</div>
+</div>
+
+<!-- Rebates - water 6-3 -->
+<div id="topic6_3" class="topicclass"  >
+<div  style="overflow:auto" >
+@topic6_3
+</div>
+</div>
+
+<div id="CalanderPanel"  class="topicclass" >
+				<div  style="overflow:auto" >
+					<table width="100%" align="center" class="windowShade" style="background-color:#557755;" ID="Table23">
+						<tr>
+							<td width="15%" align="center" onclick="initializeCalander(-1);">&lt;&lt;prev</td>
+							<td align="center" width="70%"><span id="monthspan" onclick="initializeCalander(0);">$month</span></td>
+							<td width="15%" align="center" onclick="initializeCalander(1);">next&gt;&gt;</td>
+						</tr>
+					</table>
+					<div class="linkerstyle" align="center">
+						<br>
+						<div style="border: solid darkgreen 2px;">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0" ID="Table51" bgcolor="#FFEAEF" style="border-top: 1px solid brown;">
+								<tr>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m1">S</span></td>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m2">M</span></td>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m3">T</span></td>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m4">W</span></td>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m5">T</span></td>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m6">F</span></td>
+									<td class="monthcell-odd" align="center" valign="middle" width="30px" height="15px"><span id="m7">S</span></td>
+								</tr>
+								<tr>
+									<td id="c1" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(1,this)"><span id="d1">0</span></td>
+									<td id="c2" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(2,this)"><span id="d2">0</span></td>
+									<td id="c3" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(3,this)"><span id="d3">0</span></td>
+									<td id="c4" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(4,this)"><span id="d4">0</span></td>
+									<td id="c5" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(5,this)"><span id="d5">0</span></td>
+									<td id="c6" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(6,this)"><span id="d6">0</span></td>
+									<td id="c7" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(7,this)"><span id="d7">0</span></td>
+								</tr>
+								<tr>
+									<td id="c8" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(8,this)"><span id="d8">0</span></td>
+									<td id="c9" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(9,this)"><span id="d9">0</span></td>
+									<td id="c10" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(10,this)"><span id="d10">0</span></td>
+									<td id="c11" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(11,this)"><span id="d11">0</span></td>
+									<td id="c12" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(12,this)"><span id="d12">0</span></td>
+									<td id="c13" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(13,this)"><span id="d13">0</span></td>
+									<td id="c14" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(14,this)"><span id="d14">0</span></td>
+								</tr>
+								<tr>
+									<td id="c15" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(15,this)"><span id="d15">0</span></td>
+									<td id="c16" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(16,this)"><span id="d16">0</span></td>
+									<td id="c17" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(17,this)"><span id="d17">0</span></td>
+									<td id="c18" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(18,this)"><span id="d18">0</span></td>
+									<td id="c19" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(19,this)"><span id="d19">0</span></td>
+									<td id="c20" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(20,this)"><span id="d20">0</span></td>
+									<td id="c21" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(21,this)"><span id="d21">0</span></td>
+								</tr>
+								<tr>
+									<td id="c22" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(22,this)"><span id="d22">0</span></td>
+									<td id="c23" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(23,this)"><span id="d23">0</span></td>
+									<td id="c24" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(24,this)"><span id="d24">0</span></td>
+									<td id="c25" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(25,this)"><span id="d25">0</span></td>
+									<td id="c26" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(26,this)"><span id="d26">0</span></td>
+									<td id="c27" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(27,this)"><span id="d27">0</span></td>
+									<td id="c28" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(28,this)"><span id="d28">0</span></td>
+								</tr>
+								<tr>
+									<td id="c29" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(29,this)"><span id="d29">0</span></td>
+									<td id="c30" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(30,this)"><span id="d30">0</span></td>
+									<td id="c31" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(31,this)"><span id="d31">0</span></td>
+									<td id="c32" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(32,this)"><span id="d32">0</span></td>
+									<td id="c33" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(33,this)"><span id="d33">0</span></td>
+									<td id="c34" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(34,this)"><span id="d34">0</span></td>
+									<td id="c35" class="monthcell-even" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(35,this)"><span id="d35">0</span></td>
+								</tr>
+								<tr>
+									<td id="c36" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(36,this)"><span id="d36">0</span></td>
+									<td id="c37" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(37,this)"><span id="d37">0</span></td>
+									<td id="c38" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(38,this)"><span id="d38">0</span></td>
+									<td id="c39" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(39,this)"><span id="d39">0</span></td>
+									<td id="c40" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(40,this)"><span id="d40">0</span></td>
+									<td id="c41" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(41,this)"><span id="d41">0</span></td>
+									<td id="c42" class="monthcell-odd" align="center" valign="middle" width="30px" height="30px" onclick="calanderAction(42,this)"><span id="d42">0</span></td>
+								</tr>
+							</table>
+						</div>
+						<br>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+<div id="eventdescriber" class="topiclass-viz" >
+	<div  style="overflow:auto">
+		<table width="100%" align="center" class="windowShade" style="background-color:green;" ID="Table80">
+			<tr>
+				<td align="center" width="5%">&nbsp;</td>
+				<td width="95%" align="center">whatever</td>
+			</tr>
+		</table>
+	</div>
+	<!-- ============ -->
+</div>
+			<!-- ============ -->
+<div id="eventttitles" class="topicclass" >
+	<div  style="overflow:auto">
+		<table width="100%" align="center" class="windowShade" style="background-color:green;" ID="Table80">
+			<tr>
+				<td align="center" width="5%">&nbsp;</td>
+				<td width="95%" align="center">Smart Cars</td>
+			</tr>
+		</table>
+		<table width="100%" align="center" class="windowShade" ID="Table81">
+			<tr>
+				<td align="center" width="5%">&nbsp;</td>
+				<td width="95%" align="center">Solar Panel Exhibition</td>
+			</tr>
+		</table>
+	</div>
+	<!-- ============ -->
+</div>
+			<!-- ============ -->
+
+
+
+			<!-- ============ -->
+<div id="InformationPanel"  class="topicclass" >
+<div  style="overflow:auto" >
+					<br>
+					<table width="100%" cellpadding="0" cellspacing="0" border="0" ID="Table93">
+						<tr>
+@contact
+						</tr>
+					</table>
+					<br>
+					<br>
+</div>
+</div>
+			<!-- ============ -->
+<div id="gold_banner" class="locusBanner" style="text-align:center;position:absolute;top:20px;left:35%;width:100px;border: 1px solid gold;padding:4px;background-color:transparent;gold:#117722">
+Club Global Warming
+</div>
+
+
+			<!-- ============ -->
+			<!-- contact information -->
+	</body>
+<script language="javascript">
+
+	titleBannerEffect();
+
+	g_monthoffset = 0;
+	refreshEvents();
+
+	try {
+		set_page_map_type(G_SATELLITE_TYPE);
+		mapManagerStart("mapplacement",countyLat,countyLong,countyStartZoom);
+	} catch(e) {
+	}
+
+</script>
+</html>

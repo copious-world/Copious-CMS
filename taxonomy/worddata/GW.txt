@@ -1,0 +1,27 @@
+<table width='100%'>
+<tr><td id="W18641" class="vocabword" onclick="selword('18641','GW')">GW</td></tr>
+<tr><td id="W21053" class="vocabword" onclick="selword('21053','Gwalior')">Gwalior</td></tr>
+<tr><td id="W21054" class="vocabword" onclick="selword('21054','Gwari')">Gwari</td></tr>
+<tr><td id="W21055" class="vocabword" onclick="selword('21055','Gwaris')">Gwaris</td></tr>
+<tr><td id="W21056" class="vocabword" onclick="selword('21056','Gwawl')">Gwawl</td></tr>
+<tr><td id="W21057" class="vocabword" onclick="selword('21057','Gwelo')">Gwelo</td></tr>
+<tr><td id="W21058" class="vocabword" onclick="selword('21058','Gwen')">Gwen</td></tr>
+<tr><td id="W21059" class="vocabword" onclick="selword('21059','Gwenda')">Gwenda</td></tr>
+<tr><td id="W21060" class="vocabword" onclick="selword('21060','Gwendolen')">Gwendolen</td></tr>
+<tr><td id="W21061" class="vocabword" onclick="selword('21061','Gwendolin')">Gwendolin</td></tr>
+<tr><td id="W21062" class="vocabword" onclick="selword('21062','Gwendolyn')">Gwendolyn</td></tr>
+<tr><td id="W21063" class="vocabword" onclick="selword('21063','Gwenette')">Gwenette</td></tr>
+<tr><td id="W21064" class="vocabword" onclick="selword('21064','Gwenn')">Gwenn</td></tr>
+<tr><td id="W21065" class="vocabword" onclick="selword('21065','Gwenni')">Gwenni</td></tr>
+<tr><td id="W21066" class="vocabword" onclick="selword('21066','Gwennie')">Gwennie</td></tr>
+<tr><td id="W21067" class="vocabword" onclick="selword('21067','Gwenny')">Gwenny</td></tr>
+<tr><td id="W21068" class="vocabword" onclick="selword('21068','Gwenora')">Gwenora</td></tr>
+<tr><td id="W21069" class="vocabword" onclick="selword('21069','Gwenore')">Gwenore</td></tr>
+<tr><td id="W21070" class="vocabword" onclick="selword('21070','Gwent')">Gwent</td></tr>
+<tr><td id="W21071" class="vocabword" onclick="selword('21071','Gwinnett')">Gwinnett</td></tr>
+<tr><td id="W21072" class="vocabword" onclick="selword('21072','Gwyn')">Gwyn</td></tr>
+<tr><td id="W21073" class="vocabword" onclick="selword('21073','Gwynedd')">Gwynedd</td></tr>
+<tr><td id="W21074" class="vocabword" onclick="selword('21074','Gwyneth')">Gwyneth</td></tr>
+<tr><td id="W21075" class="vocabword" onclick="selword('21075','Gwynfa')">Gwynfa</td></tr>
+<tr><td id="W21076" class="vocabword" onclick="selword('21076','Gwynne')">Gwynne</td></tr>
+</table>

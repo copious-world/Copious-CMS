@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W200161" class="vocabword" onclick="selword('200161','pF')">pF</td></tr>
+<tr><td id="W205543" class="vocabword" onclick="selword('205543','pf')">pf</td></tr>
+<tr><td id="W205544" class="vocabword" onclick="selword('205544','pfalz')">pfalz</td></tr>
+<tr><td id="W205545" class="vocabword" onclick="selword('205545','pfannkuchen')">pfannkuchen</td></tr>
+<tr><td id="W205546" class="vocabword" onclick="selword('205546','pfennig')">pfennig</td></tr>
+<tr><td id="W205547" class="vocabword" onclick="selword('205547','pfg')">pfg</td></tr>
+</table>

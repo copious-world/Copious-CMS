@@ -1,0 +1,16 @@
+<table width='100%'>
+<tr><td id="W42626" class="vocabword" onclick="selword('42626','SVR')">SVR</td></tr>
+<tr><td id="W46638" class="vocabword" onclick="selword('46638','Svalbard')">Svalbard</td></tr>
+<tr><td id="W46639" class="vocabword" onclick="selword('46639','Svedberg')">Svedberg</td></tr>
+<tr><td id="W46640" class="vocabword" onclick="selword('46640','Sven')">Sven</td></tr>
+<tr><td id="W46641" class="vocabword" onclick="selword('46641','Svend')">Svend</td></tr>
+<tr><td id="W46642" class="vocabword" onclick="selword('46642','Svensen')">Svensen</td></tr>
+<tr><td id="W46643" class="vocabword" onclick="selword('46643','Sverdlovsk')">Sverdlovsk</td></tr>
+<tr><td id="W46644" class="vocabword" onclick="selword('46644','Sverige')">Sverige</td></tr>
+<tr><td id="W46645" class="vocabword" onclick="selword('46645','Sverre')">Sverre</td></tr>
+<tr><td id="W46646" class="vocabword" onclick="selword('46646','Svetambara')">Svetambara</td></tr>
+<tr><td id="W46647" class="vocabword" onclick="selword('46647','Svetlana')">Svetlana</td></tr>
+<tr><td id="W46648" class="vocabword" onclick="selword('46648','Svign')">Svign</td></tr>
+<tr><td id="W46649" class="vocabword" onclick="selword('46649','Svizzera')">Svizzera</td></tr>
+<tr><td id="W46650" class="vocabword" onclick="selword('46650','Svoboda')">Svoboda</td></tr>
+</table>

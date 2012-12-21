@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8" />
+		<META NAME="Description" content="Energy Efficiecny Resources">
+		<META NAME="keywords" content="Energy Efficiecny Resources">
+		<META NAME="robots" content="All">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<META NAME="GOOGLEBOT" CONTENT="NOARCHIVE">
+
+		<title>Copious Systems Account Types</title>
+
+<!--  ========================================== --->
+
+<!--  ========================================== --->
+<script language="javascript" type="text/javascript" src="/hosted/js/browserid.js"></script>
+<!--  -->
+
+<script type="text/javascript" language="javascript">
+
+var gHostbase = homevars.basic.toString();
+gHostbase = gHostbase.substring(gHostbase.indexOf('//') + 2);
+gHostbase = gHostbase.substring(0,gHostbase.lastIndexOf('/',gHostbase.lastIndexOf('/')-1)+1);
+
+var gServiceBase = homevars.basic.toString();
+gServiceBase =  gServiceBase.substring(gServiceBase.indexOf('//') + 2,gServiceBase.lastIndexOf('/'));
+gServiceBase =  gServiceBase.substring(gServiceBase.lastIndexOf('/')+1);
+
+
+var securityWindow = null;
+
+var WELCOME_MESSAGE = "Welcome to Your<br>Business Community";
+var SERVICE  = "Copious Systems Account Type Editor for Businesses";
+var INFORMATION_MSGS  = "Tools for Managing account types.";
+var SITE_LOGIN_HANDLER = "communityconnect";
+var SITE_WINDOW_VIEW = "div";
+var SITE_USE_BACKNAV = true;
+var SITE_LOGIN_RESULT = encodeURIComponent("accounttype/inuse.php");
+var SITE_USE_CUSTOM_LOGO = false;
+
+
+var SITE_SUPPRESS_SIGNUP = false;		// Rarely used comes from a button where the signup is assumed.
+
+
+var loginScrn = "https://" + gHostbase + "index.php";
+
+function loginopener() {
+	//
+	if ( (securityWindow != null ) && securityWindow.closed ) securityWindow = null;
+	////
+	if ( securityWindow == null ) {
+
+		if ( Br == "IE" ) {
+			//
+			var lobj = $("speciallinks");
+			lobj.style.visibility = "visible";
+
+		} else {
+			loginScrn = "https://" + gHostbase + "index.php?WELCOME_MESSAGE=" + encodeURI(WELCOME_MESSAGE);
+				loginScrn += "&SERVICE=" + encodeURI(SERVICE);
+				loginScrn += "&INFORMATION_MSGS=" + encodeURI(INFORMATION_MSGS);
+				loginScrn += "&RELSERVICELOCUS=" + gServiceBase;
+				loginScrn += "&phpfile=" + SITE_LOGIN_HANDLER;
+				loginScrn += "&windowView=" + SITE_WINDOW_VIEW;
+				if ( SITE_USE_BACKNAV ) loginScrn += "&backnav=" + SITE_LOGIN_RESULT;
+				loginScrn += "&windowView=" + SITE_WINDOW_VIEW;
+		//
+				if ( SITE_USE_CUSTOM_LOGO ) {
+					var logostr = "/hosted/accounttype/img/leftlogo.png";
+					loginScrn += "&leftlogo=" + encodeURIComponent(logostr);
+					logostr = "/hosted/accounttype/img/logo.png";
+					loginScrn += "&rightlogo=" + encodeURIComponent(logostr);
+				}
+		//
+				if ( SITE_SUPPRESS_SIGNUP ) {
+					loginScrn += "&suppress_signup=true";
+				}
+		//
+
+				var w = self.open(loginScrn,"LOGIN","width=900,height=420,resizeble,status");
+				securityWindow = w;
+				w.moveTo(20,20);
+				w.focus();
+		}
+	} else {
+		securityWindow.focus();
+	} 
+}
+
+var countyLat =  "19.27376";
+var countyLong = "-149.03476";
+var countyStartZoom = 1;
+
+
+</script>
+
+
+<script language="JavaScript" type="text/javascript" src="/hosted/js/dimensions.js"></script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/jsresources.js"> </script>
+<script language="javascript" type="text/javascript" src="/hosted/js/docjax.js"></script>
+<script language="javascript" type="text/javascript" src="/hosted/js/windowshades.js"></script>
+<script language="javascript">
+	var g_squeeze = 0;
+	if ( g_screenHeight >= 900 ) {
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="../stylesheet.css" TITLE="Style">');
+	} else if ( g_screenHeight > 600 ) {
+		g_squeeze = 1;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="../stylesheet700.css" TITLE="Style">');
+	} else {
+		g_squeeze = 2;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="../stylesheet600.css" TITLE="Style">');
+	}
+</script>
+<script language="javascript">
+
+	var spanID = "sectionplacer";
+
+	function secondary_http_request_response(alertTxt,response) {
+	//
+		
+	//
+	}
+
+	function clear_server_parameters() {
+		spanID = "";
+	}
+
+	function titleBannerEffect() {
+		var dvTitle = $("reltitle");
+		var dvTitleTopper = $("gold_banner");
+		dvTitleTopper.style.top = dvTitle.offsetTop + 12 + "px"; 
+		dvTitleTopper.style.left = dvTitle.offsetLeft + 4 + "px"; 
+		dvTitleTopper.style.width = dvTitle.offsetWidth + "px"; 
+	}
+
+</script>
+	<!--  ========================================== --->
+<script type="text/javascript" src="/hosted/js/oat/loader.js"></script>
+<script type="text/javascript" src="/hosted/js/infowindow.js"></script>
+<script type="text/javascript" src="/hosted/js/drupal_oat.js"></script>
+
+<script type="text/javascript" src="/drupal/sites/all/modules/copious_rolled_oats/rolled_oats_admin.js"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/taxonomy_dhtml/menuExpandable4.js"></script>
+	<!-- ========= HEAD =========   -->
+	<LINK REL="stylesheet" TYPE="text/css" HREF="../copious_menus.css" TITLE="Style">
+	<LINK REL="stylesheet" TYPE="text/css" HREF="style.css" TITLE="Style">
+<style type="text/css" >
+	speciallinks = {
+		visibility: hidden;
+		height: 0px;
+		margin-top: 8px;
+	}
+</style>
+<style type="text/css"><!--
+
+
+.superlink {
+	padding-top:4px;
+	padding-bottom:1px;
+	margin-bottom:3px;
+}
+
+.dobutton {
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:3px;
+	border: 2px solid navy;
+	padding:2px;
+	font-weight:bold;
+	font-size:0.85em;
+	color: darkgreen;
+	background-color:#EFEEDD;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+
+--></style>
+</head>
+	<!-- ========= BODY =========   -->
+	<body  >
+			<!-- ========= BODY =========   -->
+
+
+<div style="text-align:center;margin:2px;padding;2px;background-color:#EFEFAA;border:2px navy solid;">
+	Account Type Management Directory: For Businesses with Membership Services at Copious
+</div>
+<div style="text-align:center;margin:2px;padding;2px;background-color:white;border:2px navy solid;">
+	<span style="color:darkgreen;font-weight:bold;font-size:1.4em;">Copious Systems Account Type Manager</span> 
+</div>
+
+<div style="text-align:justify;margin:4px;padding;12px;background-color:white;border:2px navy solid;">
+
+<div style="position:relative;left:10%;color:navy;font-weight:bold;font-size:1.04em;">
+Below is a list of existing account types:
+</div> 
+
+<div style="position:relative;left:15%;width:75%">
+<blockquote style="border:1px navy solid;padding:6px;" >
+<span style="font-weight:bold;color:darkgreen" >Manage Account Types after logging in:</span>
+<div style="margin:6px;text-align:right;">
+
+<script language="javascript" >
+	if ( Br == "IE" ) {
+		document.writeln("<form id=\"linkLogin\" method=\"POST\" action=\"" + loginScrn + "\" target=\"LOGIN\" >");
+		document.writeln("<input type=\"hidden\" name=\"WELCOME_MESSAGE\" value=\"" + (WELCOME_MESSAGE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"SERVICE\" value=\"" + (SERVICE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"INFORMATION_MSGS\" value=\"" + (INFORMATION_MSGS) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"RELSERVICELOCUS\" value=\"" + gServiceBase + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"phpfile\" value=\"" + SITE_LOGIN_HANDLER + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"submit\" value=\"Membership Management\"  class=\"dobutton\" >");
+		document.writeln("</form>");
+	} else {
+		document.writeln("<span class=\"dobutton\" onclick=\"loginopener();\" >");
+		document.writeln("Membership Management");
+		document.writeln("</span>");
+	}
+</script>
+
+
+<a class="dobutton" href="../help.html" target="_blank" >More Help</a>
+</div>
+</blockquote>
+
+<script type="text/javascript">var featureList=["dialog","window","mswin","rectwin","roundwin","tab","panelbar","ghostdrag","tree"];</script>
+
+<div id="repository_data" style="border:1px darkred dashed;padding:4px;max-height:400px;overflow:auto;">
+<div style="overflow:auto" >
+	<script language="javascript" >
+	function set_business(bname) {
+		gServiceBase = bname;
+	}
+	</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td class="businessName" style="background-color:#F7F7FA;border-bottom:solid 1px navy">Account Type</td>
+	<td class="businessName" style="background-color:#F7F7FA;border-bottom:solid 1px navy">Business</td>
+	<td class="businessURL" style="background-color:#F7F7FA;border-bottom:solid 1px navy" >Description</td>
+</tr>
+<tr>
+	<td class="businessName" >SUPER</td><td class="businessName" >asante</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >Super User for business asante.</span></td>
+</tr>
+<tr>
+	<td class="businessName" >SUPER</td><td class="businessName" >classydex</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >Super User for business classydex.</span></td>
+</tr>
+<tr>
+	<td class="businessName" >SUPER</td><td class="businessName" >clubglobalwarming</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >Super User for business clubglobalwarming.</span></td>
+</tr>
+<tr>
+	<td class="businessName" >BUSINESS</td><td class="businessName" >copious</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >The basic business signup account type.</span></td>
+</tr>
+<tr>
+	<td class="businessName" >SUPER</td><td class="businessName" >copious</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >Super User for business COPIOUS.</span></td>
+</tr>
+<tr>
+	<td class="businessName" >SUPER</td><td class="businessName" >peacenames</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >Super User for business peacenames.</span></td>
+</tr>
+<tr>
+	<td class="businessName" >SUPER</td><td class="businessName" >sunbather</td><td class="businessURL"><span style="font-weight:bold;color:gray;" >Super User for business sunbather.</span></td>
+</tr>
+</table>
+<script language="javascript" >
+	var g_account_drop_complex = null;
+
+</script>
+
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+
+</body>
+
+</html

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8" />
+		<META NAME="Description" content="Energy Efficiecny Resources">
+		<META NAME="keywords" content="Energy Efficiecny Resources">
+		<META NAME="robots" content="All">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<META NAME="GOOGLEBOT" CONTENT="NOARCHIVE">
+
+		<title>Taxonomy Server Administration</title>
+
+<!--  ========================================== --->
+
+<!--  ========================================== --->
+<script language="javascript" type="text/javascript" src="/hosted/js/browserid.js"></script>
+
+
+<script type="text/javascript" language="javascript">
+//////////////////////////////////////////////////////
+var admin_locus = "";
+var server_locus = "";
+var focus_locus = "";
+var server_details_locus = "";
+var spanID = "docpages";
+var save_responder_element = "docpages";
+var tree_locus = "";
+var taxonomy_locus = "";
+
+
+var olData = null;
+
+//////////////////////////////////////////////////////
+</script>
+
+	<script language="JavaScript" type="text/javascript" src="/hosted/js/jsresources.js"> </script>
+	<script type="text/javascript" >
+		var g_classydex_session_id = 0;
+		var featureList=["tab","panelbar","dimmer","dialog","window","mswin","rectwin","roundwin","tab","panelbar","ghostdrag","tree"];
+	</script>
+	<script language="JavaScript" type="text/javascript" src="serverdata.js"></script>
+
+	<script language="JavaScript" type="text/javascript" src="/hosted/js/oat/loader.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/hosted/js/infowindow.js"></script>
+	<script type="text/javascript" language="JavaScript" src="/hosted/js/drupal_oat.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/hosted/js/classydex/classydex.js"></script>
+	
+	<script language="JavaScript" type="text/javascript" src="/hosted/js/dimensions.js"> </script>
+	<script language="JavaScript" type="text/javascript" src="/hosted/js/docjax.js"></script>
+	<script language="javascript" type="text/javascript" src="/hosted/js/windowshades.js"></script>
+
+	<script language="JavaScript" type="text/javascript" src="/drupal/sites/all/modules/contextlinks/contextlinks.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/drupal/sites/all/modules/copious_rolled_oats/rolled_oats_admin.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/drupal/sites/all/modules/blockbar/blockbar.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/drupal/sites/all/modules/dhtml_menu/dhtml_menu.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/drupal/sites/all/modules/event/eventblock.js"></script>
+
+	<script language="JavaScript" type="text/javascript" src="/drupal/sites/all/modules/taxonomy_dhtml/menuExpandable4.js"></script>
+
+<!--  -->
+
+@parts.login_control
+
+<!--  -->
+
+<script language="javascript">
+	var g_squeeze = 0;
+	if ( g_screenHeight >= 900 ) {
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/stylesheet.css" TITLE="Style">');
+	} else if ( g_screenHeight > 600 ) {
+		g_squeeze = 1;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/stylesheet700.css" TITLE="Style">');
+	} else {
+		g_squeeze = 2;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/stylesheet600.css" TITLE="Style">');
+	}
+</script>
+<script language="javascript">
+
+	var spanID = "sectionplacer";
+
+</script>
+	<!--  ========================================== --->
+	<!-- ========= HEAD =========   -->
+	<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/copious_menus.css" TITLE="Style">
+	<LINK REL="stylesheet" TYPE="text/css" HREF="style.css" TITLE="Style">
+<style type="text/css" >
+	speciallinks = {
+		visibility: hidden;
+		height: 0px;
+		margin-top: 8px;
+	}
+</style>
+</head>
+	<!-- ========= BODY =========   -->
+	<body  >
+			<!-- ========= BODY =========   -->
+
+
+<div style="text-align:center;margin:2px;padding;2px;background-color:#EFEFAA;border:2px navy solid;">
+	Welcome to the root page to the Taxonomy Admin Pages for Opensource Copious
+</div>
+<div style="text-align:center;margin:2px;padding;2px;background-color:white;border:2px navy solid;">
+	<span style="color:darkgreen;font-weight:bold;font-size:1.4em;">Taxonomy Admin Pages</span> 
+</div>
+
+<div style="text-align:justify;margin:4px;padding;12px;background-color:white;border:2px navy solid;">
+
+<div style="position:relative;left:10%;color:navy;font-weight:bold;font-size:1.04em;">
+Select Taxonomies for viewing from the list below:</div> 
+<div style="position:relative;left:15%;width:75%">
+
+<blockquote style="border:1px navy solid;padding:6px;" >
+The following is a list of taxonomies that may be viewed here and edited by members of the opensource-copious.org sites and who have the taxonomy editing priviledge.
+<br>Businesses with sites serviced by Copious Systems may subscribed to these taxonomies or arrange to have taxonomies stored within the Taxonomy data base.
+<div style="margin:6px;text-align:right;">
+
+<script language="javascript" >
+	if ( Br == "IE" ) {
+		document.writeln("<form id=\"linkLogin\" method=\"POST\" action=\"" + loginScrn + "\" target=\"LOGIN\" >");
+		document.writeln("<input type=\"hidden\" name=\"WELCOME_MESSAGE\" value=\"" + (WELCOME_MESSAGE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"SERVICE\" value=\"" + (SERVICE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"INFORMATION_MSGS\" value=\"" + (INFORMATION_MSGS) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"RELSERVICELOCUS\" value=\"" + gServiceBase + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"phpfile\" value=\"" + SITE_LOGIN_HANDLER + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"submit\" value=\"Membership Management\"  class=\"dobutton\" >");
+		document.writeln("</form>");
+	} else {
+		document.writeln("<span class=\"dobutton\" onclick=\"loginopener();\" >");
+		document.writeln("Membership Management");
+		document.writeln("</span>");
+	}
+</script>
+
+<a class="dobutton" href="../help.html" target="_blank" >More Help</a>
+</div>
+</blockquote>
+
+<script type="text/javascript">var featureList=["dialog","window","mswin","rectwin","roundwin","tab","panelbar","ghostdrag","tree"];</script>
+<script type="text/javascript">
+JSCOMPONENT.taxotree0 = {
+	div:"taxotree_0",
+	needs:["tree"],
+	drawn: false,
+	cb:function() {
+		addtaxotree("taxotree_0");
+	}
+}
+</script>
+<script language="javascript" type="text/javascript" >
+	var obj = $("mytaxodhtmlcontaineer");
+	obj.style.width = ($('taxotd1").offsetWidth * 8) + "px";
+</script>
+
+<div id="repository_data" style="border:1px darkred dashed;padding:4px;max-height:400px;overflow:auto;">
+@repository
+</div> 
+</body>
+
+</html>

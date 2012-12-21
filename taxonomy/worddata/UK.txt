@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W49044" class="vocabword" onclick="selword('49044','UK')">UK</td></tr>
+<tr><td id="W49140" class="vocabword" onclick="selword('49140','Uke')">Uke</td></tr>
+<tr><td id="W49141" class="vocabword" onclick="selword('49141','Ukr')">Ukr</td></tr>
+<tr><td id="W49142" class="vocabword" onclick="selword('49142','Ukraina')">Ukraina</td></tr>
+<tr><td id="W49143" class="vocabword" onclick="selword('49143','Ukraine')">Ukraine</td></tr>
+<tr><td id="W49144" class="vocabword" onclick="selword('49144','Ukrainian')">Ukrainian</td></tr>
+</table>

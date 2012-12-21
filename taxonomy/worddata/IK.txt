@@ -1,0 +1,11 @@
+<table width='100%'>
+<tr><td id="W23923" class="vocabword" onclick="selword('23923','Ikara')">Ikara</td></tr>
+<tr><td id="W23924" class="vocabword" onclick="selword('23924','Ikaria')">Ikaria</td></tr>
+<tr><td id="W23925" class="vocabword" onclick="selword('23925','Ike')">Ike</td></tr>
+<tr><td id="W23926" class="vocabword" onclick="selword('23926','Ikeda')">Ikeda</td></tr>
+<tr><td id="W23927" class="vocabword" onclick="selword('23927','Ikeja')">Ikeja</td></tr>
+<tr><td id="W23928" class="vocabword" onclick="selword('23928','Ikey')">Ikey</td></tr>
+<tr><td id="W23929" class="vocabword" onclick="selword('23929','Ikeya-Seki')">Ikeya-Seki</td></tr>
+<tr><td id="W23930" class="vocabword" onclick="selword('23930','Ikhnaton')">Ikhnaton</td></tr>
+<tr><td id="W23931" class="vocabword" onclick="selword('23931','Ikkela')">Ikkela</td></tr>
+</table>

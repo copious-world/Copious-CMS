@@ -1,0 +1,13 @@
+@theme_var_SITE_TITLE: A title that appears on the front page of the site.
+@theme_var_WELCOME_MESSAGE: A message that appears on the login window accessible from your front page.
+@theme_var_SERVICE: A human readable name of your service, or a very short description.
+@theme_var_INFORMATION_MSGS: A brief description of your site.
+@theme_var_DIRECTORY: Not settable.
+@theme_var_USE_CUSTOM_LOGO: Upload Your logo, and it will appear on the login page, and other pages.
+@theme_var_countyLat: Selected from the map.
+@theme_var_countyLong: Selected from the map.
+@theme_var_CONACT_URL:	A URL where a user may find contact information.
+@theme_var_CONACT_BUSINESS_NAME: The actual name of your busines.
+@theme_var_CONACT_ADDR1: Two lines for your address, the first line.
+@theme_var_CONACT_ADDR2: Two lines for your address, the second line.
+@theme_var_CONACT_EMAIL: Where you receive unsolicited e-mail.

@@ -1,0 +1,11 @@
+<table width='100%'>
+<tr><td id="W38854" class="vocabword" onclick="selword('38854','Pfaff')">Pfaff</td></tr>
+<tr><td id="W38855" class="vocabword" onclick="selword('38855','Pfalz')">Pfalz</td></tr>
+<tr><td id="W38856" class="vocabword" onclick="selword('38856','Pfeffer')">Pfeffer</td></tr>
+<tr><td id="W38857" class="vocabword" onclick="selword('38857','Pfeifer')">Pfeifer</td></tr>
+<tr><td id="W38858" class="vocabword" onclick="selword('38858','Pfister')">Pfister</td></tr>
+<tr><td id="W38859" class="vocabword" onclick="selword('38859','Pfitzner')">Pfitzner</td></tr>
+<tr><td id="W38860" class="vocabword" onclick="selword('38860','Pforzheim')">Pforzheim</td></tr>
+<tr><td id="W38861" class="vocabword" onclick="selword('38861','Pfosi')">Pfosi</td></tr>
+<tr><td id="W38862" class="vocabword" onclick="selword('38862','Pfund series')">Pfund series</td></tr>
+</table>

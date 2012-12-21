@@ -1,0 +1,76 @@
+Mail Server Settings
+# Hotmail Settings
+
+As other web based email services, Hotmail is using the HTTP protocol for connecting you to your mailbox. If you want to send and receive Hotmail emails using an email client software, then your software must support Hotmail HTTP access for your email account. Some email clients, such as Outlook Express or Microsoft Outlook, offer builtin support for Hotmail accounts, so you only have to select HTTP when you are asked to select your email account type and select Hotmail as the HTTP Mail Service Provider.
+
+# Yahoo! Mail Settings
+
+Unlike Hotmail, Yahoo! Mail offers standard POP3 access for receiving emails incoming through your Yahoo mailbox, by using your favorite email client software. To setup your email client for working with your Yahoo account, you need to select the POP3 protocol and use the following mail server settings:
+
+      Yahoo Incoming Mail Server (POP3) - pop.mail.yahoo.com (port 110)
+
+      Yahoo Outgoing Mail Server (SMTP) - smtp.mail.yahoo.com (port 25)
+
+# Google GMail Settings
+
+The Google GMail service offers email client access for retrieving and sending emails through your Gmail account. However, for security reasons, GMail uses POP3 over an SSL connection, so make sure your email client supports encrypted SSL connections.
+
+      Google Gmail Incoming Mail Server (POP3) - pop.gmail.com (SSL enabled, port 995)
+
+      Outgoing Mail Server - use the SMTP mail server address provided by your local ISP or smtp.gmail.com (SSL enabled, port 465)
+
+# Lycos Mail Settings
+
+The Lycos Mail Plus service allows you to use POP3 and SMTP servers for accessing your Lycos mailbox.
+
+      Lycos Mail Incoming Mail Server (POP3) - pop.mail.lycos.com (port 110)
+
+      Outgoing Mail Server - smtp.mail.lycos.com or use your local ISP SMTP mail server
+
+# AOL Mail Settings
+
+The AOL email service is a web based system, designed for managing your AOL mailbox via HTTP IMAP access. Unlike Hotmail, you can use any email client to access your AOL mailbox, as long as it supports the IMAP protocol.
+
+      AOL Incoming Mail Server (IMAP) - imap.aol.com (port 143)
+
+      AOL Outgoing Mail Server - smtp.aol.com or use your local ISP SMTP mail server
+
+# Mail.com Mail Settings
+
+The Mail.com email service allows you to use POP3 and SMTP servers for accessing your Mail.com mailbox.
+
+      Mail.com Mail Incoming Mail Server (POP3) - pop1.mail.com (port 110)
+
+      Outgoing Mail Server - use your local ISP SMTP mail server
+
+# Netscape Internet Service Mail Settings
+
+The Netscape e-mail system is web-based, which means you can access their e-mail from any Internet connection. Netscape Internet Service also supports AOL® Communicator, Microsoft® Outlook, Microsoft® Outlook Express, and other POP3 e-mail software. The outgoing mail server needs SSL support, so make sure your email client software supports SSL connections over the SMTP protocol.
+
+      Netscape Internet Service Incoming Mail Server (POP3) - pop.3.isp.netscape.com (port 110)
+
+      Netscape Internet Service Outgoing Mail Server - smtp.isp.netscape.com (port 25, using a secure SSL connection)
+
+# Tiscali Mail Settings
+
+The Tiscali email service allows you to use POP3 and SMTP servers for accessing your Tiscali mailbox.
+
+      Tiscali Incoming Mail Server (POP3) - pop.tiscali.com (port 110)
+
+      Outgoing Mail Server - use your local ISP SMTP mail server
+
+# Freeserve Mail Settings
+
+The Freeserve email service allows you to use POP3 and SMTP servers for accessing your Freeserve mailbox.
+
+      Freeserve Incoming Mail Server (POP3) - pop.freeserve.com (port 110)
+
+      Outgoing Mail Server - use your local ISP SMTP mail server
+
+# Supanet Mail Settings
+
+The Supanet email service allows you to use POP3 and SMTP servers for accessing your Supanet mailbox.
+
+      Supanet Incoming Mail Server (POP3) - pop.supanet.com (port 110)
+
+      Outgoing Mail Server - use your local ISP SMTP mail server

@@ -1,0 +1,140 @@
+ 
+
+	firstInitializer("q1","completion","Qurl","./storequestionaire.php","nextbutton");
+	
+	formSubFieldsObj = {
+		q1 : {
+			valueHolder: 'translation-type',
+			initialHider: [ 'wordcount', 'captionqual' ],
+			Qurl : { shower: null },
+			Qnews : { shower: [ 'wordcount' ] },
+			Qcaption :  { shower:[ 'captionqual' ] },
+			Qtech :  { shower: [ 'wordcount' ] },
+			Qtradel :  { shower: [ 'wordcount' ] },
+			Qlit :  { shower: [ 'wordcount' ] }
+		},
+
+		Qtech : {
+			valueHolder: 'Qtech_V',
+			initialHider: null,
+			Qmechanical : { shower: null },
+			Qelectric : { shower: null },
+			Qchemical : { shower: null },
+			Qbiological :  { shower: null },
+			QIT : { shower: null },
+			Qstatistics : { shower: null },
+			QOther : { shower: null }
+		},
+		
+		Qtradel : {
+			valueHolder: 'Qtradel_V',
+			initialHider: null,
+			QLegal : { shower: null },
+			QTrade : { shower: null }
+		}
+
+	};
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+
+
+<!-- ========================================== FORM PATH SELECTOR -->
+
+<form name="q1_form" ID="q1_form" action="javascript:form_path('translation-type');">
+	<span style="font-weight:bold;">What kind of translation are you looking for?</span><br>
+	<br>
+	<select name="translation-type" id="translation-type" onchange="resetpath(1);showRelevant('q1');">
+		<option id="t1" value="Qurl">Translate URL's</option>
+		<option id="t2" value="Qnews">News Item</option>
+		<option id="t3" value="Qcaption">Caption or Label</option>
+		<option id="t4" value="Qtech">Technical Document</option>
+		<option id="t5" value="Qtradel">Trade/Legal Document</option>
+		<option id="t6" value="Qlit">Short Literary Work</option>
+	</select>
+	<select name="captionqual" id="captionqual" onchange="resetpath(1);showRelevant('q1');">
+		<option id="ad1" value="QNothing">----</option>
+		<option id="ad2" value="QAdvertising">Advertising</option>
+		<option id="ad3" value="QProductDisplay">Product Display</option>
+		<option id="ad4" value="QBillboard">Billboard</option>
+		<option id="ad5" value="QWebImpression">Web Impression</option>
+	</select>
+	<br>
+	<br>
+	<span id="wordcount" style="font-weight:bold;">Number of Words:&nbsp;<input id="numwords" NAME="numwords" size="6" maxlength="6"></span>
+</form>
+
+<!-- ========================================== FORM PATH HARD WIRED -->
+
+<!-- litlitlitlitlitlitlitlitlitlitlitlitlitlitlitlit -->
+<div id="Qlit" class="qpart">
+	<form name="Qlit_form" ID="Qlit_form" action="javascript:form_path('Qlit_Next');">
+		<span style="font-weight:bold">Descriptiong of Literary Work:</span><br>
+		<br>
+		<input type="text" id="Qlit_V" NAME="Qlit_V" value="" size="60"> <input type="hidden" id="Qlit_Next" NAME="Qlit_Next" value="qlit_auth">
+	</form>
+</div>
+
+<!-- ========================================== NAVIGATOR PART -->
+
+<div style="margin-top:6px;">
+	<table width="100%" border="0" cellpadding="2px" cellspacing="0px">
+		<tr>
+			<td align="center" width="10%">&nbsp;</td>
+			<!-- PREV -->
+			<td align="center" width="20%" style="cursor:pointer;color:gold;background-color:darkgreen;border:solid 1px navy" onclick="prevpanel()">prev</td>
+
+			<td align="center" width="15%">&nbsp;</td>
+
+			<!-- NEXT -->
+			<td id="nextbutton" align="center" width="20%" style="cursor:pointer;color:gold;background-color:darkgreen;border:solid 1px navy" onclick="nextpanel()">next</td>
+			<td align="center" width="35%">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+
+<!-- ========================================== FINALIZER -->
+<div id="source_id" class="qpart">
+	<form name="source_id_form" ID="source_id_form" action="javascript:asert_at_end();form_path('source_id_Next');disableNext();QsendData('completion');">
+		<span style="font-weight:bold;">Please Enter Some Initial Contact Information</span><br>
+		<br>
+		<table>
+			<tr>
+				<td width="20%" align="right" style="font-weight:bold;">Name:</td>
+				<td width="80%" align="left"><input type="text" id="Country" NAME="Name" value="" size="64"></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right" style="font-weight:bold;">Country:</td>
+				<td width="80%" align="left"><input type="text" id="Country" NAME="Country" value="" size="64"></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right" style="font-weight:bold;">Email:</td>
+				<td width="80%" align="left"><input type="text" id="Email" NAME="Email" value="" size="64"></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right" style="font-weight:bold;">Voice:</td>
+				<td width="80%" align="left"><input type="text" id="Voice" NAME="Voice" value="" size="64"></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right" style="font-weight:bold;">&nbsp;</td>
+				<td width="80%" align="left"><input type="submit" value="Send Information" ID="Submit1" NAME="Submit1"></td>
+			</tr>
+		</table>
+		<br>
+		<input type="hidden" id="source_id_Next" NAME="source_id_Next" value="completion">
+	</form>
+</div>
+
+
+
+<!-- kkkkkkkkkkkkkkkkkkkkkkkkkk ASSERT AT END -->
+<div id="completion" class="qpart">
+	<span style="font-weight:bold;">Thank you for submitting your information. You will be contacted by a sales representative soon.</span><br>
+	<br>
+	<form name="completion_frm" ID="completion_frm" action="javascript:asert_at_end();$show('completion');">
+		<input type="hidden" id="Hidden1" NAME="source_id_Next" value="completion">
+	</form>
+</div>

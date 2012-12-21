@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W18624" class="vocabword" onclick="selword('18624','GM')">GM</td></tr>
+<tr><td id="W18625" class="vocabword" onclick="selword('18625','GMT')">GMT</td></tr>
+<tr><td id="W19894" class="vocabword" onclick="selword('19894','Gm')">Gm</td></tr>
+<tr><td id="W19895" class="vocabword" onclick="selword('19895','Gm counter')">Gm counter</td></tr>
+<tr><td id="W19896" class="vocabword" onclick="selword('19896','Gmat')">Gmat</td></tr>
+<tr><td id="W19897" class="vocabword" onclick="selword('19897','Gmc')">Gmc</td></tr>
+<tr><td id="W19898" class="vocabword" onclick="selword('19898','Gmur')">Gmur</td></tr>
+</table>

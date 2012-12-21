@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W84271" class="vocabword" onclick="selword('84271','cd')">cd</td></tr>
+<tr><td id="W84272" class="vocabword" onclick="selword('84272','cd drive')">cd drive</td></tr>
+<tr><td id="W84273" class="vocabword" onclick="selword('84273','cd player')">cd player</td></tr>
+<tr><td id="W84274" class="vocabword" onclick="selword('84274','cd-r')">cd-r</td></tr>
+<tr><td id="W84275" class="vocabword" onclick="selword('84275','cd-rom')">cd-rom</td></tr>
+<tr><td id="W84276" class="vocabword" onclick="selword('84276','cd-rom drive')">cd-rom drive</td></tr>
+<tr><td id="W84277" class="vocabword" onclick="selword('84277','cd-wo')">cd-wo</td></tr>
+</table>

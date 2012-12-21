@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W220707" class="vocabword" onclick="selword('220707','qadi')">qadi</td></tr>
+<tr><td id="W220708" class="vocabword" onclick="selword('220708','qaf')">qaf</td></tr>
+<tr><td id="W220709" class="vocabword" onclick="selword('220709','qaid')">qaid</td></tr>
+<tr><td id="W220710" class="vocabword" onclick="selword('220710','qasida')">qasida</td></tr>
+<tr><td id="W220711" class="vocabword" onclick="selword('220711','qasidas')">qasidas</td></tr>
+<tr><td id="W220712" class="vocabword" onclick="selword('220712','qat')">qat</td></tr>
+<tr><td id="W220713" class="vocabword" onclick="selword('220713','qatar')">qatar</td></tr>
+<tr><td id="W220714" class="vocabword" onclick="selword('220714','qatari')">qatari</td></tr>
+<tr><td id="W220715" class="vocabword" onclick="selword('220715','qatari dirham')">qatari dirham</td></tr>
+<tr><td id="W220716" class="vocabword" onclick="selword('220716','qatari monetary unit')">qatari monetary unit</td></tr>
+<tr><td id="W220717" class="vocabword" onclick="selword('220717','qatari riyal')">qatari riyal</td></tr>
+</table>

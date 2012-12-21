@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W101397" class="vocabword" onclick="selword('101397','dB')">dB</td></tr>
+<tr><td id="W101398" class="vocabword" onclick="selword('101398','dBV')">dBV</td></tr>
+<tr><td id="W101399" class="vocabword" onclick="selword('101399','dBW')">dBW</td></tr>
+<tr><td id="W101400" class="vocabword" onclick="selword('101400','dBa')">dBa</td></tr>
+<tr><td id="W101401" class="vocabword" onclick="selword('101401','dBm')">dBm</td></tr>
+<tr><td id="W101402" class="vocabword" onclick="selword('101402','dBm/m')">dBm/m</td></tr>
+<tr><td id="W101403" class="vocabword" onclick="selword('101403','dBrn')">dBrn</td></tr>
+<tr><td id="W102341" class="vocabword" onclick="selword('102341','db')">db</td></tr>
+<tr><td id="W102342" class="vocabword" onclick="selword('102342','dbl')">dbl</td></tr>
+<tr><td id="W102343" class="vocabword" onclick="selword('102343','dbms')">dbms</td></tr>
+<tr><td id="W102344" class="vocabword" onclick="selword('102344','dbridement')">dbridement</td></tr>
+</table>

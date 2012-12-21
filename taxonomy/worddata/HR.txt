@@ -1,0 +1,15 @@
+<table width='100%'>
+<tr><td id="W21136" class="vocabword" onclick="selword('21136','HR')">HR</td></tr>
+<tr><td id="W21137" class="vocabword" onclick="selword('21137','HRH')">HRH</td></tr>
+<tr><td id="W21138" class="vocabword" onclick="selword('21138','HRIP')">HRIP</td></tr>
+<tr><td id="W23309" class="vocabword" onclick="selword('23309','Hr')">Hr</td></tr>
+<tr><td id="W23310" class="vocabword" onclick="selword('23310','Hradec Krclova')">Hradec Krclova</td></tr>
+<tr><td id="W23311" class="vocabword" onclick="selword('23311','Hradec Krlov')">Hradec Krlov</td></tr>
+<tr><td id="W23312" class="vocabword" onclick="selword('23312','Hrault')">Hrault</td></tr>
+<tr><td id="W23313" class="vocabword" onclick="selword('23313','Hrdlicka')">Hrdlicka</td></tr>
+<tr><td id="W23314" class="vocabword" onclick="selword('23314','Hreidmar')">Hreidmar</td></tr>
+<tr><td id="W23315" class="vocabword" onclick="selword('23315','Hrolf')">Hrolf</td></tr>
+<tr><td id="W23316" class="vocabword" onclick="selword('23316','Hrozny')">Hrozny</td></tr>
+<tr><td id="W23317" class="vocabword" onclick="selword('23317','Hrutkay')">Hrutkay</td></tr>
+<tr><td id="W23318" class="vocabword" onclick="selword('23318','Hrvatska')">Hrvatska</td></tr>
+</table>

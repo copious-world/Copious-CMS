@@ -1,0 +1,6 @@
+<table width='100%'>
+<tr><td id="W24789" class="vocabword" onclick="selword('24789','JHS')">JHS</td></tr>
+<tr><td id="W24790" class="vocabword" onclick="selword('24790','JHVH')">JHVH</td></tr>
+<tr><td id="W25574" class="vocabword" onclick="selword('25574','Jhansi')">Jhansi</td></tr>
+<tr><td id="W25575" class="vocabword" onclick="selword('25575','Jhelum')">Jhelum</td></tr>
+</table>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8" />
+		<META NAME="Description" content="Energy Efficiecny Resources">
+		<META NAME="keywords" content="Energy Efficiecny Resources">
+		<META NAME="robots" content="All">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<META NAME="GOOGLEBOT" CONTENT="NOARCHIVE">
+
+		<title>Rolled Oats Repository</title>
+
+<!--  ========================================== --->
+
+<!--  ========================================== --->
+<script language="javascript" type="text/javascript" src="/hosted/js/browserid.js"></script>
+<!--  -->
+<script type="text/javascript" language="javascript">
+
+var gHostbase = homevars.basic.toString();
+gHostbase = gHostbase.substring(gHostbase.indexOf('//') + 2);
+gHostbase = gHostbase.substring(0,gHostbase.lastIndexOf('/',gHostbase.lastIndexOf('/')-1)+1);
+
+var gServiceBase = homevars.basic.toString();
+gServiceBase =  gServiceBase.substring(gServiceBase.indexOf('//') + 2,gServiceBase.lastIndexOf('/'));
+gServiceBase =  gServiceBase.substring(gServiceBase.lastIndexOf('/')+1);
+
+
+var securityWindow = null;
+
+var WELCOME_MESSAGE = "Welcome to Your<br>Software Development Community";
+var SERVICE  = "Open Source Copious";
+var INFORMATION_MSGS  = "This is an open source software community";
+var SITE_LOGIN_HANDLER = "communityconnect";
+var SITE_WINDOW_VIEW = "div";
+var SITE_USE_BACKNAV = true;
+var SITE_LOGIN_RESULT = encodeURIComponent("rolledoats/inuse.php");
+var SITE_USE_CUSTOM_LOGO = false;
+
+
+var loginScrn = "https://" + gHostbase + "index.php";
+
+function loginopener() {
+	//
+	if ( (securityWindow != null ) && securityWindow.closed ) securityWindow = null;
+	////
+	if ( securityWindow == null ) {
+
+		if ( Br == "IE" ) {
+			//
+			var lobj = $("speciallinks");
+			lobj.style.visibility = "visible";
+
+		} else {
+			loginScrn = "https://" + gHostbase + "index.php?WELCOME_MESSAGE=" + encodeURI(WELCOME_MESSAGE);
+				loginScrn += "&SERVICE=" + encodeURI(SERVICE);
+				loginScrn += "&INFORMATION_MSGS=" + encodeURI(INFORMATION_MSGS);
+				loginScrn += "&RELSERVICELOCUS=" + gServiceBase;
+				loginScrn += "&phpfile=" + SITE_LOGIN_HANDLER;
+				loginScrn += "&windowView=" + SITE_WINDOW_VIEW;
+				if ( SITE_USE_BACKNAV ) loginScrn += "&backnav=" + SITE_LOGIN_RESULT;
+				loginScrn += "&windowView=" + SITE_WINDOW_VIEW;
+		//
+				if ( SITE_USE_CUSTOM_LOGO ) {
+					var logostr = "/hosted/rolledoats/img/leftlogo.png";
+					loginScrn += "&leftlogo=" + encodeURIComponent(logostr);
+					logostr = "/hosted/rolledoats/img/logo.png";
+					loginScrn += "&rightlogo=" + encodeURIComponent(logostr);
+				}
+		//
+				var w = self.open(loginScrn,"LOGIN","width=900,height=420,resizeble,status");
+				securityWindow = w;
+				w.moveTo(20,20);
+				w.focus();
+		}
+	} else {
+		securityWindow.focus();
+	} 
+}
+
+var countyLat =  "19.27376";
+var countyLong = "-149.03476";
+var countyStartZoom = 1;
+
+
+</script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/dimensions.js"></script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/jsresources.js"> </script>
+<script language="javascript" type="text/javascript" src="/hosted/js/docjax.js"></script>
+<script language="javascript" type="text/javascript" src="/hosted/js/windowshades.js"></script>
+<script language="javascript">
+	var g_squeeze = 0;
+	if ( g_screenHeight >= 900 ) {
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/stylesheet.css" TITLE="Style">');
+	} else if ( g_screenHeight > 600 ) {
+		g_squeeze = 1;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/stylesheet700.css" TITLE="Style">');
+	} else {
+		g_squeeze = 2;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/stylesheet600.css" TITLE="Style">');
+	}
+</script>
+<script language="javascript">
+
+	var spanID = "sectionplacer";
+
+	function secondary_http_request_response(alertTxt,response) {
+	//
+		
+	//
+	}
+
+	function clear_server_parameters() {
+		spanID = "";
+	}
+
+	function titleBannerEffect() {
+		var dvTitle = $("reltitle");
+		var dvTitleTopper = $("gold_banner");
+		dvTitleTopper.style.top = dvTitle.offsetTop + 12 + "px"; 
+		dvTitleTopper.style.left = dvTitle.offsetLeft + 4 + "px"; 
+		dvTitleTopper.style.width = dvTitle.offsetWidth + "px"; 
+	}
+
+</script>
+	<!--  ========================================== --->
+<script type="text/javascript" src="/hosted/js/oat/loader.js"></script>
+<script type="text/javascript" src="/hosted/js/infowindow.js"></script>
+<script type="text/javascript" src="/hosted/js/drupal_oat.js"></script>
+
+<script type="text/javascript" src="/drupal/sites/all/modules/copious_rolled_oats/rolled_oats_admin.js"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/taxonomy_dhtml/menuExpandable4.js"></script>
+	<!-- ========= HEAD =========   -->
+	<LINK REL="stylesheet" TYPE="text/css" HREF="/hosted/css/copious_menus.css" TITLE="Style">
+<style type="text/css" >
+	speciallinks = {
+		visibility: hidden;
+		height: 0px;
+		margin-top: 8px;
+	}
+</style>
+<style type="text/css"><!--
+
+
+.superlink {
+	padding-top:4px;
+	padding-bottom:1px;
+	margin-bottom:3px;
+}
+
+.dobutton {
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:3px;
+	border: 2px solid navy;
+	padding:2px;
+	font-weight:bold;
+	font-size:0.85em;
+	color: darkgreen;
+	background-color:#EFEEDD;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+
+--></style>
+</head>
+	<!-- ========= BODY =========   -->
+	<body  >
+			<!-- ========= BODY =========   -->
+
+
+<div style="text-align:center;margin:2px;padding;2px;background-color:#EFEFAA;border:2px navy solid;">
+	Welcome to the root page to the Rolled Oats Repository
+</div>
+<div style="text-align:center;margin:2px;padding;2px;background-color:white;border:2px navy solid;">
+	<span style="color:darkgreen;font-weight:bold;font-size:1.4em;">Rolled Oats Repository</span> 
+</div>
+
+<div style="text-align:justify;margin:4px;padding;12px;background-color:white;border:2px navy solid;">
+
+<div style="position:relative;left:10%;color:navy;font-weight:bold;font-size:1.04em;">
+Select Components from the Tree of Components Below:</div> 
+<div style="position:relative;left:15%;width:75%">
+
+<blockquote style="border:1px navy solid;padding:6px;" >
+The following tree of information is a repository of components for use in versions of Drupal modified by Copious Systems and available on the download section of this website. You may download these components into your Drupal installation, and from there, you may include them as field types in your content types.
+<div style="margin:6px;text-align:right;">
+
+<script language="javascript" >
+	if ( Br == "IE" ) {
+		document.writeln("<form id=\"linkLogin\" method=\"POST\" action=\"" + loginScrn + "\" target=\"LOGIN\" >");
+		document.writeln("<input type=\"hidden\" name=\"WELCOME_MESSAGE\" value=\"" + (WELCOME_MESSAGE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"SERVICE\" value=\"" + (SERVICE) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"INFORMATION_MSGS\" value=\"" + (INFORMATION_MSGS) + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"RELSERVICELOCUS\" value=\"" + gServiceBase + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"phpfile\" value=\"" + SITE_LOGIN_HANDLER + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"hidden\" name=\"windowView\" value=\"" + SITE_WINDOW_VIEW + "\" >");
+		document.writeln("<input type=\"submit\" value=\"Membership Management\"  class=\"dobutton\" >");
+		document.writeln("</form>");
+	} else {
+		document.writeln("<span class=\"dobutton\" onclick=\"loginopener();\" >");
+		document.writeln("Membership Management");
+		document.writeln("</span>");
+	}
+</script>
+
+<a class="dobutton" href="../help.html" target="_blank" >More Help</a>
+</div>
+</blockquote>
+<script type="text/javascript">var featureList=["dialog","window","mswin","rectwin","roundwin","tab","panelbar","ghostdrag","tree"];</script>
+<script type="text/javascript">
+JSCOMPONENT.taxotree0 = {
+	div:"taxotree_0",
+	needs:["tree"],
+	drawn: false,
+	cb:function() {
+		addtaxotree("taxotree_0");
+	}
+}
+</script>
+<script language="javascript" type="text/javascript" >
+	var obj = $("mytaxodhtmlcontaineer");
+	obj.style.width = ($('taxotd1").offsetWidth * 8) + "px";
+</script>
+
+<div id="repository_data" style="border:1px darkred dashed;padding:4px;max-height:400px;overflow:auto;">
+<div class='taxodhtmlpanel' id='taxopanel_0' >
+<div id='tree_content_0'>
+<ul id="taxotree_0">
+			<li><span class="treeElement" onclick="checkboxAction(this,'root',0)"
+					 style ="cursor:pointer;background-color:#EFEFAF;font-size:0.95em;font-weight:bold;color:navy;padding-right:30px;padding-left:30px;" id="viz-root" >The Tree of OATS</span>
+			<ul>
+				<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/81/9"  title=''  style ="cursor:pointer" id="viz-dollars" target="_blank" >dollars (1)</a><ul>
+
+<li><a href="/drupal/node/41" title="Author: allsitess, comments: 0" class="dhtml_node">tester</a></li>
+</ul>
+</li>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/24/9"  title='Free, but not individually supported rolled oats'  style ="cursor:pointer" id="viz-Free" target="_blank" >Free (1)</a><ul>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/86/9"  title=''  style ="cursor:pointer" id="viz-digits" target="_blank" >digits (1)</a></li>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/85/9"  title=''  style ="cursor:pointer" id="viz-real" target="_blank" >real (1)</a></li>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/83/9"  title=''  style ="cursor:pointer" id="viz-text" target="_blank" >text (1)</a></li>
+</ul>
+</li>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/80/9"  title=''  style ="cursor:pointer" id="viz-lineitem" target="_blank" >lineitem (1)</a></li>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/82/9"  title=''  style ="cursor:pointer" id="viz-measure" target="_blank" >measure (1)</a></li>
+
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/25/9"  title='Supported rolled oats are oats that can incur a fee after substantial use, but support is provided.'  style ="cursor:pointer" id="viz-Supported" target="_blank" >Supported (1)</a><ul>
+<li><a class="dhtml_treeElement" href="/drupal/taxonomy/term/84/9"  title=''  style ="cursor:pointer" id="viz-money" target="_blank" >money (1)</a></ul>
+</li>
+
+			</ul></li>
+		</ul></div></div>
+</div>
+<br>
+</div> 
+</body>
+
+</html>

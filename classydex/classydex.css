@@ -1,0 +1,116 @@
+ 
+		p {font: 0.9em helvetica, arial, sans-serif;}
+		.dropcap {
+			font: bold 300% times, serif;
+			margin-right: 10px;
+			color: darkblue;
+			float: left;
+		}
+		.dropconents {
+			font: bold 200% times, serif;
+			margin-right: 5px;
+			color: darkred;
+			float: left;
+		}
+		.dropclick{
+			font: 12px bold 'arial black';
+			margin-right: 15px;
+			margin-left: 15px;
+			color: darkgreen;
+			float: left;
+		}
+		.explainer {
+			font: bold 80% times, serif;
+			margin-right: 10px;
+			margin-left: 15px;
+			color: darkblue;
+			float: left;
+		}
+		.doctoc {
+			padding-right: 10px;
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: black;
+		}
+		.doccontent {
+			padding-right: 4px;
+			padding-left: 0px;
+			padding-top: 0px;
+			padding-bottom: 4px;
+			color: black;
+		}
+		.OLRow {
+			vertical-align:middle;
+			font-size:0.95em;
+			line-height:11px;
+			font-family:Arial,sans-serif
+		}
+		.OLBlock {
+			display:none;
+			text-decoration: none;
+			}
+		img.widgetArt {
+			vertical-align:text-top
+		}
+		
+		.itemTitle {
+			vertical-align:middle;
+			font-size:1.3em;
+			font-family : "Times New Roman", Times, serif;
+			font-weight: bold;
+			color: darkgreen;
+			background-color:transparent;
+			text-decoration: none;
+			cursor: pointer;
+			margin-top:18px;
+			line-height: 18px;
+		}
+
+
+		li + li {
+			margin-top:18px;
+			margin-bottom:18px;
+			padding: 4px;
+		}
+		li > ul {
+			margin-top:18px;
+			margin-bottom:18px;
+			padding: 4px;
+		}
+		ul > li {
+			margin-top:18px;
+			margin-bottom:18px;
+			padding: 4px;
+		}
+	
+	
+		
+		.buttons {margin-top:10px}
+		
+		#customsadddetail {
+			visibility: hidden;
+			position: absolute;
+		}
+		#singleItemEntry {
+			position: absolute;
+			visibility: hidden;
+			background-color:lightyellow;
+			border: orange solid 2px;
+			z-index: 1500;
+			top: 0px;
+			left: 0px;
+			width: 0px;
+			margin:3px;
+			height:0%;
+		}
+		#contactDiv {
+			position: absolute;
+			visibility: hidden;
+			background-color:#CCFFDD;
+			border: orange solid 2px;
+			z-index: 205;
+			top: 20px;
+			left: 30px;
+			width: 200px;
+		}

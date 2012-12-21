@@ -1,0 +1,63 @@
+IMAPFilter Version 2.0.9
+========================
+
+Requirements
+------------
+* An ISO/ANSI C compiler and a POSIX C library.
+* The Lua programming language (http://www.lua.org) version 5.1.
+* The PCRE (Perl Compatible Regular Expressions) library (http://www.pcre.org).
+
+Optionally:
+
+* The OpenSSL library (http://www.openssl.org), if SSL/TLS connection
+  encryption or CRAM-MD5 user authentication will be built in.
+
+
+Configuration
+-------------
+You can change compilation/installation options and/or toggle program's
+features using the supplied "configure" Bourne shell script.  Type...
+
+	./configure -h
+
+... to see available options, their description and their default values.
+
+
+Installation
+------------
+Compile and install the program by typing:
+
+	make
+	make install
+
+To uninstall type:
+
+	make uninstall
+
+
+Usage
+-----
+See the imapfilter(1) and the imapfilter_config(5) manual pages, the
+sample.config.lua sample configuration file and the sample.extend.lua extension
+sample file.
+
+
+Compatibility
+-------------
+Version 2.x of IMAPFilter can read version 1.x configuration files.
+Nonetheless, it is recommended to migrate to the new configuration file.
+
+
+Website
+-------
+http://imapfilter.hellug.gr
+
+
+Author
+------
+Lefteris Chatzimparmpas <lefcha@hellug.gr>
+
+
+License
+-------
+See LICENSE file.

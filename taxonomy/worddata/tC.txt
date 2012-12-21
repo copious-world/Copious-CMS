@@ -1,0 +1,11 @@
+<table width='100%'>
+<tr><td id="W260399" class="vocabword" onclick="selword('260399','tc')">tc</td></tr>
+<tr><td id="W260400" class="vocabword" onclick="selword('260400','tchad')">tchad</td></tr>
+<tr><td id="W260401" class="vocabword" onclick="selword('260401','tcheck out')">tcheck out</td></tr>
+<tr><td id="W260402" class="vocabword" onclick="selword('260402','tcheckup')">tcheckup</td></tr>
+<tr><td id="W260403" class="vocabword" onclick="selword('260403','tchervonetz')">tchervonetz</td></tr>
+<tr><td id="W260404" class="vocabword" onclick="selword('260404','tchervontzi')">tchervontzi</td></tr>
+<tr><td id="W260405" class="vocabword" onclick="selword('260405','tchr')">tchr</td></tr>
+<tr><td id="W260406" class="vocabword" onclick="selword('260406','tcp')">tcp</td></tr>
+<tr><td id="W260407" class="vocabword" onclick="selword('260407','tcp/ip')">tcp/ip</td></tr>
+</table>

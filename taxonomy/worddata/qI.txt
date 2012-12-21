@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W220720" class="vocabword" onclick="selword('220720','qiana')">qiana</td></tr>
+<tr><td id="W220721" class="vocabword" onclick="selword('220721','qiang')">qiang</td></tr>
+<tr><td id="W220722" class="vocabword" onclick="selword('220722','qiangic')">qiangic</td></tr>
+<tr><td id="W220723" class="vocabword" onclick="selword('220723','qibla')">qibla</td></tr>
+<tr><td id="W220724" class="vocabword" onclick="selword('220724','qid')">qid</td></tr>
+<tr><td id="W220725" class="vocabword" onclick="selword('220725','qindarka')">qindarka</td></tr>
+<tr><td id="W220726" class="vocabword" onclick="selword('220726','qintar')">qintar</td></tr>
+</table>

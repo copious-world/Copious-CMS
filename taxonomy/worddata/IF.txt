@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W23692" class="vocabword" onclick="selword('23692','IFC')">IFC</td></tr>
+<tr><td id="W23693" class="vocabword" onclick="selword('23693','IFF')">IFF</td></tr>
+<tr><td id="W23694" class="vocabword" onclick="selword('23694','IFLWU')">IFLWU</td></tr>
+<tr><td id="W23695" class="vocabword" onclick="selword('23695','IFS')">IFS</td></tr>
+<tr><td id="W23881" class="vocabword" onclick="selword('23881','If')">If</td></tr>
+<tr><td id="W23882" class="vocabword" onclick="selword('23882','Ife')">Ife</td></tr>
+<tr><td id="W23883" class="vocabword" onclick="selword('23883','Ifill')">Ifill</td></tr>
+<tr><td id="W23884" class="vocabword" onclick="selword('23884','Ifni')">Ifni</td></tr>
+<tr><td id="W23885" class="vocabword" onclick="selword('23885','Ifugao')">Ifugao</td></tr>
+<tr><td id="W23886" class="vocabword" onclick="selword('23886','Ifugaos')">Ifugaos</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W49120" class="vocabword" onclick="selword('49120','Uganda')">Uganda</td></tr>
+<tr><td id="W49121" class="vocabword" onclick="selword('49121','Ugandan')">Ugandan</td></tr>
+<tr><td id="W49122" class="vocabword" onclick="selword('49122','Ugarit')">Ugarit</td></tr>
+<tr><td id="W49123" class="vocabword" onclick="selword('49123','Ugaritic')">Ugaritic</td></tr>
+<tr><td id="W49124" class="vocabword" onclick="selword('49124','Ugo')">Ugo</td></tr>
+<tr><td id="W49125" class="vocabword" onclick="selword('49125','Ugrian')">Ugrian</td></tr>
+<tr><td id="W49126" class="vocabword" onclick="selword('49126','Ugric')">Ugric</td></tr>
+<tr><td id="W49127" class="vocabword" onclick="selword('49127','Ugro-Finnic')">Ugro-Finnic</td></tr>
+</table>

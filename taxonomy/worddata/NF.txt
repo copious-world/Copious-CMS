@@ -1,0 +1,6 @@
+<table width='100%'>
+<tr><td id="W34887" class="vocabword" onclick="selword('34887','NF')">NF</td></tr>
+<tr><td id="W34888" class="vocabword" onclick="selword('34888','NFD')">NFD</td></tr>
+<tr><td id="W34889" class="vocabword" onclick="selword('34889','NFL')">NFL</td></tr>
+<tr><td id="W35791" class="vocabword" onclick="selword('35791','Nf-kua')">Nf-kua</td></tr>
+</table>

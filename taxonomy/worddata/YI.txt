@@ -1,0 +1,14 @@
+<table width='100%'>
+<tr><td id="W51999" class="vocabword" onclick="selword('51999','Yi')">Yi</td></tr>
+<tr><td id="W52000" class="vocabword" onclick="selword('52000','Yiddish')">Yiddish</td></tr>
+<tr><td id="W52001" class="vocabword" onclick="selword('52001','Yigdal')">Yigdal</td></tr>
+<tr><td id="W52002" class="vocabword" onclick="selword('52002','Yila')">Yila</td></tr>
+<tr><td id="W52003" class="vocabword" onclick="selword('52003','Yim')">Yim</td></tr>
+<tr><td id="W52004" class="vocabword" onclick="selword('52004','Yin')">Yin</td></tr>
+<tr><td id="W52005" class="vocabword" onclick="selword('52005','Yin and Yang')">Yin and Yang</td></tr>
+<tr><td id="W52006" class="vocabword" onclick="selword('52006','Yin-Yang School')">Yin-Yang School</td></tr>
+<tr><td id="W52007" class="vocabword" onclick="selword('52007','Yinchuan')">Yinchuan</td></tr>
+<tr><td id="W52008" class="vocabword" onclick="selword('52008','Yingkow')">Yingkow</td></tr>
+<tr><td id="W52009" class="vocabword" onclick="selword('52009','Yirinec')">Yirinec</td></tr>
+<tr><td id="W52010" class="vocabword" onclick="selword('52010','Yizkor')">Yizkor</td></tr>
+</table>

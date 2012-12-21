@@ -1,0 +1,14 @@
+
+	<li><span id="var_dnd_src_1" class="buttonLike" style="cursor:pointer;" >@theme_var_SITE_TITLE</span></li>
+	<li><span id="var_dnd_src_2" class="buttonLike" style="cursor:pointer;" >@theme_var_WELCOME_MESSAGE</span></li>
+	<li><span id="var_dnd_src_3" class="buttonLike" style="cursor:pointer;" >@theme_var_SERVICE</span></li>
+	<li><span id="var_dnd_src_4" class="buttonLike" style="cursor:pointer;" >@theme_var_INFORMATION_MSGS</span></li>
+	<li><span id="var_dnd_src_5" class="buttonLike" style="cursor:pointer;" >@theme_var_DIRECTORY</span></li>
+	<li><span id="var_dnd_src_6" class="buttonLike" style="cursor:pointer;" >@theme_var_USE_CUSTOM_LOGO</span></li>
+	<li><span id="var_dnd_src_7" class="buttonLike" style="cursor:pointer;" >@theme_var_countyLat</span></li>
+	<li><span id="var_dnd_src_8" class="buttonLike" style="cursor:pointer;" >@theme_var_countyLong</span></li>
+	<li><span id="var_dnd_src_9" class="buttonLike" style="cursor:pointer;" >@theme_var_CONACT_URL</span></li>
+	<li><span id="var_dnd_src_10" class="buttonLike" style="cursor:pointer;" >@theme_var_CONACT_BUSINESS_NAME</span></li>
+	<li><span id="var_dnd_src_11" class="buttonLike" style="cursor:pointer;" >@theme_var_CONACT_ADDR1</span></li>
+	<li><span id="var_dnd_src_12" class="buttonLike" style="cursor:pointer;" >@theme_var_CONACT_ADDR2</span></li>
+	<li><span id="var_dnd_src_13" class="buttonLike" style="cursor:pointer;" >@theme_var_CONACT_EMAIL</span></li>

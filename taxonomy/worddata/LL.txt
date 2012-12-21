@@ -1,0 +1,26 @@
+<table width='100%'>
+<tr><td id="W28197" class="vocabword" onclick="selword('28197','LL')">LL</td></tr>
+<tr><td id="W28198" class="vocabword" onclick="selword('28198','LLB')">LLB</td></tr>
+<tr><td id="W28199" class="vocabword" onclick="selword('28199','LLD')">LLD</td></tr>
+<tr><td id="W28200" class="vocabword" onclick="selword('28200','LLM')">LLM</td></tr>
+<tr><td id="W30083" class="vocabword" onclick="selword('30083','Llandaff')">Llandaff</td></tr>
+<tr><td id="W30084" class="vocabword" onclick="selword('30084','Llandudno')">Llandudno</td></tr>
+<tr><td id="W30085" class="vocabword" onclick="selword('30085','Llanelli')">Llanelli</td></tr>
+<tr><td id="W30086" class="vocabword" onclick="selword('30086','Llanelly')">Llanelly</td></tr>
+<tr><td id="W30087" class="vocabword" onclick="selword('30087','Llangollen')">Llangollen</td></tr>
+<tr><td id="W30088" class="vocabword" onclick="selword('30088','Llano')">Llano</td></tr>
+<tr><td id="W30089" class="vocabword" onclick="selword('30089','Llano Estacado')">Llano Estacado</td></tr>
+<tr><td id="W30090" class="vocabword" onclick="selword('30090','Llew Llaw Gyffes')">Llew Llaw Gyffes</td></tr>
+<tr><td id="W30091" class="vocabword" onclick="selword('30091','Llewellyn')">Llewellyn</td></tr>
+<tr><td id="W30092" class="vocabword" onclick="selword('30092','Lleyn Peninsula')">Lleyn Peninsula</td></tr>
+<tr><td id="W30093" class="vocabword" onclick="selword('30093','Llovera')">Llovera</td></tr>
+<tr><td id="W30094" class="vocabword" onclick="selword('30094','Lloyd')">Lloyd</td></tr>
+<tr><td id="W30095" class="vocabword" onclick="selword('30095','Lloyd George')">Lloyd George</td></tr>
+<tr><td id="W30096" class="vocabword" onclick="selword('30096','Lloyd Harbor')">Lloyd Harbor</td></tr>
+<tr><td id="W30097" class="vocabword" onclick="selword('30097','Lloyd%27s')">Lloyd%27s</td></tr>
+<tr><td id="W30098" class="vocabword" onclick="selword('30098','Lloyd%27s List')">Lloyd%27s List</td></tr>
+<tr><td id="W30099" class="vocabword" onclick="selword('30099','Lloyd%27s Register')">Lloyd%27s Register</td></tr>
+<tr><td id="W30100" class="vocabword" onclick="selword('30100','Llud')">Llud</td></tr>
+<tr><td id="W30101" class="vocabword" onclick="selword('30101','Llyr')">Llyr</td></tr>
+<tr><td id="W30102" class="vocabword" onclick="selword('30102','Llywellyn')">Llywellyn</td></tr>
+</table>

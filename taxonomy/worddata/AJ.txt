@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W1174" class="vocabword" onclick="selword('1174','Ajaccio')">Ajaccio</td></tr>
+<tr><td id="W1175" class="vocabword" onclick="selword('1175','Ajani')">Ajani</td></tr>
+<tr><td id="W1176" class="vocabword" onclick="selword('1176','Ajanta')">Ajanta</td></tr>
+<tr><td id="W1177" class="vocabword" onclick="selword('1177','Ajax')">Ajax</td></tr>
+<tr><td id="W1178" class="vocabword" onclick="selword('1178','Ajit')">Ajit</td></tr>
+<tr><td id="W1179" class="vocabword" onclick="selword('1179','Ajivika')">Ajivika</td></tr>
+<tr><td id="W1180" class="vocabword" onclick="selword('1180','Ajmer')">Ajmer</td></tr>
+<tr><td id="W1181" class="vocabword" onclick="selword('1181','Ajmer-Merwara')">Ajmer-Merwara</td></tr>
+<tr><td id="W1182" class="vocabword" onclick="selword('1182','Ajo')">Ajo</td></tr>
+<tr><td id="W1183" class="vocabword" onclick="selword('1183','Ajodhya')">Ajodhya</td></tr>
+<tr><td id="W1184" class="vocabword" onclick="selword('1184','Ajuga')">Ajuga</td></tr>
+</table>

@@ -1,0 +1,30 @@
+<table width='100%'>
+<tr><td id="W150962" class="vocabword" onclick="selword('150962','ib')">ib</td></tr>
+<tr><td id="W150963" class="vocabword" onclick="selword('150963','ib.')">ib.</td></tr>
+<tr><td id="W150964" class="vocabword" onclick="selword('150964','iberia')">iberia</td></tr>
+<tr><td id="W150965" class="vocabword" onclick="selword('150965','iberian')">iberian</td></tr>
+<tr><td id="W150966" class="vocabword" onclick="selword('150966','iberian peninsula')">iberian peninsula</td></tr>
+<tr><td id="W150967" class="vocabword" onclick="selword('150967','iberis')">iberis</td></tr>
+<tr><td id="W150968" class="vocabword" onclick="selword('150968','ibero-mesornis')">ibero-mesornis</td></tr>
+<tr><td id="W150969" class="vocabword" onclick="selword('150969','ibex')">ibex</td></tr>
+<tr><td id="W150970" class="vocabword" onclick="selword('150970','ibid')">ibid</td></tr>
+<tr><td id="W150971" class="vocabword" onclick="selword('150971','ibid.')">ibid.</td></tr>
+<tr><td id="W150972" class="vocabword" onclick="selword('150972','ibidem')">ibidem</td></tr>
+<tr><td id="W150973" class="vocabword" onclick="selword('150973','ibis')">ibis</td></tr>
+<tr><td id="W150974" class="vocabword" onclick="selword('150974','ibis ibis')">ibis ibis</td></tr>
+<tr><td id="W150975" class="vocabword" onclick="selword('150975','ibises')">ibises</td></tr>
+<tr><td id="W150976" class="vocabword" onclick="selword('150976','ibizan hound')">ibizan hound</td></tr>
+<tr><td id="W150977" class="vocabword" onclick="selword('150977','ibizan podenco')">ibizan podenco</td></tr>
+<tr><td id="W150978" class="vocabword" onclick="selword('150978','ibn-Batuta')">ibn-Batuta</td></tr>
+<tr><td id="W150979" class="vocabword" onclick="selword('150979','ibn-Gabirol')">ibn-Gabirol</td></tr>
+<tr><td id="W150980" class="vocabword" onclick="selword('150980','ibn-Khaldun')">ibn-Khaldun</td></tr>
+<tr><td id="W150981" class="vocabword" onclick="selword('150981','ibn-Rushd')">ibn-Rushd</td></tr>
+<tr><td id="W150982" class="vocabword" onclick="selword('150982','ibn-Saud')">ibn-Saud</td></tr>
+<tr><td id="W150983" class="vocabword" onclick="selword('150983','ibn-Sina')">ibn-Sina</td></tr>
+<tr><td id="W150984" class="vocabword" onclick="selword('150984','ibolium privet')">ibolium privet</td></tr>
+<tr><td id="W150985" class="vocabword" onclick="selword('150985','ibota privet')">ibota privet</td></tr>
+<tr><td id="W150986" class="vocabword" onclick="selword('150986','ibrd')">ibrd</td></tr>
+<tr><td id="W150987" class="vocabword" onclick="selword('150987','ibsen')">ibsen</td></tr>
+<tr><td id="W150988" class="vocabword" onclick="selword('150988','ibsenian')">ibsenian</td></tr>
+<tr><td id="W150989" class="vocabword" onclick="selword('150989','ibuprofen')">ibuprofen</td></tr>
+</table>

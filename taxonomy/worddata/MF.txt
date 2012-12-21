@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W30992" class="vocabword" onclick="selword('30992','MF')">MF</td></tr>
+<tr><td id="W30993" class="vocabword" onclick="selword('30993','MFA')">MFA</td></tr>
+<tr><td id="W30994" class="vocabword" onclick="selword('30994','MFS')">MFS</td></tr>
+<tr><td id="W30995" class="vocabword" onclick="selword('30995','MFT')">MFT</td></tr>
+<tr><td id="W33476" class="vocabword" onclick="selword('33476','Mflhausen')">Mflhausen</td></tr>
+<tr><td id="W33477" class="vocabword" onclick="selword('33477','Mfnch')">Mfnch</td></tr>
+<tr><td id="W33478" class="vocabword" onclick="selword('33478','Mfnchen-Gladbach')">Mfnchen-Gladbach</td></tr>
+<tr><td id="W33479" class="vocabword" onclick="selword('33479','Mfnchhausen')">Mfnchhausen</td></tr>
+</table>

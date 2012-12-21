@@ -1,0 +1,4 @@
+svgframe
+Description: A layout with hooks specified in an SVG file.
+Rollover: Must supply a picture
+Matrix: 1,10

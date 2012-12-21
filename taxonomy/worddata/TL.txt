@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W46849" class="vocabword" onclick="selword('46849','TL')">TL</td></tr>
+<tr><td id="W48183" class="vocabword" onclick="selword('48183','Tl')">Tl</td></tr>
+<tr><td id="W48184" class="vocabword" onclick="selword('48184','Tlaxcala')">Tlaxcala</td></tr>
+<tr><td id="W48185" class="vocabword" onclick="selword('48185','Tlemcen')">Tlemcen</td></tr>
+<tr><td id="W48186" class="vocabword" onclick="selword('48186','Tlepolemus')">Tlepolemus</td></tr>
+<tr><td id="W48187" class="vocabword" onclick="selword('48187','Tletski')">Tletski</td></tr>
+<tr><td id="W48188" class="vocabword" onclick="selword('48188','Tlingit')">Tlingit</td></tr>
+<tr><td id="W48189" class="vocabword" onclick="selword('48189','Tlingits')">Tlingits</td></tr>
+<tr><td id="W48190" class="vocabword" onclick="selword('48190','Tlinkit')">Tlinkit</td></tr>
+<tr><td id="W48191" class="vocabword" onclick="selword('48191','Tlinkits')">Tlinkits</td></tr>
+</table>

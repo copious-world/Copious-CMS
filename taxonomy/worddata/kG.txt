@@ -1,0 +1,7 @@
+<table width='100%'>
+<tr><td id="W161040" class="vocabword" onclick="selword('161040','kG')">kG</td></tr>
+<tr><td id="W161814" class="vocabword" onclick="selword('161814','kg')">kg</td></tr>
+<tr><td id="W161815" class="vocabword" onclick="selword('161815','kg-m')">kg-m</td></tr>
+<tr><td id="W161816" class="vocabword" onclick="selword('161816','kgf')">kgf</td></tr>
+<tr><td id="W161817" class="vocabword" onclick="selword('161817','kgr')">kgr</td></tr>
+</table>

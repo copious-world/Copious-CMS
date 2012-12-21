@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W34910" class="vocabword" onclick="selword('34910','NS')">NS</td></tr>
+<tr><td id="W34911" class="vocabword" onclick="selword('34911','NSA')">NSA</td></tr>
+<tr><td id="W34912" class="vocabword" onclick="selword('34912','NSC')">NSC</td></tr>
+<tr><td id="W34913" class="vocabword" onclick="selword('34913','NSF')">NSF</td></tr>
+<tr><td id="W34914" class="vocabword" onclick="selword('34914','NSRB')">NSRB</td></tr>
+<tr><td id="W34915" class="vocabword" onclick="selword('34915','NSW')">NSW</td></tr>
+<tr><td id="W36414" class="vocabword" onclick="selword('36414','Ns')">Ns</td></tr>
+</table>

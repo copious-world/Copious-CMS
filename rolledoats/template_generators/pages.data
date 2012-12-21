@@ -1,0 +1,117 @@
+<?php
+
+$default_templatefile = "index_template.html";
+$base_service_server_name = 'localhost';
+
+
+$WELCOME_MESSAGE = "Welcome to Your<br>Software Development Community";
+$SERVICE  = "Open Source Copious";
+$INFORMATION_MSGS  = "This is a portal to your taxonomy management pages.";
+$SITE_LOGIN_HANDLER = "communityconnect";
+$SITE_WINDOW_VIEW = "div";
+$SITE_USE_BACKNAV = "true";
+$SITE_DIRECTORY = "taxonomy";
+$SITE_USE_CUSTOM_LOGO = "false";
+$SITE_SUPPRESS_SIGNUP = "false";
+$countyLat =  "19.27376";
+$countyLong = "-149.03476";
+$countyStartZoom = 1;
+
+
+global $toplevelprodiver;
+$toplevelprodiver = "http://$base_service_server_name/drupal/copious/toplevel";
+
+$default_context_links = "";
+$default_store_links = "";
+$default_feature_list = "";
+
+
+///////////////////////////////////////////////////////////////
+
+$topic1_1=<<<EOBREAK
+class list 1, class list 2
+EOBREAK;
+
+
+$contact_url = "www.copious-systems.com";
+$contact_business = "Copious Systems, Inc.";
+$contact_address_1 = "Box 147";
+$contact_address_2 = "Camp Meeker, CA 95419";
+$contact_email = "info@copious-systems.com";
+
+
+
+$toplevelfill = array(
+///////////////////////////////////////////////////////////////
+					"@repository" => new TopLevelVar($topic1_1,"http://localhost/hosted/rolledoats/oatdisplay.php",false),
+///////////////////////////////////////////////////////////////
+					"@WELCOME_MESSAGE" => new TopLevelVar($WELCOME_MESSAGE,""),
+					"@SERVICE" => new TopLevelVar($SERVICE,""),
+					"@INFORMATION_MSGS" => new TopLevelVar($INFORMATION_MSGS,""),
+					"@SITE_LOGIN_HANDLER" => new TopLevelVar($SITE_LOGIN_HANDLER,""),
+					"@SITE_WINDOW_VIEW" => new TopLevelVar($SITE_WINDOW_VIEW,""),
+					"@SITE_USE_BACKNAV" => new TopLevelVar($SITE_USE_BACKNAV,""),
+					"@SITE_DIRECTORY" => new TopLevelVar($SITE_DIRECTORY,""),
+					"@SITE_USE_CUSTOM_LOGO" => new TopLevelVar($SITE_USE_CUSTOM_LOGO,""),
+					"@SITE_SUPPRESS_SIGNUP" => new TopLevelVar($SITE_SUPPRESS_SIGNUP,""),
+					"@countyLat" => new TopLevelVar($countyLat,""),
+					"@countyLong" => new TopLevelVar($countyLong,""),
+					"@countyStartZoom" => new TopLevelVar($countyStartZoom,""),
+///////////////////////////////////////////////////////////////
+					"@contact_url" => new TopLevelVar($contact_url,""),
+					"@contact_business" => new TopLevelVar($contact_business,""),
+					"@contact_address_1" => new TopLevelVar($contact_address_1,""),
+					"@contact_address_2" => new TopLevelVar($contact_address_2,""),
+					"@contact_email" => new TopLevelVar($contact_email,"")
+///////////////////////////////////////////////////////////////
+			);
+
+
+
+
+$default_menu_container =<<<EOBREAK
+				<table border="0" cellspacing="2" width="100%" ID="Table8">
+@menulist
+				</table>
+EOBREAK;
+
+
+$default_menu_form =<<<EOBREAK
+					<tr>
+						<td id="govbutton_topic@index" class="govbutton">
+							@element
+						</td>
+					</tr>
+EOBREAK;
+
+
+
+
+$default_feature_list = array(  );
+
+
+$default_header =  array( );
+
+
+$directories = array(
+	////
+	////
+"root" => array(
+
+	"title" => "Club Global Warming&trade;",
+	"header" => $default_header,
+	"page_abstract" => "",
+	"article" => "",
+	"breaklayer" => "",
+	"template" => $default_templatefile,
+	"write_header_links" => true,
+	"related_links" => $default_context_links,
+	"related_store_links" => $default_store_links,
+	"features" => $default_feature_list,
+	"remote_data" => null
+			),
+
+
+);
+
+?>

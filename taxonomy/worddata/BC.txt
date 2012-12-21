@@ -1,0 +1,18 @@
+<table width='100%'>
+<tr><td id="W4271" class="vocabword" onclick="selword('4271','BC')">BC</td></tr>
+<tr><td id="W4272" class="vocabword" onclick="selword('4272','BCD')">BCD</td></tr>
+<tr><td id="W4273" class="vocabword" onclick="selword('4273','BCE')">BCE</td></tr>
+<tr><td id="W4274" class="vocabword" onclick="selword('4274','BCG vaccine')">BCG vaccine</td></tr>
+<tr><td id="W4275" class="vocabword" onclick="selword('4275','BCL')">BCL</td></tr>
+<tr><td id="W4276" class="vocabword" onclick="selword('4276','BCM')">BCM</td></tr>
+<tr><td id="W4277" class="vocabword" onclick="selword('4277','BCP')">BCP</td></tr>
+<tr><td id="W4278" class="vocabword" onclick="selword('4278','BCS')">BCS</td></tr>
+<tr><td id="W4279" class="vocabword" onclick="selword('4279','BCerE')">BCerE</td></tr>
+<tr><td id="W4280" class="vocabword" onclick="selword('4280','BCh')">BCh</td></tr>
+<tr><td id="W4281" class="vocabword" onclick="selword('4281','BChE')">BChE</td></tr>
+<tr><td id="W4282" class="vocabword" onclick="selword('4282','BComSc')">BComSc</td></tr>
+<tr><td id="W5296" class="vocabword" onclick="selword('5296','Bcb')">Bcb</td></tr>
+<tr><td id="W5297" class="vocabword" onclick="selword('5297','Bcbae')">Bcbae</td></tr>
+<tr><td id="W5298" class="vocabword" onclick="selword('5298','Bchar')">Bchar</td></tr>
+<tr><td id="W5299" class="vocabword" onclick="selword('5299','Bcrcny')">Bcrcny</td></tr>
+</table>

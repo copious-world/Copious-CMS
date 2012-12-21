@@ -1,0 +1,11 @@
+
+
+
+User who responded: $sender_email$
+Contact Number: $sender_phone$
+Add Request Number: $request_id$
+Add Display Number: $report_id$
+
+==========================================
+
+$sender_message$

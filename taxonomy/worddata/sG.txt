@@ -1,0 +1,10 @@
+<table width='100%'>
+<tr><td id="W240693" class="vocabword" onclick="selword('240693','sg')">sg</td></tr>
+<tr><td id="W240694" class="vocabword" onclick="selword('240694','sga infant')">sga infant</td></tr>
+<tr><td id="W240695" class="vocabword" onclick="selword('240695','sgabelli')">sgabelli</td></tr>
+<tr><td id="W240696" class="vocabword" onclick="selword('240696','sgabello')">sgabello</td></tr>
+<tr><td id="W240697" class="vocabword" onclick="selword('240697','sgd')">sgd</td></tr>
+<tr><td id="W240698" class="vocabword" onclick="selword('240698','sgml')">sgml</td></tr>
+<tr><td id="W240699" class="vocabword" onclick="selword('240699','sgraffiti')">sgraffiti</td></tr>
+<tr><td id="W240700" class="vocabword" onclick="selword('240700','sgraffito')">sgraffito</td></tr>
+</table>

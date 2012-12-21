@@ -1,0 +1,14 @@
+<table width='100%'>
+<tr><td id="W180013" class="vocabword" onclick="selword('180013','ms')">ms</td></tr>
+<tr><td id="W180014" class="vocabword" onclick="selword('180014','ms-dos')">ms-dos</td></tr>
+<tr><td id="W180015" class="vocabword" onclick="selword('180015','ms.')">ms.</td></tr>
+<tr><td id="W180016" class="vocabword" onclick="selword('180016','msalliance')">msalliance</td></tr>
+<tr><td id="W180017" class="vocabword" onclick="selword('180017','msasa')">msasa</td></tr>
+<tr><td id="W180018" class="vocabword" onclick="selword('180018','msb')">msb</td></tr>
+<tr><td id="W180019" class="vocabword" onclick="selword('180019','msec')">msec</td></tr>
+<tr><td id="W180020" class="vocabword" onclick="selword('180020','msg')">msg</td></tr>
+<tr><td id="W180021" class="vocabword" onclick="selword('180021','msh')">msh</td></tr>
+<tr><td id="W180022" class="vocabword" onclick="selword('180022','msl')">msl</td></tr>
+<tr><td id="W180023" class="vocabword" onclick="selword('180023','mst')">mst</td></tr>
+<tr><td id="W180024" class="vocabword" onclick="selword('180024','mster')">mster</td></tr>
+</table>

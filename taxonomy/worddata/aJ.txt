@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W56730" class="vocabword" onclick="selword('56730','ajaia')">ajaia</td></tr>
+<tr><td id="W56731" class="vocabword" onclick="selword('56731','ajaia ajaja')">ajaia ajaja</td></tr>
+<tr><td id="W56732" class="vocabword" onclick="selword('56732','ajar')">ajar</td></tr>
+<tr><td id="W56733" class="vocabword" onclick="selword('56733','ajax')">ajax</td></tr>
+<tr><td id="W56734" class="vocabword" onclick="selword('56734','ajee')">ajee</td></tr>
+<tr><td id="W56735" class="vocabword" onclick="selword('56735','ajiva')">ajiva</td></tr>
+<tr><td id="W56736" class="vocabword" onclick="selword('56736','ajuga')">ajuga</td></tr>
+<tr><td id="W56737" class="vocabword" onclick="selword('56737','ajuga chamaepitys')">ajuga chamaepitys</td></tr>
+<tr><td id="W56738" class="vocabword" onclick="selword('56738','ajuga genevensis')">ajuga genevensis</td></tr>
+<tr><td id="W56739" class="vocabword" onclick="selword('56739','ajuga pyramidalis')">ajuga pyramidalis</td></tr>
+<tr><td id="W56740" class="vocabword" onclick="selword('56740','ajuga reptans')">ajuga reptans</td></tr>
+</table>

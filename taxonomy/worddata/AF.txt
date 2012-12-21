@@ -1,0 +1,69 @@
+<table width='100%'>
+<tr><td id="W201" class="vocabword" onclick="selword('201','AF')">AF</td></tr>
+<tr><td id="W202" class="vocabword" onclick="selword('202','AFA')">AFA</td></tr>
+<tr><td id="W203" class="vocabword" onclick="selword('203','AFAM')">AFAM</td></tr>
+<tr><td id="W204" class="vocabword" onclick="selword('204','AFB')">AFB</td></tr>
+<tr><td id="W205" class="vocabword" onclick="selword('205','AFC')">AFC</td></tr>
+<tr><td id="W206" class="vocabword" onclick="selword('206','AFL')">AFL</td></tr>
+<tr><td id="W207" class="vocabword" onclick="selword('207','AFL-CIO')">AFL-CIO</td></tr>
+<tr><td id="W208" class="vocabword" onclick="selword('208','AFM')">AFM</td></tr>
+<tr><td id="W209" class="vocabword" onclick="selword('209','AFS')">AFS</td></tr>
+<tr><td id="W210" class="vocabword" onclick="selword('210','AFT')">AFT</td></tr>
+<tr><td id="W211" class="vocabword" onclick="selword('211','AFTRA')">AFTRA</td></tr>
+<tr><td id="W902" class="vocabword" onclick="selword('902','Af')">Af</td></tr>
+<tr><td id="W903" class="vocabword" onclick="selword('903','Afars and Issas')">Afars and Issas</td></tr>
+<tr><td id="W904" class="vocabword" onclick="selword('904','Affer')">Affer</td></tr>
+<tr><td id="W905" class="vocabword" onclick="selword('905','Affra')">Affra</td></tr>
+<tr><td id="W906" class="vocabword" onclick="selword('906','Affrica')">Affrica</td></tr>
+<tr><td id="W907" class="vocabword" onclick="selword('907','Afgh')">Afgh</td></tr>
+<tr><td id="W908" class="vocabword" onclick="selword('908','Afghan')">Afghan</td></tr>
+<tr><td id="W909" class="vocabword" onclick="selword('909','Afghan hound')">Afghan hound</td></tr>
+<tr><td id="W910" class="vocabword" onclick="selword('910','Afghanistan')">Afghanistan</td></tr>
+<tr><td id="W911" class="vocabword" onclick="selword('911','Afra')">Afra</td></tr>
+<tr><td id="W912" class="vocabword" onclick="selword('912','Aframerican')">Aframerican</td></tr>
+<tr><td id="W913" class="vocabword" onclick="selword('913','Afrasia')">Afrasia</td></tr>
+<tr><td id="W914" class="vocabword" onclick="selword('914','Afrasian')">Afrasian</td></tr>
+<tr><td id="W915" class="vocabword" onclick="selword('915','Afric')">Afric</td></tr>
+<tr><td id="W916" class="vocabword" onclick="selword('916','Africa')">Africa</td></tr>
+<tr><td id="W917" class="vocabword" onclick="selword('917','Africah')">Africah</td></tr>
+<tr><td id="W918" class="vocabword" onclick="selword('918','African')">African</td></tr>
+<tr><td id="W919" class="vocabword" onclick="selword('919','African cherry-orange')">African cherry-orange</td></tr>
+<tr><td id="W920" class="vocabword" onclick="selword('920','African daisy')">African daisy</td></tr>
+<tr><td id="W921" class="vocabword" onclick="selword('921','African dominoes')">African dominoes</td></tr>
+<tr><td id="W922" class="vocabword" onclick="selword('922','African elephant')">African elephant</td></tr>
+<tr><td id="W923" class="vocabword" onclick="selword('923','African gray')">African gray</td></tr>
+<tr><td id="W924" class="vocabword" onclick="selword('924','African lily')">African lily</td></tr>
+<tr><td id="W925" class="vocabword" onclick="selword('925','African mahogany')">African mahogany</td></tr>
+<tr><td id="W926" class="vocabword" onclick="selword('926','African marigold')">African marigold</td></tr>
+<tr><td id="W927" class="vocabword" onclick="selword('927','African millet')">African millet</td></tr>
+<tr><td id="W928" class="vocabword" onclick="selword('928','African sleeping sickness')">African sleeping sickness</td></tr>
+<tr><td id="W929" class="vocabword" onclick="selword('929','African trypanosomiasis')">African trypanosomiasis</td></tr>
+<tr><td id="W930" class="vocabword" onclick="selword('930','African violet')">African violet</td></tr>
+<tr><td id="W931" class="vocabword" onclick="selword('931','African yellowwood')">African yellowwood</td></tr>
+<tr><td id="W932" class="vocabword" onclick="selword('932','Africander')">Africander</td></tr>
+<tr><td id="W933" class="vocabword" onclick="selword('933','Africanderism')">Africanderism</td></tr>
+<tr><td id="W934" class="vocabword" onclick="selword('934','Africanism')">Africanism</td></tr>
+<tr><td id="W935" class="vocabword" onclick="selword('935','Africanist')">Africanist</td></tr>
+<tr><td id="W936" class="vocabword" onclick="selword('936','Africanization')">Africanization</td></tr>
+<tr><td id="W937" class="vocabword" onclick="selword('937','Africanize')">Africanize</td></tr>
+<tr><td id="W938" class="vocabword" onclick="selword('938','Africanized')">Africanized</td></tr>
+<tr><td id="W939" class="vocabword" onclick="selword('939','Africanizing')">Africanizing</td></tr>
+<tr><td id="W940" class="vocabword" onclick="selword('940','Africanthropus')">Africanthropus</td></tr>
+<tr><td id="W941" class="vocabword" onclick="selword('941','Afrika')">Afrika</td></tr>
+<tr><td id="W942" class="vocabword" onclick="selword('942','Afrikaans')">Afrikaans</td></tr>
+<tr><td id="W943" class="vocabword" onclick="selword('943','Afrikah')">Afrikah</td></tr>
+<tr><td id="W944" class="vocabword" onclick="selword('944','Afrikander')">Afrikander</td></tr>
+<tr><td id="W945" class="vocabword" onclick="selword('945','Afrikanderism')">Afrikanderism</td></tr>
+<tr><td id="W946" class="vocabword" onclick="selword('946','Afrikaner')">Afrikaner</td></tr>
+<tr><td id="W947" class="vocabword" onclick="selword('947','Afrikanerdom')">Afrikanerdom</td></tr>
+<tr><td id="W948" class="vocabword" onclick="selword('948','Afrikanerize')">Afrikanerize</td></tr>
+<tr><td id="W949" class="vocabword" onclick="selword('949','Afro')">Afro</td></tr>
+<tr><td id="W950" class="vocabword" onclick="selword('950','Afro-American')">Afro-American</td></tr>
+<tr><td id="W951" class="vocabword" onclick="selword('951','Afro-Asian')">Afro-Asian</td></tr>
+<tr><td id="W952" class="vocabword" onclick="selword('952','Afro-Asiatic')">Afro-Asiatic</td></tr>
+<tr><td id="W953" class="vocabword" onclick="selword('953','Afro-Cuban')">Afro-Cuban</td></tr>
+<tr><td id="W954" class="vocabword" onclick="selword('954','Afro-chain')">Afro-chain</td></tr>
+<tr><td id="W955" class="vocabword" onclick="selword('955','Afro-comb')">Afro-comb</td></tr>
+<tr><td id="W956" class="vocabword" onclick="selword('956','Afton')">Afton</td></tr>
+<tr><td id="W957" class="vocabword" onclick="selword('957','Afyon')">Afyon</td></tr>
+</table>

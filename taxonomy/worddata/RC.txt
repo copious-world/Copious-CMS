@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W40560" class="vocabword" onclick="selword('40560','RC')">RC</td></tr>
+<tr><td id="W40561" class="vocabword" onclick="selword('40561','RCAF')">RCAF</td></tr>
+<tr><td id="W40562" class="vocabword" onclick="selword('40562','RCCh')">RCCh</td></tr>
+<tr><td id="W40563" class="vocabword" onclick="selword('40563','RCMP')">RCMP</td></tr>
+<tr><td id="W40564" class="vocabword" onclick="selword('40564','RCP')">RCP</td></tr>
+<tr><td id="W40565" class="vocabword" onclick="selword('40565','RCS')">RCS</td></tr>
+<tr><td id="W40985" class="vocabword" onclick="selword('40985','Rct')">Rct</td></tr>
+</table>

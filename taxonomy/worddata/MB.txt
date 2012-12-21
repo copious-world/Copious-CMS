@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W30977" class="vocabword" onclick="selword('30977','MB')">MB</td></tr>
+<tr><td id="W30978" class="vocabword" onclick="selword('30978','MBA')">MBA</td></tr>
+<tr><td id="W30979" class="vocabword" onclick="selword('30979','MBE')">MBE</td></tr>
+<tr><td id="W32715" class="vocabword" onclick="selword('32715','Mbabane')">Mbabane</td></tr>
+<tr><td id="W32716" class="vocabword" onclick="selword('32716','Mbandaka')">Mbandaka</td></tr>
+<tr><td id="W32717" class="vocabword" onclick="selword('32717','Mbauer effect')">Mbauer effect</td></tr>
+<tr><td id="W32718" class="vocabword" onclick="selword('32718','Mbius strip')">Mbius strip</td></tr>
+<tr><td id="W32719" class="vocabword" onclick="selword('32719','Mbm')">Mbm</td></tr>
+<tr><td id="W32720" class="vocabword" onclick="selword('32720','Mboya')">Mboya</td></tr>
+<tr><td id="W32721" class="vocabword" onclick="selword('32721','Mbujimayi')">Mbujimayi</td></tr>
+</table>

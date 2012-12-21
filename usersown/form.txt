@@ -1,0 +1,224 @@
+<script language="javascript" >
+
+g_theme_tinyMCE_settings = 
+{
+	mode : "exact",
+	elements : "thm_topic1_1",
+	theme : "advanced",
+	width : "99%",
+	height : "99%",
+	plugins : "devkit,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template,foreignkey",
+	theme_advanced_buttons1_add : "separator,forecolor,backcolor",
+	theme_advanced_buttons2_add_before: "cut,copy,paste,pastetext,pasteword,separator,search,replace,separator",
+	theme_advanced_buttons3_add_before : "fontselect,fontsizeselect,foreignkeys,separator",
+	theme_advanced_buttons3_add : "emotions,iespell,media,advhr,separator",
+	theme_advanced_buttons4 : "insertdate,inserttime,separator,insertlayer,moveforward,movebackward,absolute,separator,tablecontrols",
+	theme_advanced_buttons5 : "styleprops,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,|,code",
+	theme_advanced_toolbar_location : "top",
+	theme_advanced_toolbar_align : "left",
+	theme_advanced_path_location : "bottom",
+	content_css : "example_full.css",
+	plugin_insertdate_dateFormat : "%Y-%m-%d",
+	plugin_insertdate_timeFormat : "%H:%M:%S",
+	extended_valid_elements : "hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style]",
+	external_link_list_url : "example_link_list.js",
+	external_image_list_url : "example_image_list.js",
+	flash_external_list_url : "example_flash_list.js",
+	media_external_list_url : "example_media_list.js",
+	template_external_list_url : "example_template_list.js",
+	file_browser_callback : "fileBrowserCallBack",
+	theme_advanced_resize_horizontal : false,
+	theme_advanced_resizing : true,
+	nonbreaking_force_tab : true,
+	hide_selects_on_submit : true,
+	convert_on_click : true,
+	relat2ive_urls : false,
+	rem2ove_script_host : false
+}
+
+
+INFOGROUP.book_form = {
+	needs:["quickedit"],
+	wind: null,
+	save_width: 0,
+	app_action: null,
+	cb:function() {
+		OAT.QuickEdit.assign("theme_var_CATCH_PHRASE",OAT.QuickEdit.STRING,[]);
+		OAT.QuickEdit.assign("thm_explainer",OAT.QuickEdit.STRING,[]);
+		OAT.QuickEdit.assign("thm_theme_login_instructions",OAT.QuickEdit.STRING,[]);
+	}
+}
+
+n_optional_view_sections = 11;
+
+</script>
+
+<!-- required for text areas using tinyMCE -->
+<input id="element_entries" name="element_entries" type="hidden" value="thm_topic1_1">
+<input id="theme_dir" name="theme_dir" type="hidden" value="basic">
+<input id="theme_vars" name="theme_vars" type="hidden" value="{ theme_var_CATCH_PHRASE: 1, theme_var_IMAGE: 1, thm_explainer: 1, thm_topic1_1: 1, thm_var_BIO_DATA: 1, thm_var_BLOG_ENTRIES: 1, thm_friend_button: 1, thm_comments_button: 1, thm_groups_button : 1, thm_show_buttons: 1, thm_var_INTERESTS: 1 }">
+
+
+
+<div class="form_container_tab">
+<span  id="book_checkbox_1" >
+<input type="checkbox"  id="book_checkbox_1_sel" name="display[theme_var_CATCH_PHRASE]" checked value=" " >Display Catch Phrase
+</span>
+
+<div id="theme_var_CATCH_PHRASE" style="text-align:center;margin:3px;padding;3px;background-color:#FEFEDD;border:2px navy solid;font-weight:bold;">
+
+Click on this text to edit this catch phrase
+
+</div>
+
+<table width="95%">
+<tr>
+<td valign="top" width="20%">
+<span  id="book_checkbox_2" >
+<input type="checkbox"  id="book_checkbox_2_sel" name="display[theme_var_IMAGE]" checked value=" " >Display Image
+<div style="font-weight:bold;color:green;font-size:0.95em">Upload your own image: click the icon below.</div>
+</span>
+
+<div  id="theme_var_IMAGE" style="vertical-align:middle;text-align:center;margin:2px;padding;6px;background-color:white;border:2px navy solid;">
+<br>
+<img id="myprofiletimerhit" src="pictures/profile_@theme_var_USERNAME_@busnessname.jpg"  height="150" width="150" border="0">
+<br>&nbsp;
+</div>
+
+<span  id="book_checkbox_11" >
+<input type="checkbox"  id="book_checkbox_11_sel" name="display[thm_var_INTERESTS]" checked value=" " >Display Interests
+</span>
+<div  id="thm_var_INTERESTS" style="text-align:center;margin:2px;padding;2px;background-color:white;border:2px navy solid;">
+@theme_var_INTEREST_SECTION
+</div>
+
+
+</td>
+<td valign="top" width="90%">
+<div style="text-align:left;margin:2px;padding:4px;padding-left:8%;background-color:white;border:2px navy solid;">
+
+<table  width="95%" >
+<tr>
+<td width="35%">
+	<span style="color:darkgreen;font-weight:bold;font-size:1.4em;margin-right:8px">@theme_var_USERNAME</span>
+</td>
+<td width="65%"  style="border:1px darkred dashed;padding:4px;background-color:#FEFEAA;margin:2px;nowrap;" >
+<span  id="book_checkbox_3" >
+<input type="checkbox" id="book_checkbox_3_sel" name="display[thm_explainer]" checked value=" " >Display Short Statement
+</span>
+<span id="thm_explainer" style="color:navy;font-weight:bold;font-size:1.04em;width:60%" >
+Click this text to edit short statement.
+</span>
+</td>
+</tr>
+</table>
+
+</div>
+
+
+<span  id="book_checkbox_10" >
+<input type="checkbox" id="book_checkbox_10_sel" name="display[thm_show_buttons]" checked value=" " >Display Buttons
+</span>
+
+<div id="thm_show_buttons" style="text-align:justify;margin:4px;padding;12px;background-color:white;border:2px navy solid;">
+
+<table  width="95%" >
+<tr>
+
+<td width="15%">
+<span  id="book_checkbox_7" >
+<input type="checkbox" id="book_checkbox_7_sel" name="display[thm_friend_button]" checked value=" " >Display Friends Button
+</span>
+<div id="thm_friend_button" class="buttonLike" >
+Friends
+</div>
+</td>
+
+<td width="15%">
+<span  id="book_checkbox_9" >
+<input type="checkbox" id="book_checkbox_9_sel" name="display[thm_groups_button]" checked value=" " >Display Groups Button
+</span>
+<div id="thm_groups_button" class="buttonLike" >
+Groups
+</div>
+</td>
+
+
+<td width="15%">
+<span  id="book_checkbox_8" >
+<input type="checkbox" id="book_checkbox_8_sel" name="display[thm_comments_button]" checked value=" " >Display Comments Button
+</span>
+<div id="thm_comments_button" class="buttonLike" >
+Comments
+</div>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+
+<div style="text-align:justify;margin:4px;padding;12px;background-color:white;border:2px navy solid;">
+
+<table width="98%" >
+<tr>
+<td width="65%" valign="top" >
+<div id="repository_data" style="border:1px darkred dashed;padding:4px;max-height:400px;overflow:auto;">
+
+<span  id="book_checkbox_4" >
+<input type="checkbox" id="book_checkbox_4_sel" name="display[thm_topic1_1]" checked  value=" " >Display Topical Paragraph
+</span>
+
+<div id="repository_content"  style="overflow:auto" >
+<textarea id="thm_topic1_1" name="thm_topic1_1" style="width:100%;">
+
+</textarea>
+<div id="thm_topic1_1_preview" style="visibility_hidden" >
+
+</div>
+
+</div>
+</div>
+</td>
+<td width="35%" valign="top" >
+
+<div id="bio_data" style="border:1px darkred dashed;padding:4px;max-height:400px;overflow:auto;">
+<span  id="book_checkbox_5" >
+<input type="checkbox" id="book_checkbox_5_sel" name="display[thm_var_BIO_DATA]" checked  value=" " >Display Bio Data
+</span>
+<div id="thm_var_BIO_DATA" >
+@theme_var_BIO_DATA
+</div>
+</div>
+
+
+<div id="blog_data" style="border:1px darkred dashed;padding:4px;max-height:400px;overflow:auto;">
+<span  id="book_checkbox_6" >
+<input type="checkbox" id="book_checkbox_6_sel" name="display[thm_var_BLOG_ENTRIES]" checked value=" " >Display Blog Entries
+</span>
+<div id="thm_var_BLOG_ENTRIES" >
+@theme_var_BLOG_ENTRIES
+</div>
+</div>
+
+
+
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<br>
+</div>
+</div>
+</div>

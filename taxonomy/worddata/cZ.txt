@@ -1,0 +1,17 @@
+<table width='100%'>
+<tr><td id="W101369" class="vocabword" onclick="selword('101369','czar')">czar</td></tr>
+<tr><td id="W101370" class="vocabword" onclick="selword('101370','czardas')">czardas</td></tr>
+<tr><td id="W101371" class="vocabword" onclick="selword('101371','czardom')">czardom</td></tr>
+<tr><td id="W101372" class="vocabword" onclick="selword('101372','czarevitch')">czarevitch</td></tr>
+<tr><td id="W101373" class="vocabword" onclick="selword('101373','czarevna')">czarevna</td></tr>
+<tr><td id="W101374" class="vocabword" onclick="selword('101374','czarina')">czarina</td></tr>
+<tr><td id="W101375" class="vocabword" onclick="selword('101375','czarism')">czarism</td></tr>
+<tr><td id="W101376" class="vocabword" onclick="selword('101376','czarist')">czarist</td></tr>
+<tr><td id="W101377" class="vocabword" onclick="selword('101377','czaristic')">czaristic</td></tr>
+<tr><td id="W101378" class="vocabword" onclick="selword('101378','czaritza')">czaritza</td></tr>
+<tr><td id="W101379" class="vocabword" onclick="selword('101379','czech')">czech</td></tr>
+<tr><td id="W101380" class="vocabword" onclick="selword('101380','czechoslavakian')">czechoslavakian</td></tr>
+<tr><td id="W101381" class="vocabword" onclick="selword('101381','czechoslovakia')">czechoslovakia</td></tr>
+<tr><td id="W101382" class="vocabword" onclick="selword('101382','czechoslovakian')">czechoslovakian</td></tr>
+<tr><td id="W101383" class="vocabword" onclick="selword('101383','czechoslovakian monetary unit')">czechoslovakian monetary unit</td></tr>
+</table>

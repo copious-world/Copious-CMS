@@ -1,0 +1,125 @@
+<div id="OPS4" class="menutitle collapsed">
+
+<a href="/hosted/taxonomy/inuse.php?sess=<?php echo $sess; ?>&appdir=taxonomy&busdir=<?php echo $bus_appdir; ?>&narrowtaxo=role" style="text-decoration:none;color:darkgreen" target="_blank" >Taxonomy for Roles</a>
+</div>
+
+<div id="OPS5" class="menutitle collapsed">
+
+<a id="menu_nav_link" href="/hosted/taxonomy/inuse.php?sess=<?php echo $sess; ?>&appdir=taxonomy&busdir=<?php echo $bus_appdir; ?>&narrowtaxo=menus&narrowaccount=SUPER" style="text-decoration:none;color:darkgreen" target="_blank" >Taxonomy for Menus</a>
+</div>
+
+
+
+
+<!-- My Places - business -->
+<div id="topic1_8" class="topicclass"  >
+<div style="overflow:auto" >
+
+<table width="100%">
+<tr>
+<td width="60%" class="form_container boxy" style="margin-bottom:4px">
+	<form action="account_layouts.php" method="POST" target="self">
+		<div style="border-bottom:2px gray solid;">
+	
+			<div style="float:left;margin-right:18px;margin-bottom:18px;" >
+			<input type="submit" value="Save Layout Associations" name="accountframer" > 
+			</div>
+			<span style="font-weight:bold;margin-bottom:18px;" >Drag &amp; Drop Layouts to Accounts:</span>
+	
+		</div>
+<script type="text/javascript" language="javascript">
+		var g_account_drop_complex2 = null;
+		var g_layouts_array_from_db = null;
+
+<?php 
+		$layoutarray = file_get_contents("http://$webhost/hosted/themes/listlayouts.php?type=array");
+		echo "g_layouts_array_from_db = $layoutarray";
+?>
+</script>
+
+
+		<div id="account_type_selector"  style="clear:left;margin:8px;max-height:350px;overflow:auto;" >
+<?php
+
+global $g_responsive_table;
+global $g_business_focus;
+global $g_show_menus;
+global $g_account_drop_targets;
+
+$g_responsive_table = "layoutdrop";
+$g_business_focus = $bus_appdir;
+$g_show_menus = false;
+$g_account_drop_targets = true;
+$g_ig_entry_name = "account_drops_layouts";
+$gohst_drag_var = "g_account_drop_complex2";
+include "../accounttype/accounts.php";
+
+?>
+		</div>
+		<input type="hidden" name="serviceid" value="<?php echo $serviceid; ?>">
+		<input type="hidden" name="bfocus" value="<?php echo $g_business_focus; ?>">
+	</form>
+</td>
+<td width="40%" class="form_container boxy" style="margin-bottom:4px;vertical-align:top">
+<?php 
+		$layoutarray = file_get_contents("http://$webhost/hosted/themes/listlayouts.php?type=active_table");
+		echo $layoutarray;
+?>
+
+</td>
+
+</tr>
+</table>
+
+<script type="text/javascript" language="javascript">
+		INFOGROUP.topic_layout_sources = {
+			needs:["window"],
+			wind: null,
+			save_width: 0,
+			dontOpen: false,
+			app_action: null,
+			cb:function() {
+				if ( ( g_account_drop_complex2 != null ) && ( g_layouts_array_from_db != null ) ) {
+					var dummyReference = function() {};
+
+					var getGDref = function(lname) {
+						return function(target,x,y) {
+							target.value = $(lname).innerHTML;
+						}
+					}
+
+					var n = g_layouts_array_from_db.length;
+					for ( var i = 0; i < n; i++ ) {
+						var layoutname = g_layouts_array_from_db[i];
+						$(layoutname).style.cursor = "pointer";
+						var successReference = function(target, x, y) {
+							var ll = layoutname.substring(0);
+						}
+						g_account_drop_complex2.addSource($(layoutname), dummyReference, getGDref(layoutname));
+					}
+				}
+			}
+		}
+</script>
+
+</div>
+</div>
+
+
+/*
+
+		var targname = node.getLabel();
+		if ( targname == "root" ) return;
+
+		var permission_list = extract_permission_list(); // Currently selected...
+		if ( permission_list == null ) return;
+		var perm = "";
+		while ( permission_list.length ) {
+			perm = permission_list.pop();
+			if ( !node.findChild(perm) ) {
+				var child = node.createChild(perm,false,0);
+			}
+		}
+
+
+*/

@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W12583" class="vocabword" onclick="selword('12583','DNA')">DNA</td></tr>
+<tr><td id="W12584" class="vocabword" onclick="selword('12584','DNB')">DNB</td></tr>
+<tr><td id="W13967" class="vocabword" onclick="selword('13967','Dnaburg')">Dnaburg</td></tr>
+<tr><td id="W13968" class="vocabword" onclick="selword('13968','Dnepr')">Dnepr</td></tr>
+<tr><td id="W13969" class="vocabword" onclick="selword('13969','Dneprodzerzhinsk')">Dneprodzerzhinsk</td></tr>
+<tr><td id="W13970" class="vocabword" onclick="selword('13970','Dnepropetrovsk')">Dnepropetrovsk</td></tr>
+<tr><td id="W13971" class="vocabword" onclick="selword('13971','Dnestr')">Dnestr</td></tr>
+<tr><td id="W13972" class="vocabword" onclick="selword('13972','Dnieper')">Dnieper</td></tr>
+<tr><td id="W13973" class="vocabword" onclick="selword('13973','Dniester')">Dniester</td></tr>
+<tr><td id="W13974" class="vocabword" onclick="selword('13974','Dnitz')">Dnitz</td></tr>
+</table>

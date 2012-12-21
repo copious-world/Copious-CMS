@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<META NAME="Description" content="classified advertising with sections germain to green technology">
+		<META NAME="keywords" content="classified ads buy and sell person to person advertising">
+		<META NAME="robots" content="All">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<LINK REL="stylesheet" TYPE="text/css" HREF="stylesheet.css" TITLE="Style">
+		<LINK REL="stylesheet" TYPE="text/css" HREF="classydex.css" TITLE="Style">
+			<title>Classydex: Copious Classifieds</title>
+	</head>
+<script type="text/javascript" language="javascript">
+//////////////////////////////////////////////////////
+var admin_locus = "";
+var server_locus = "";
+var focus_locus = "";
+var server_details_locus = "";
+var spanID = "docpages";
+
+var olData = null;
+//////////////////////////////////////////////////////
+</script>
+<script language="javascript" type="text/javascript" src="/hosted/js/browserid.js"></script>
+<!--  -->
+<script type="text/javascript" language="javascript">
+
+var gHostbase = homevars.basic.toString();
+gHostbase = gHostbase.substring(gHostbase.indexOf('//') + 2);
+gHostbase = gHostbase.substring(0,gHostbase.lastIndexOf('/',gHostbase.lastIndexOf('/')-1)+1);
+
+var gServiceBase = homevars.basic.toString();
+gServiceBase =  gServiceBase.substring(gServiceBase.indexOf('//') + 2,gServiceBase.lastIndexOf('/'));
+gServiceBase =  gServiceBase.substring(gServiceBase.lastIndexOf('/')+1);
+
+var securityWindow = null;
+
+var WELCOME_MESSAGE = "classydex: The Green E-commerce Market Place.";
+var SERVICE  = "classydex";
+var INFORMATION_MSGS  = "Your membership will help bring together forces that oppose global warming.";
+var SITE_LOGIN_HANDLER = "communityconnect";
+var SITE_WINDOW_VIEW = "div";
+
+
+var loginScrn = "https://" + gHostbase + "index.php";
+
+function loginopener() {
+	//
+	if ( (securityWindow != null ) && securityWindow.closed ) securityWindow = null;
+	////
+	if ( securityWindow == null ) {
+
+		if ( Br == "IE" ) {
+			//
+			var lobj = $("speciallinks");
+			lobj.style.visibility = "visible";
+
+		} else {
+			loginScrn = "https://" + gHostbase + "index.php?WELCOME_MESSAGE=" + encodeURI(WELCOME_MESSAGE);
+				loginScrn += "&SERVICE=" + encodeURI(SERVICE);
+				loginScrn += "&INFORMATION_MSGS=" + encodeURI(INFORMATION_MSGS);
+				loginScrn += "&RELSERVICELOCUS=" + gServiceBase;
+				loginScrn += "&phpfile=" + SITE_LOGIN_HANDLER;
+				loginScrn += "&windowView=" + SITE_WINDOW_VIEW;
+		//
+				var w = self.open(loginScrn,"LOGIN","width=900,height=420,resizeble,status");
+				securityWindow = w;
+				w.moveTo(20,20);
+				w.focus();
+		}
+	} else {
+		securityWindow.focus();
+	} 
+}
+
+var countyLat =  "19.27376";
+var countyLong = "-149.03476";
+var countyStartZoom = 1;
+
+
+</script>
+
+<script language="JavaScript" type="text/javascript" src="serverdata.js"></script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/dimensions.js"> </script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/jsresources.js"> </script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/docjax.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="classydex.js"></script>
+<script language="JavaScript" type="text/javascript" src="app.js"></script>
+<script language="JavaScript" type="text/javascript" src="/hosted/js/oat/loader.js"></script>
+
+
+<script language="JavaScript">
+	////
+	function check_required_fields() {
+		if ( document.passwordentry.nu_username.value == "" ) {
+			alert("Please enter a value for field, User Name.")
+			return false
+		}
+		if ( document.passwordentry.nu_pass1.value == "" ) {
+			alert("Both password fields require the same password.")
+			return false
+		}
+		if ( document.passwordentry.nu_pass2.value == "" ) {
+			alert("Both password fields require the same password.")
+			return false
+		}
+
+		return true;
+	}
+	
+	function check_same_passwords() {
+		var p1 = document.passwordentry.nu_pass1.value;
+		var p2 = document.passwordentry.nu_pass2.value;
+		if ( p1 == p2 ) {
+			return(true);
+		} else {
+			document.passwordentry.nu_pass1.value = "";
+			document.passwordentry.nu_pass2.value = "";
+			alert("Please be sure that the passwords fields are the same.");
+			return false;
+		}	
+	}
+
+	function submitScript()
+	{
+	/*
+		var first_test = check_required_fields();
+		
+		if ( first_test ) {
+			first_test = check_same_passwords();
+		}
+		
+		return first_test
+	*/
+		return(true);
+	}
+	///
+	
+	
+	
+</script>
+	<body onresize="doctablesize();" style="padding:0px;"> <!--  initDrag();  initScrollbars(); -->
+		<div style="border-top:darkgreen solid 2px;border-bottom:darkgreen solid 2px"> 
+		<!--- .......................................................................................... -->
+		<table style="text-align: left; width: 100%; height: 49px;" border="0" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td width="15%" height="49px" valign="middle" nowrap align="right" style="background-color:#fcfcc5;margin:0;">
+						<img src="/hosted/img/intro.png" height="100%" width="200" align="right">
+					</td>
+					<td align="left" style="vertical-align: middle;background-color:#fcfcc5;margin:0;" width="15%">
+						<span style="font-family:Times;font-weight: bold;font-size:14;color:black">
+							<span id="datestr">02/20/06</span>
+						</span>
+					</td>
+					<td align="center" style="vertical-align: middle;" width="40%">
+						<a href="/hosted/index.html" style="text-decoration:none;">
+						<div style="color:gold;font-size:0.5em;font-family:'arial';letter-spacing:3.5px;background-color:navy">
+						Copious Classifieds
+							</div></a>
+					<div style="font-family:'Helvetica';font-weight:700;font-size:1.9em;letter-spacing:3.5px;color: #000066">
+			CLASSYDEX
+			</div>
+						<a href="/hosted/index.html" style="text-decoration:none;">
+						<div style="color:orange;font-size:0.5em;font-family:'arial';letter-spacing:3.5px;background-color:darkgreen">
+						Green E-Commerce Market Place
+							</div></a>
+					</td>
+					<td align="right" style="vertical-align: middle;background-color:#fcfcc5;margin:0;" width="15%">
+						<span style="font-family:Times;font-weight: bold;font-size:14;color:black">
+			Time: <span id="timestr">00:00:00</span>
+			</span>
+					</td>
+					<td width="15%" height="49px" valign="middle" nowrap align="left" style="background-color:#fcfcc5;margin:0;">
+						<img src="/hosted/img/intro_right.png" height="100%" width="200" align="left">
+					</td>
+				</tr>
+			</tbody>
+			<!---  --    -->
+		</table>
+		</div>
+
+
+	<!-- -.................................................................................. -->
+<div style="border-bottom:darkgreen solid 2px;padding:4px;"> 
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" ID="Table1">
+		<tbody>
+			<tr>
+				<td height="20px" width="30%" style="margin-top:4;margin-bottom:5px;font-weight:bold;font-size:12;color:004411;font-family:cursive" align="center">
+						Play Sudoku: <a href="http://www.sudokudots.com" target="_blank">
+							www.sudokudots.com</a>
+				</td>
+				<td height="20px" width="40%" style="font-weight:bold;font-size:12;color:004411;font-family:cursive" align="center" valign="middle">
+					<table border="0" cellspacing="0" width="100%" ID="Table2">
+						<tbody>
+							<tr>
+								<td height="20px" width="33%" style="margin-top:4;margin-bottom:5px;" align="center">
+									<a href="javascript:buttonResponse('postad');" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;">
+										<span style="padding-left:4; padding-right:4; background-color:#FFEFE2;border: 2px orange solid" onmouseover="rollover(this);" onmouseout="rollout(this);">
+post to this category
+			</span>
+										</a>
+									</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td height="20px" width="15%" nowrap style="padding-top:3px;padding-bottom:3px;" align="center">
+					<span style="color:green;font-family:arial black;font-size:12;font-weight:bold;font-variant:small-caps;">get</span>&nbsp;
+					<a href="./signup.php" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;" target="_blank" title="Use this service to help people place ads and get paid. It's all automated.">
+						<span style="padding-left:4; padding-right:4; background-color:#EFFFE2;border: 2px gold solid" onmouseover="rollover(this);" onmouseout="rollout(this);">
+make $'s selling ads
+			</span>
+						&nbsp;<span style="color:green;font-family:arial black;font-weight:bold;font-variant:small-caps;">money</span>
+					</a>
+				</td>
+				<td height="20px" width="15%" style="margin-top:4;margin-bottom:5px;" align="center">
+										<!--
+	<a href="javascript:buttonResponse('shops');" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;">
+			<span style="padding-left:4; padding-right:4; background-color:#E2FFEF;border: 2px orange solid"
+					onmouseover="rollover(this);" onmouseout="rollout(this);" >
+find shops
+			</span>
+	</a>
+-->
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+
+
+<div style="border-bottom:darkgreen solid 2px"> 
+	<table id="docfacetable" style="text-align: left; width: 100%; height: 85%;" border="0" cellpadding="1" cellspacing="0">
+	<theader>
+		<th widht="20%" style="border-bottom:2px darkgreen solid;">
+			<div style="text-align:center;height:30px;width;100%;vertical-align: middle;background-color:#fcfcc5;padding:0;margin:0;font-family:'Times';font-weight:700;font-size:16;font-variant:small-caps;letter-spacing:3.5px;color:black;">
+				Classifications
+			</div>
+		</th>
+		<th width="80%" style="border-bottom:2px darkgreen solid;" >
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" ><tr>
+
+					<td width="4%" height="30px" valign="middle" nowrap align="right" style="background-color:white;margin:;padding:0;">
+						<script language="javascript">
+	var x = window.navigator.appName
+	if ( x.indexOf("Microsoft") > -1 ) {
+		document.writeln('<img src="/hosted/img/intro.png" height="30px" align="right">');
+	} else {
+		document.writeln('<img src="/hosted/img/intro.png" height="100%" width="100%" align="right">');
+	}
+						</script>
+					</td>
+					<td align="center" width="10%" height="30px" nowrap style="vertical-align: middle;background-color:#fcfcc5;padding:1px;margin:0;">
+						<a href="javascript:prevquery();" style="text-decoration: none;">
+							<span style="background-color:#FFFFF2;font-family:'Times';font-weight:bolder;font-size:12;font-variant:small-caps;letter-spacing:1.5px;color:black;border: 1px orange solid" onmouseover="rollover(this);" onmouseout="rollout(this);">
+							&nbsp;previous&nbsp;
+							</span>
+						</a>
+					</td>
+					<form action="javascript:searchentry(0)" method="post" ID="Form2">
+						<td align="center" width="40%" height="30px" style="vertical-align: middle;background-color:#fcfcc5;padding:0;margin:0;font-family:'Arial Black';font-weight:700;font-size:18;font-variant:small-caps;letter-spacing:3.5px;color:994422;">
+							search:&nbsp;<input id="classisearchterm" name="classisearchterm" size="30">
+						</td>
+					</form>
+					<td align="center" height="30px" width="10%" nowrap style="vertical-align: middle;background-color:#fcfcc5;padding:1px;margin:0;">
+						<a href="javascript:nextquery();" style="text-decoration: none;padding:0;margin:0">
+							<span style="background-color:#FFFFF2;font-family:'Times';font-weight:bolder;font-size:12;font-variant:small-caps;letter-spacing:1.5px;color:black;border: 1px orange solid" onmouseover="rollover(this);" onmouseout="rollout(this);">
+							&nbsp;&nbsp;&nbsp;next&nbsp;&nbsp;&nbsp;
+							</span>
+						</a>
+					</td>
+					<td width="28%" height="30px" valign="middle" nowrap align="left" style="background-color:#fcfcc5;margin:0;">
+						<script language="javascript">
+	var x = window.navigator.appName
+	if ( x.indexOf("Microsoft") > -1 ) {
+		document.writeln('<img src="/hosted/img/intro_right.png" height="30px" align="right">');
+	} else {
+		document.writeln('<img src="/hosted/img/intro_right.png" height="100%" width="100%" align="right">');
+	}
+						</script>
+					</td>
+			</tr></table>
+		</th>
+	</theader>
+			<!---  --    -->
+		<!--- ............................................................................................ -->
+		<!--- ............................................................................................ -->
+	<tbody>
+				<tr>
+					<td align="left" class="doctoc" style="vertical-align: top;background-color:#FDFDe9;" width="20%" bgcolor="#FCFCe0" >
+						<div id="outerContentsWrapper" style="position:relative; overflow:auto; height:99px;">
+							<div id="contents" style="font-family:'Arial Black';font-variant:small-caps;letter-spacing:1.2px;font-weight:bold;font-size:11;color:994422">
+
+
+
+		<ul id="classified_index" >
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'1')">fresh start</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.1')">personals</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.1.1')">statements</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.1.2')">social scene</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.1.3')">women seeking men</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.1.4')">men seeking women</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.1.5')">other</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2')">jobs</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.1')">domestic</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.2')">labor</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.3')">restaurant</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.3.1')">buss</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.3.2')">wait</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.3.3')">bar</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.3.4')">cook</span></li>
+								</ul>
+							</li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4')">entertainment</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4.1')">musician</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4.2')">actor</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4.3')">dancer</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4.4')">clown</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4.5')">art</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.4.6')">tech</span></li>
+								</ul>
+							</li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.5')">shop keeping</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.6')">law enforcement</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.7')">celerical</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.8')">artistic</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.8.1')">industrial</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.8.2')">creative</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.8.3')">designer</span></li>
+								</ul>
+							</li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9')">health</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9.1')">assistant</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9.2')">nurse</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9.3')">radiology</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9.4')">doctor</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9.5')">dentist</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.9.6')">technician</span></li>
+								</ul>
+							</li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.10')">financial</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11')">technical</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.1')">technician</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2')">engineer</span><ul>
+											<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2.1')">civil</span></li>
+											<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2.1')">electrical</span></li>
+											<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2.1')">mechanical</span></li>
+											<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2.1')">materials</span></li>
+											<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2.1')">software</span></li>
+											<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.2.1')">electrical</span></li>
+										</ul>
+									</li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.3')">scientist</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.11.4')">designer</span></li>
+								</ul>
+							</li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.13')">special</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.13.1')">translator</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.13.2')">writer</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.2.13.3')">philosoper</span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3')">rentals</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3.1')">shared</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3.2')">room</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3.4')">apartment</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3.3')">duplex</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3.5')">condo</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.3.6')">house</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4')">autos</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.1')">bicycle</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.2')">motorcycle</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.4')">eco car</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.3')">small car</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.5')">compact car</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.6')">large car</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'1.4.7')">truck</span></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'2')">work & money</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.1')">services</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.2')">business</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.3')">notices</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.4')">technical</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.5')">jobs</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.5.1')">messenger</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.5.2')">truck</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.5.3')">rigs</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.5.4')">ships</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.6')">financial</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.7')">equipment</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.7.1')">office</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'2.7.2')">construction</span></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'3')">build</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1')">real estate</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1.1')">lots & land</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1.2')">condo</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1.3')">house</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1.4')">duplex</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1.5')">multi family</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.1.6')">development</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.2')">business</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.2.1')">plants</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.2.2')">dirt</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.2.3')">water</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.2.4')">tools</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.3')">merchandise</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.3.1')">appliances</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.3.2')">materials</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.3.3')">tools</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4')">services</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.1')">architect</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.2')">construction</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.2.1')">electrical</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.2.2')">structure</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.2.3')">civil</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.2.4')">plumbing</span></li>
+								</ul>
+							</li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.3')">contracting</span><ul>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.3.1')">electrical</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.3.2')">structure</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.3.3')">civil</span></li>
+									<li><span class="itemTitle" onmouseover="process_classified_index(event,'3.4.3.4')">plumbing</span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'4')">green energy</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1')">equipment</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.1')">photovoltaic</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.2')">batteries</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.3')">inverters</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.4')">controllers</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.5')">connectors</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.6')">supports</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.7')">fuel cells</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.1.8')">parts</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.2')">merchandise</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.3')">financial</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'4.4')">services</span></li>
+				</ul>
+			</li>
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'5')">pets</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.1')">cats</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.1.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.1.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.2')">dogs</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.2.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.2.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.3')">birds</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.3.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.3.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.4')">fish</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.4.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.4.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.5')">horses</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.5.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.5.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.6')">reptiles</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.6.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.6.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.7')">monkeys</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.7.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.7.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.8')">small</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.8.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.8.2')">supplies</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.9')">large</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.9.1')">food</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'5.9.2')">supplies</span></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'6')">play</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.1')">tell & shout</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.1.1')">happy</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.1.2')">angry</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.1.3')">politics</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.1.4')">curious</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.1.5')">racy</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.2')">places</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.2.1')">clubs</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.2.2')">shows</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.2.3')">fairs</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.2.4')">special events</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.3')">dining</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.4')">groups</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.5')">music</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.5.1')">clubs</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.5.2')">shows</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.5.3')">concerts</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.5.4')">special events</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.6')">sports</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.6.1')">clubs</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.6.2')">special events</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.7')">exhibitions</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.7.1')">fairs</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'6.7.2')">special events</span></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="itemTitle" onmouseover="process_classified_index(event,'7')">lost &amp; found</span><ul>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.1')">anouncements</span></li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.2')">lost</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.2.1')">pets</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.2.2')">people</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.2.3')">items</span></li>
+						</ul>
+					</li>
+					<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.3')">found</span><ul>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.3.1')">pets</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.3.2')">people</span></li>
+							<li><span class="itemTitle" onmouseover="process_classified_index(event,'7.3.3')">items</span></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+							</div>
+						</div>
+					</td>
+
+
+					<td align="left" class="doccontent" style="vertical-align: top;background-color:#FCFCe0;" width="78%" height="95%" bgcolor="#FCFCe0">
+						<div id="outerWrapper" style="position:relative; overflow:scroll; height:99px; width:100px; border-top:4px solid #666666; border-left:4px solid #666666; border-right:4px solid #cccccc; border-bottom:4px solid #cccccc; background-color:#ffffff">
+							<span id="docpages" style="font-family:'Courier';font-weight:700;font-size:14;color:black;">
+						Document Text Appears Here.
+				</span>
+						</div>
+					</td>
+					<td align="center" style="vertical-align: middle;background-color:#F4F0e0" width="2%">
+						&nbsp;
+					</td>
+				</tr>
+			</tbody>
+			<!---  --    -->
+		</table>
+	</div>
+
+
+
+		<div id="singleItemEntry">
+			<span id="singleItemEntrySpan">&nbsp;</span>
+		</div>
+
+
+		<div id="customsadddetail">
+			<table style="text-align: left; width: 50%; height: 40%;" border="0" cellpadding="0" cellspacing="0" ID="Table3">
+				<tr>
+					<td height="20px" width="33%" style="margin-top:4;margin-bottom:5px;" align="center">
+						<a href="javascript:resetSection('customsadddetail');" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;">
+							<span style="padding-left:4; padding-right:4; background-color:#FFEFE2;border: 2px orange solid" onmouseover="rollover(this);" onmouseout="rollout(this);">
+			close
+		</span>
+						</a>
+					</td>
+					<td height="20px" width="66%" style="margin-top:4;margin-bottom:5px;" align="center">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td width="100%">
+						<div id="singleItemEntryCAT">
+							<span id="singleItemEntrySpanCAT">&nbsp;</span>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="contactDiv">
+			<form name="contactForm" action="javascript:" method="post" ID="Form1">
+				<!--     =============================================================           -->
+				<br>
+				<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EFFFE2;border: 1px orange solid">
+					<div style="width:99%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+						Send E-Mail to Poster about Advertisement:
+					</div>
+					&nbsp;&nbsp;<span id="contactDivTitle">&nsbps;</span>
+				</div>
+				<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EDFFDA;border: 1px red solid">
+					<table border="0" cellspacing="0" cellpadding="2" ID="Table4">
+						<!--     =============================================================           -->
+						<tr>
+							<td width="60%" align="left" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;">
+								<div style="width:98%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+									Your Email Address:
+								</div>
+								&nbsp;&nbsp;<input type="text" id="contact_email_address" size="60" NAME="contact_email_address">
+							</td>
+							<td width="40%" align="left" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;">
+								<div style="width:98%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+									Your Phone:<br>
+								</div>
+								&nbsp;&nbsp;<input type="text" id="contact_number2" size="20" NAME="contact_number2">
+						</tr>
+						</tr>
+					</table>
+				</div>
+				<div style="width:99%;text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;padding:2; background-color:#EFF0c2;border: 1px purple solid">
+					<div style="width:99%;color:004411;font-family:arial;padding:3; background-color:#FFFFE9;
+				border-top: 1px black solid;border-left: 1px navy solid;border-right: 1px orange solid;;border-bottom: 1px #EBEBE2 solid;">
+						Your Comments:
+					</div>
+					&nbsp;&nbsp;<TEXTAREA name="contact_comments" rows="3" cols="80" ID="contact_comments"></TEXTAREA>
+				</div>
+				<!--                -->
+			</form>
+			<table border="0" cellspacing="0" width="100%" ID="Table5">
+				<tbody>
+					<tr>
+						<td height="20px" width="33%" style="margin-top:4;margin-bottom:5px;" align="center">
+							<a href="javascript:closeContact();" style="text-decoration:none;font-weight:bold;font-size:12;color:004411;font-family:arial;">
+								<span style="padding-left:4; padding-right:4; background-color:#FFEFE2;border: 2px orange solid" onmouseover="rollover(this);" onmouseout="rollout(this);">
+			cancel
+						</span>
+							</a>
+						</td>
+						<td height="20px" width="33%" style="margin-top:4;margin-bottom:5px;font-weight:bold;font-size:12;color:004411;font-family:arial;" align="center">
+							<span style="padding-left:4; padding-right:4; background-color:#EFFFE2;border: 2px orange solid" onmouseover="rollover(this);" onmouseout="rollout(this);" onclick="sendClassiContact();">
+			Make Contact
+						</span>
+						</td>
+						<td height="20px" width="33%" style="margin-top:4;margin-bottom:5px;" align="center">
+					</tr>
+				</tbody></table>
+		</div>
+
+ <a href="http://california.oymap.net/">California at OyMap.net - a world directory</a>
+	</body>
+<script type="text/javascript" language="javascript">
+	doctablesize();
+	setInterval("local_update_clock();",1000);
+</script>
+</html>

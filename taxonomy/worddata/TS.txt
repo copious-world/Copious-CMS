@@ -1,0 +1,32 @@
+<table width='100%'>
+<tr><td id="W46854" class="vocabword" onclick="selword('46854','TSF')">TSF</td></tr>
+<tr><td id="W46855" class="vocabword" onclick="selword('46855','TSgt')">TSgt</td></tr>
+<tr><td id="W48744" class="vocabword" onclick="selword('48744','Tsai')">Tsai</td></tr>
+<tr><td id="W48745" class="vocabword" onclick="selword('48745','Tsan')">Tsan</td></tr>
+<tr><td id="W48746" class="vocabword" onclick="selword('48746','Tsana')">Tsana</td></tr>
+<tr><td id="W48747" class="vocabword" onclick="selword('48747','Tsaritsyn')">Tsaritsyn</td></tr>
+<tr><td id="W48748" class="vocabword" onclick="selword('48748','Tschaikovsky')">Tschaikovsky</td></tr>
+<tr><td id="W48749" class="vocabword" onclick="selword('48749','Tse')">Tse</td></tr>
+<tr><td id="W48750" class="vocabword" onclick="selword('48750','Tselinograd')">Tselinograd</td></tr>
+<tr><td id="W48751" class="vocabword" onclick="selword('48751','Tseng')">Tseng</td></tr>
+<tr><td id="W48752" class="vocabword" onclick="selword('48752','Tshiluba')">Tshiluba</td></tr>
+<tr><td id="W48753" class="vocabword" onclick="selword('48753','Tshombe')">Tshombe</td></tr>
+<tr><td id="W48754" class="vocabword" onclick="selword('48754','Tsimshian')">Tsimshian</td></tr>
+<tr><td id="W48755" class="vocabword" onclick="selword('48755','Tsimshians')">Tsimshians</td></tr>
+<tr><td id="W48756" class="vocabword" onclick="selword('48756','Tsingyuan')">Tsingyuan</td></tr>
+<tr><td id="W48757" class="vocabword" onclick="selword('48757','Tsinkiang')">Tsinkiang</td></tr>
+<tr><td id="W48758" class="vocabword" onclick="selword('48758','Tsinling Shan')">Tsinling Shan</td></tr>
+<tr><td id="W48759" class="vocabword" onclick="selword('48759','Tsiolkovsky')">Tsiolkovsky</td></tr>
+<tr><td id="W48760" class="vocabword" onclick="selword('48760','Tsiranana')">Tsiranana</td></tr>
+<tr><td id="W48761" class="vocabword" onclick="selword('48761','Tsitsihar')">Tsitsihar</td></tr>
+<tr><td id="W48762" class="vocabword" onclick="selword('48762','Tsonga')">Tsonga</td></tr>
+<tr><td id="W48763" class="vocabword" onclick="selword('48763','Tsuda')">Tsuda</td></tr>
+<tr><td id="W48764" class="vocabword" onclick="selword('48764','Tsuga')">Tsuga</td></tr>
+<tr><td id="W48765" class="vocabword" onclick="selword('48765','Tsugaru Strait')">Tsugaru Strait</td></tr>
+<tr><td id="W48766" class="vocabword" onclick="selword('48766','Tsui')">Tsui</td></tr>
+<tr><td id="W48767" class="vocabword" onclick="selword('48767','Tsukahara')">Tsukahara</td></tr>
+<tr><td id="W48768" class="vocabword" onclick="selword('48768','Tsushima')">Tsushima</td></tr>
+<tr><td id="W48769" class="vocabword" onclick="selword('48769','Tsushima current')">Tsushima current</td></tr>
+<tr><td id="W48770" class="vocabword" onclick="selword('48770','Tswana')">Tswana</td></tr>
+<tr><td id="W48771" class="vocabword" onclick="selword('48771','Tswanas')">Tswanas</td></tr>
+</table>

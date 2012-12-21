@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W170578" class="vocabword" onclick="selword('170578','mR')">mR</td></tr>
+<tr><td id="W180004" class="vocabword" onclick="selword('180004','mr')">mr</td></tr>
+<tr><td id="W180005" class="vocabword" onclick="selword('180005','mrd')">mrd</td></tr>
+<tr><td id="W180006" class="vocabword" onclick="selword('180006','mrem')">mrem</td></tr>
+<tr><td id="W180007" class="vocabword" onclick="selword('180007','mri')">mri</td></tr>
+<tr><td id="W180008" class="vocabword" onclick="selword('180008','mridang')">mridang</td></tr>
+<tr><td id="W180009" class="vocabword" onclick="selword('180009','mrna')">mrna</td></tr>
+<tr><td id="W180010" class="vocabword" onclick="selword('180010','mrs')">mrs</td></tr>
+<tr><td id="W180011" class="vocabword" onclick="selword('180011','mrs. gandhi')">mrs. gandhi</td></tr>
+<tr><td id="W180012" class="vocabword" onclick="selword('180012','mrs. simpson')">mrs. simpson</td></tr>
+</table>

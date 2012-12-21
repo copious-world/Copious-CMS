@@ -1,0 +1,49 @@
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" ID="Table1">
+			<tr>
+			<td width="15%" valign="top" style="text-align:right;padding:2;font-size:12;font-weight:bolder;">$entrydate$</td>
+			<td width="5%" style=""></td>
+			<td width="50%" style="padding:4;color:darkgreen;font-weight:bolder;font-size:15;background-color:#FFFFEC">
+			&nbsp;&nbsp;$add_title$
+			</td>
+			</tr>
+			<tr>
+			<td width="15%" valign="top" style="text-align:right;padding:2;font-size:11">$product_type$</td>
+			<td width="5%" style="color:darkgreen;font-weight:bolder;font-size:14;background-color:#FFFFEC">
+				
+			</td>
+			<td width="50%" valign="middle" style="padding:4;border-left:1px darkgreen solid;border-top:1px green solid">
+			<span style="font-family:times;text-align:justify">
+			$full_description$
+			</span>
+			<br>
+			</td>
+			</tr>
+			<tr>
+			<td width="15%" valign="top" style="text-align:right;padding:2;font-size:11">
+			&nbsp;
+			</td>
+			<td width="5%" style="color:darkgreen;font-weight:bolder;font-size:14;background-color:#FFFFEC;">
+				
+			</td>
+			<td width="50%" valign="middle" style="padding:8;border-left:1px navy solid;border-top:1px green solid">
+			<span style="font-size:11;font-family:times;text-align:justify">
+			$shipping_origination$
+			</span>
+			</td>
+			</tr>
+			<tr>
+			<td width="15%" style="text-align:center;background-color:#FEFEEE;border-top: solid 1px darkred">
+			<a href="javascript:hideDiv('testdiv');" style="background-color:#FFFFE0;padding:2;font-size:12;text-align:center;text-decoration:none;border: solid 1px brown">
+			&nbsp;close&nbsp;
+			</a>
+			</td>
+			<td width="5%" style="font-size:11;padding:2;background-color:#FEFEEE;border-right: solid 1px navy;border-left: solid 1px darkgreen;border-bottom: solid 1px purple">
+			&nbsp;$offered_price$&nbsp;
+			</td>
+			<td width="50%" style="text-align:center;background-color:#FEFEEE;border-top: solid 1px darkred">
+				<a href="javascript:makeContact('$ID$');" style="background-color:#FFFFE0;padding:2;font-size:12;text-align:center;text-decoration:none;border: solid 1px green"> 
+				&nbsp;contact seller&nbsp;
+				</a>
+			</td><td width="30%" style="background-color:#FEFEEE">&nbsp;</td>
+			</tr>
+		</table>

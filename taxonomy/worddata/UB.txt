@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W49037" class="vocabword" onclick="selword('49037','UB')">UB</td></tr>
+<tr><td id="W49090" class="vocabword" onclick="selword('49090','Ubald')">Ubald</td></tr>
+<tr><td id="W49091" class="vocabword" onclick="selword('49091','Uball')">Uball</td></tr>
+<tr><td id="W49092" class="vocabword" onclick="selword('49092','Ubana')">Ubana</td></tr>
+<tr><td id="W49093" class="vocabword" onclick="selword('49093','Ubangi')">Ubangi</td></tr>
+<tr><td id="W49094" class="vocabword" onclick="selword('49094','Ubangi-Shari')">Ubangi-Shari</td></tr>
+<tr><td id="W49095" class="vocabword" onclick="selword('49095','Ube')">Ube</td></tr>
+<tr><td id="W49096" class="vocabword" onclick="selword('49096','Ubermensch')">Ubermensch</td></tr>
+<tr><td id="W49097" class="vocabword" onclick="selword('49097','Ubiquitarian')">Ubiquitarian</td></tr>
+<tr><td id="W49098" class="vocabword" onclick="selword('49098','Ubiquitarianism')">Ubiquitarianism</td></tr>
+<tr><td id="W49099" class="vocabword" onclick="selword('49099','Ubu Roi')">Ubu Roi</td></tr>
+</table>

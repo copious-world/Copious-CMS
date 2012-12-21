@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W46809" class="vocabword" onclick="selword('46809','Szabadka')">Szabadka</td></tr>
+<tr><td id="W46810" class="vocabword" onclick="selword('46810','Szczecin')">Szczecin</td></tr>
+<tr><td id="W46811" class="vocabword" onclick="selword('46811','Szechwan')">Szechwan</td></tr>
+<tr><td id="W46812" class="vocabword" onclick="selword('46812','Szeged')">Szeged</td></tr>
+<tr><td id="W46813" class="vocabword" onclick="selword('46813','Szell')">Szell</td></tr>
+<tr><td id="W46814" class="vocabword" onclick="selword('46814','Szewinska')">Szewinska</td></tr>
+<tr><td id="W46815" class="vocabword" onclick="selword('46815','Szigeti')">Szigeti</td></tr>
+<tr><td id="W46816" class="vocabword" onclick="selword('46816','Szold')">Szold</td></tr>
+<tr><td id="W46817" class="vocabword" onclick="selword('46817','Szombathely')">Szombathely</td></tr>
+<tr><td id="W46818" class="vocabword" onclick="selword('46818','Szymanowski')">Szymanowski</td></tr>
+</table>

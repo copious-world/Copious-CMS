@@ -1,0 +1,20 @@
+<table width='100%'>
+<tr><td id="W161049" class="vocabword" onclick="selword('161049','kWh')">kWh</td></tr>
+<tr><td id="W163057" class="vocabword" onclick="selword('163057','kw')">kw</td></tr>
+<tr><td id="W163058" class="vocabword" onclick="selword('163058','kw-hr')">kw-hr</td></tr>
+<tr><td id="W163059" class="vocabword" onclick="selword('163059','kwa')">kwa</td></tr>
+<tr><td id="W163060" class="vocabword" onclick="selword('163060','kwacha')">kwacha</td></tr>
+<tr><td id="W163061" class="vocabword" onclick="selword('163061','kwai')">kwai</td></tr>
+<tr><td id="W163062" class="vocabword" onclick="selword('163062','kwaiken')">kwaiken</td></tr>
+<tr><td id="W163063" class="vocabword" onclick="selword('163063','kwajalein')">kwajalein</td></tr>
+<tr><td id="W163064" class="vocabword" onclick="selword('163064','kwakiutl')">kwakiutl</td></tr>
+<tr><td id="W163065" class="vocabword" onclick="selword('163065','kwan-yin')">kwan-yin</td></tr>
+<tr><td id="W163066" class="vocabword" onclick="selword('163066','kwangchow')">kwangchow</td></tr>
+<tr><td id="W163067" class="vocabword" onclick="selword('163067','kwannon')">kwannon</td></tr>
+<tr><td id="W163068" class="vocabword" onclick="selword('163068','kwanza')">kwanza</td></tr>
+<tr><td id="W163069" class="vocabword" onclick="selword('163069','kwanzaa')">kwanzaa</td></tr>
+<tr><td id="W163070" class="vocabword" onclick="selword('163070','kwartje')">kwartje</td></tr>
+<tr><td id="W163071" class="vocabword" onclick="selword('163071','kwashiorkor')">kwashiorkor</td></tr>
+<tr><td id="W163072" class="vocabword" onclick="selword('163072','kweek')">kweek</td></tr>
+<tr><td id="W163073" class="vocabword" onclick="selword('163073','kwela')">kwela</td></tr>
+</table>

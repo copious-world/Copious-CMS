@@ -1,0 +1,222 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Copious Mail</title>
+	</head>
+	<LINK REL="stylesheet" TYPE="text/css" HREF="stylesheet.css" TITLE="Style">
+		<!--  ========================================== --->
+		<script language="JavaScript" type="text/javascript" src="jsresources.js"> </script>
+		<script language="JavaScript" type="text/javascript" src="dimensions.js"> </script>
+		<!--  ========================================== --->
+<script language="javascript">
+	var g_squeeze = 0;
+	if ( g_screenHeight >= 900 ) {
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="../stylesheet.css" TITLE="Style">');
+	} else if ( g_screenHeight > 600 ) {
+		g_squeeze = 1;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="../stylesheet700.css" TITLE="Style">');
+	} else {
+		g_squeeze = 2;
+		document.writeln('<LINK REL="stylesheet" TYPE="text/css" HREF="../stylesheet600.css" TITLE="Style">');
+	}
+	
+	
+	var onDisplay = null;
+	var refsection = null;
+	
+	function showHelpDiv(txtID) {
+		//
+		var divname = removespace(txtID);
+		var divobj = $(divname);
+
+		if ( ( refsection != null ) && ( divobj != null ) ) {
+
+			if ( onDisplay != null ) {
+				hidePart(onDisplay);
+			}
+
+			onDisplay = divobj;
+			onDisplay.style.top = refsection.offsetTop;
+			onDisplay.style.left = refsection.offsetLeft;
+
+			$show(divname);
+		}
+
+	}
+	
+
+		</script>
+		<style type="text/css" media="screen"> <!--
+
+	#sectionlocation {
+		position:relative;
+		left: 0px;
+		top: 0px;
+	}
+	
+
+	.helpsection {
+		position:absolute;
+		left: 0px;
+		top: 0px;
+		visibility: hidden;
+		zIndex : 200;
+	}
+--></style>
+		<body>
+			<table border="0px" cellspacing="0px" cellpadding="0px" width="100%" ID="Table6">
+				<tbody>
+					<tr>
+						<td bgcolor="darkgreen" height="1px" width="100%">
+						</td>
+					</tr>
+				</tbody></table>
+			<table border="0px" cellspacing="0px" cellpadding="0px" width="100%" ID="Table7">
+				<tbody>
+					<tr>
+						<td bgcolor="darkgreen" height="1px" width="100%">
+						</td>
+					</tr>
+				</tbody></table>
+			<div style="background-color:#fcfcc5;">
+				<table border="0px" cellspacing="0px" width="100%" ID="Table4">
+					<tbody>
+						<tr>
+							<td align="left" height="24px" nowrap="nowrap" valign="middle" width="30%">
+								<script language="javascript">
+	if ( g_squeeze < 2 ) {
+		document.writeln('<img src="./img/logo.jpg"><img src="./img/faderight.jpg" height="90px">');
+	} else {
+		document.writeln('<img src="./img/logo.jpg" height="45px"><img src="./img/faderight.jpg" height="45px">');	}
+								</script>
+							</td>
+							<td align="center" height="24px" nowrap="nowrap" valign="middle" width="30%">
+								<span style="font-size:18px;font-family:Arial; color: rgb(0, 0, 102); text-decoration: none; font-weight: bold;">
+								Help for Using Copious Systems Information Resources. </font>
+							</td>
+							<td align="center" height="24px" nowrap="nowrap" valign="middle" width="40%">
+								<table border="1px" cellspacing="0px" width="30%" ID="Table5">
+									<tbody>
+										<tr>
+											<td align="center" height="24px" nowrap="nowrap" valign="middle" width="100%">
+												<font style="color: rgb(0, 0, 102); text-decoration: none;" face="Arial" size="-1"><a href="newuser.php">
+														New User</a> </font>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- Biz Stuff  -->
+			<div style="background-color:rgb(243,243,223)">
+				<table border="0px" cellspacing="0px" cellpadding="0px" width="100%" ID="Table1">
+					<tbody>
+						<tr>
+							<td bgcolor="darkgreen" height="1px" width="100%">
+							</td>
+						</tr>
+					</tbody></table>
+				<table border="0px" cellspacing="0px" cellpadding="0px" width="100%" ID="Table2">
+					<tbody>
+						<tr>
+							<td bgcolor="darkgreen" height="1px" width="100%">
+							</td>
+						</tr>
+					</tbody></table>
+				<br>
+				<table border="0px" cellspacing="0px" cellpadding="0px" width="100%" ID="Table3">
+					<tbody>
+						<tr>
+							<td width="5%">&nbsp;</td>
+							<td width="15%">
+								<span onclick="javascript:showHelpDiv(this.innerHTML);" target="_self" style="cursor:pointer;font-family:helvetica;font-weight:bold;border:1px solid purple;font-family:helvetica;font-size:14px;padding:2px;background-color:transparent;color:maroon" onmouseover=" this.style.backgroundColor = 'gold'; " onmouseout=" this.style.backgroundColor = 'transparent'; ">
+New User
+</span>
+								<br>
+								<br>
+								<span onclick="javascript:showHelpDiv(this.innerHTML);" target="_self" style="cursor:pointer;font-family:helvetica;font-weight:bold;border:1px solid purple;font-family:helvetica;font-size:14px;padding:2px;background-color:transparent;color:maroon" onmouseover=" this.style.backgroundColor = 'gold'; " onmouseout=" this.style.backgroundColor = 'transparent'; ">
+Existing User
+	</span>
+								<br>
+								<br>
+								<span onclick="javascript:showHelpDiv(this.innerHTML);" target="_self" style="cursor:pointer;font-family:helvetica;font-weight:bold;border:1px solid purple;font-family:helvetica;font-size:14px;padding:2px;background-color:transparent;color:maroon" onmouseover=" this.style.backgroundColor = 'gold'; " onmouseout=" this.style.backgroundColor = 'transparent'; ">
+Receiving Messages
+	</span>
+								<br>
+								<br>
+								<span onclick="javascript:showHelpDiv(this.innerHTML);" target="_self" style="cursor:pointer;font-family:helvetica;font-weight:bold;border:1px solid purple;font-family:helvetica;font-size:14px;padding:2px;background-color:transparent;color:maroon" onmouseover=" this.style.backgroundColor = 'gold'; " onmouseout=" this.style.backgroundColor = 'transparent'; ">
+Sending Messages
+	</span>
+								<br>
+								<br>
+								<span onclick="javascript:showHelpDiv(this.innerHTML);" target="_self" style="cursor:pointer;font-family:helvetica;font-weight:bold;border:1px solid purple;font-family:helvetica;font-size:14px;padding:2px;background-color:transparent;color:maroon" onmouseover=" this.style.backgroundColor = 'gold'; " onmouseout=" this.style.backgroundColor = 'transparent'; ">
+Groups
+	</span>
+								<br>
+								<br>
+								<span onclick="javascript:showHelpDiv(this.innerHTML);" target="_self" style="cursor:pointer;font-family:helvetica;font-weight:bold;border:1px solid purple;font-family:helvetica;font-size:14px;padding:2px;background-color:transparent;color:maroon" onmouseover=" this.style.backgroundColor = 'gold'; " onmouseout=" this.style.backgroundColor = 'transparent'; ">
+Copying and Moving
+	</span>
+							</td>
+							<td width="55%" align="left" valign="top">
+								<div id="sectionlocation" align="left">
+									This page contains some information about the way Copious Mail assists you with 
+									managing your messages. For, the most part, we, here at Copious Systems, hope 
+									that Copious Mail is self explanatory. But, sometimes its hard or us to know 
+									exactly what is simple and what's not. There are some tricks that you might not 
+									have seen before, but hopefully, these pages will elucidate that which might be 
+									less clear. And, we hope that the rest is enjoyable for you.
+								</div>
+							</td>
+							<td width="25%">&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- Biz Stuff  -->
+				<table border="0px" cellspacing="0px" width="100%" ID="Table8">
+					<tbody>
+						<tr>
+							<td bgcolor="darkgreen" height="1px" width="100%">
+							</td>
+						</tr>
+					</tbody></table>
+				<table border="0px" cellspacing="0px" width="100%" ID="Table9">
+					<tbody>
+						<tr>
+							<td bgcolor="#fcf8d5" height="1px" width="100%">
+							</td>
+						</tr>
+					</tbody></table>
+			</div>
+			<font size="1pxpx">Copious Systems © 2006</font>
+			<br>
+			<div class="helpsection" id="NewUser" align="left">
+				New User
+			</div>
+			<div class="helpsection" id="ExistingUser" align="left">
+				Existing User
+			</div>
+			<div class="helpsection" id="ReceivingMessages" align="left">
+				Receiving Messages
+			</div>
+			<div class="helpsection" id="SendingMessages" align="left">
+				Sending Messages
+			</div>
+			<div class="helpsection" id="Groups" align="left">
+				Groups
+			</div>
+			<div class="helpsection" id="CopyingandMoving" align="left">
+				Copying and Moving
+			</div>
+		</body>
+<script language="JavaScript">
+//
+onDisplay = $("sectionlocation");
+refsection = onDisplay;
+//
+</script>
+</html>

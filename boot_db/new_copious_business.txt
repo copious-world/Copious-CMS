@@ -1,0 +1,7 @@
+<input type="hidden" name="field_list" value="id,servicename,serviceurl">
+<input type="hidden" name="tablename" value="copious.serivcesource">
+<input type="hidden" name="querydata" value="1">
+<input type="hidden" name="id" value="0">
+<span style="font-weight:bold;">Enter Business Name:</span> <input type="text" value="@username" name="servicename" id="servicename"><br>
+<span style="font-weight:bold;">Enter Business Web Page:</span> <input type="text" value="" name="serviceurl" id="servicename"><br>
+<input type="hidden" name="init_url"  value="businesses/initaccount.php" >

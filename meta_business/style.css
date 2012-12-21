@@ -1,0 +1,36 @@
+
+@import url("/hosted/css/drupal.css");
+@import url("/hosted/css/copious_menus.css");
+
+ 
+@import url("/hosted/css/classydex/style.css");
+@import url("/hosted/css/classydex/classydex.css");
+@import url("/hosted/css/classydex/stylesheet.css");
+
+body {
+	padding:0px;
+	margin: 0px;
+}
+
+
+.businessName {
+	cursor:pointer;
+	border-bottom: solid 1px darkgreen;
+	font-weight:bold;
+}
+
+.businessName:hover {
+	background-color:#EFEFAA;
+	color:darkgreen;
+}
+
+.businessURL {
+	cursor:pointer;
+	border-bottom: solid 1px darkgreen;
+	font-weight:bold;
+}
+
+.businessURL:hover {
+	background-color:#EFEFAA;
+	color:darkgreen;
+}

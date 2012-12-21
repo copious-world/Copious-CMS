@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W18607" class="vocabword" onclick="selword('18607','GCA')">GCA</td></tr>
+<tr><td id="W18608" class="vocabword" onclick="selword('18608','GCB')">GCB</td></tr>
+<tr><td id="W18609" class="vocabword" onclick="selword('18609','GCD')">GCD</td></tr>
+<tr><td id="W18610" class="vocabword" onclick="selword('18610','GCF')">GCF</td></tr>
+<tr><td id="W18611" class="vocabword" onclick="selword('18611','GCI')">GCI</td></tr>
+<tr><td id="W18612" class="vocabword" onclick="selword('18612','GCM')">GCM</td></tr>
+<tr><td id="W18613" class="vocabword" onclick="selword('18613','GCR')">GCR</td></tr>
+<tr><td id="W18614" class="vocabword" onclick="selword('18614','GCT')">GCT</td></tr>
+<tr><td id="W19146" class="vocabword" onclick="selword('19146','Gc')">Gc</td></tr>
+<tr><td id="W19147" class="vocabword" onclick="selword('19147','Gc/s')">Gc/s</td></tr>
+<tr><td id="W19148" class="vocabword" onclick="selword('19148','Gcg')">Gcg</td></tr>
+</table>

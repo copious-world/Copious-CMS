@@ -1,0 +1,8 @@
+<table width='100%'>
+<tr><td id="W183486" class="vocabword" onclick="selword('183486','ngaio')">ngaio</td></tr>
+<tr><td id="W183487" class="vocabword" onclick="selword('183487','nganasan')">nganasan</td></tr>
+<tr><td id="W183488" class="vocabword" onclick="selword('183488','ngoma')">ngoma</td></tr>
+<tr><td id="W183489" class="vocabword" onclick="selword('183489','ngultrum')">ngultrum</td></tr>
+<tr><td id="W183490" class="vocabword" onclick="selword('183490','nguni')">nguni</td></tr>
+<tr><td id="W183491" class="vocabword" onclick="selword('183491','ngwee')">ngwee</td></tr>
+</table>

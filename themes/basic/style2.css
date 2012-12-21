@@ -1,0 +1,159 @@
+
+@import url("/hosted/css/drupal.css");
+@import url("/hosted/css/copious_menus.css");
+@import url("/hosted/css/peacenamesstyles.css");
+
+ 
+@import url("/hosted/css/classydex/style.css");
+@import url("/hosted/css/classydex/classydex.css");
+@import url("/hosted/css/classydex/stylesheet.css");
+
+body {
+	padding:0px;
+	margin: 0px;
+}
+
+.menutitle {
+	cursor: pointer;
+}
+
+
+.leaf {
+	cursor: pointer;
+}
+
+
+
+.form_container {
+	padding:12px;
+	background-color:#F1F1EF;
+	line-height:1.08em;
+}
+
+.boxy {
+	border: 2px solid #112288;
+	padding: 4px;
+	margin:3px;
+}
+
+
+
+.vocab_pick {
+	cursor:pointer;
+	font-weight:bold;
+	border: 1px aqua dotted;
+	padding: 3px;
+}
+
+
+.vocab_pick:hover {
+	border: 2px darkgreen solid;
+	background-color: #F4F4AF;
+}
+
+
+.taxon_name {
+	border: 1px solid gold;
+	font-weight:bold;
+	text-align:center;
+}
+
+.vocabword {
+	border-bottom: solid 1px gray;
+	cursor: pointer;
+}
+
+.vocabword:hover {
+	border-bottom: solid 1px blue;
+	cursor: pointer;
+	background-color:#EFEFCC;
+	color:green;
+}
+
+
+
+#wordsource {
+	border: solid 1px darkgreen;
+	background-color: #EFEFDD;
+	padding:2px;
+	margin-left:4px;
+	margin-right:4px;
+	cursor: pointer;
+	color: darkred;
+	font-weight: bold;
+}
+
+#wordsource:hover {
+	border: solid 1px navy;
+	background-color: darkgreen;
+	color: gold;
+}
+
+
+
+
+.trashbucket {
+	margin-left:12px;
+	border:1px brown dashed;
+	padding:2px;
+}
+
+.trashbucket:hover {
+	border:1px brown solid;
+	background-color: #EFEFFE;
+}
+
+
+
+.businessName {
+	cursor:pointer;
+	border-bottom: solid 1px darkgreen;
+	font-weight:bold;
+	width: 25%;
+	text-align: left;
+}
+
+.businessName:hover {
+	background-color:#EFEFAA;
+	color:darkgreen;
+}
+
+.businessURL {
+	cursor:pointer;
+	border-bottom: solid 1px darkgreen;
+	font-weight:bold;
+	text-align: left;
+}
+
+.businessURL:hover {
+	background-color:#EFEFAA;
+	color:darkgreen;
+}
+
+
+
+
+.permTABLE {
+	border:1px solid darkgreen;
+}
+
+
+.permEL {
+	border-top:1px solid darkgreen;
+	border-bottom:1px solid darkgreen;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.permEL:hover {
+	background-color:#FEFEEE;
+	color:darkgreen;
+}
+
+
+.businessdir {
+	text-transform:capitalize;
+	color:green;
+	font-size:1.1em;
+}
+

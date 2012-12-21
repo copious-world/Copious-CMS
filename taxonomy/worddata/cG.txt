@@ -1,0 +1,6 @@
+<table width='100%'>
+<tr><td id="W85234" class="vocabword" onclick="selword('85234','cg')">cg</td></tr>
+<tr><td id="W85235" class="vocabword" onclick="selword('85235','cgm')">cgm</td></tr>
+<tr><td id="W85236" class="vocabword" onclick="selword('85236','cgs')">cgs</td></tr>
+<tr><td id="W85237" class="vocabword" onclick="selword('85237','cgs units')">cgs units</td></tr>
+</table>

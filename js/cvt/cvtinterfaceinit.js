@@ -1,0 +1,3 @@
+//
+languageChange($('langchoice').value);
+//

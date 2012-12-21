@@ -1,0 +1,12 @@
+<table width='100%'>
+<tr><td id="W40385" class="vocabword" onclick="selword('40385','Qaboos bin Said')">Qaboos bin Said</td></tr>
+<tr><td id="W40386" class="vocabword" onclick="selword('40386','Qadarite')">Qadarite</td></tr>
+<tr><td id="W40387" class="vocabword" onclick="selword('40387','Qaddafi')">Qaddafi</td></tr>
+<tr><td id="W40388" class="vocabword" onclick="selword('40388','Qaddish')">Qaddish</td></tr>
+<tr><td id="W40389" class="vocabword" onclick="selword('40389','Qadianis')">Qadianis</td></tr>
+<tr><td id="W40390" class="vocabword" onclick="selword('40390','Qadiriya')">Qadiriya</td></tr>
+<tr><td id="W40391" class="vocabword" onclick="selword('40391','Qairwan')">Qairwan</td></tr>
+<tr><td id="W40392" class="vocabword" onclick="selword('40392','Qara Qum')">Qara Qum</td></tr>
+<tr><td id="W40393" class="vocabword" onclick="selword('40393','Qatar')">Qatar</td></tr>
+<tr><td id="W40394" class="vocabword" onclick="selword('40394','Qattara Depression')">Qattara Depression</td></tr>
+</table>

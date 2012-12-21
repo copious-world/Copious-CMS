@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W18615" class="vocabword" onclick="selword('18615','GD')">GD</td></tr>
+<tr><td id="W19149" class="vocabword" onclick="selword('19149','Gd')">Gd</td></tr>
+<tr><td id="W19150" class="vocabword" onclick="selword('19150','Gda')">Gda</td></tr>
+<tr><td id="W19151" class="vocabword" onclick="selword('19151','Gdansk')">Gdansk</td></tr>
+<tr><td id="W19152" class="vocabword" onclick="selword('19152','Gde')">Gde</td></tr>
+<tr><td id="W19153" class="vocabword" onclick="selword('19153','Gdel')">Gdel</td></tr>
+<tr><td id="W19154" class="vocabword" onclick="selword('19154','Gdynia')">Gdynia</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table width='100%'>
+<tr><td id="W52364" class="vocabword" onclick="selword('52364','Zhang')">Zhang</td></tr>
+<tr><td id="W52365" class="vocabword" onclick="selword('52365','Zhdanov')">Zhdanov</td></tr>
+<tr><td id="W52366" class="vocabword" onclick="selword('52366','Zhitomir')">Zhitomir</td></tr>
+<tr><td id="W52367" class="vocabword" onclick="selword('52367','Zhivkov')">Zhivkov</td></tr>
+<tr><td id="W52368" class="vocabword" onclick="selword('52368','Zhukov')">Zhukov</td></tr>
+</table>

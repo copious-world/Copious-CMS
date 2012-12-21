@@ -1,0 +1,28 @@
+<table width='100%'>
+<tr><td id="W23719" class="vocabword" onclick="selword('23719','IPA')">IPA</td></tr>
+<tr><td id="W23720" class="vocabword" onclick="selword('23720','IPBM')">IPBM</td></tr>
+<tr><td id="W23721" class="vocabword" onclick="selword('23721','IPY')">IPY</td></tr>
+<tr><td id="W24361" class="vocabword" onclick="selword('24361','Iphagenia')">Iphagenia</td></tr>
+<tr><td id="W24362" class="vocabword" onclick="selword('24362','Iphianassa')">Iphianassa</td></tr>
+<tr><td id="W24363" class="vocabword" onclick="selword('24363','Iphicles')">Iphicles</td></tr>
+<tr><td id="W24364" class="vocabword" onclick="selword('24364','Iphidamas')">Iphidamas</td></tr>
+<tr><td id="W24365" class="vocabword" onclick="selword('24365','Iphigenia')">Iphigenia</td></tr>
+<tr><td id="W24366" class="vocabword" onclick="selword('24366','Iphigenia in Aulis')">Iphigenia in Aulis</td></tr>
+<tr><td id="W24367" class="vocabword" onclick="selword('24367','Iphigenia in Tauris')">Iphigenia in Tauris</td></tr>
+<tr><td id="W24368" class="vocabword" onclick="selword('24368','Iphigeniah')">Iphigeniah</td></tr>
+<tr><td id="W24369" class="vocabword" onclick="selword('24369','Iphimedia')">Iphimedia</td></tr>
+<tr><td id="W24370" class="vocabword" onclick="selword('24370','Iphinoae')">Iphinoae</td></tr>
+<tr><td id="W24371" class="vocabword" onclick="selword('24371','Iphis')">Iphis</td></tr>
+<tr><td id="W24372" class="vocabword" onclick="selword('24372','Iphition')">Iphition</td></tr>
+<tr><td id="W24373" class="vocabword" onclick="selword('24373','Iphitus')">Iphitus</td></tr>
+<tr><td id="W24374" class="vocabword" onclick="selword('24374','Iphlgenia')">Iphlgenia</td></tr>
+<tr><td id="W24375" class="vocabword" onclick="selword('24375','Iphthime')">Iphthime</td></tr>
+<tr><td id="W24376" class="vocabword" onclick="selword('24376','Ipiales')">Ipiales</td></tr>
+<tr><td id="W24377" class="vocabword" onclick="selword('24377','Ipiutak')">Ipiutak</td></tr>
+<tr><td id="W24378" class="vocabword" onclick="selword('24378','Ipoctonus')">Ipoctonus</td></tr>
+<tr><td id="W24379" class="vocabword" onclick="selword('24379','Ipoh')">Ipoh</td></tr>
+<tr><td id="W24380" class="vocabword" onclick="selword('24380','Ippolitov-Ivanov')">Ippolitov-Ivanov</td></tr>
+<tr><td id="W24381" class="vocabword" onclick="selword('24381','Ipsambul')">Ipsambul</td></tr>
+<tr><td id="W24382" class="vocabword" onclick="selword('24382','Ipsus')">Ipsus</td></tr>
+<tr><td id="W24383" class="vocabword" onclick="selword('24383','Ipswich')">Ipswich</td></tr>
+</table>

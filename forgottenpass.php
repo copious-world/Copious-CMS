@@ -1,0 +1,139 @@
+<?php
+
+	$servicedir = $_GET['servicedir'];
+
+?>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Retrieve Copious Mail password... </title>
+	</head>
+	<body>
+		<!-- Biz Stuff  -->
+		<table border="0" cellspacing="0" width="100%" ID="Table1">
+			<tbody>
+				<tr>
+					<td bgcolor="darkgreen" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<table border="0" cellspacing="0" width="100%" ID="Table2">
+			<tbody>
+				<tr>
+					<td bgcolor="#fcf8d5" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<p align="center" style="color: rgb(20, 50, 100); text-decoration: none; font-weight: bold; font-size : 24">
+			Copious Mail
+		</p>
+		<!-- Biz Stuff  -->
+		<!-- Biz Stuff  -->
+		<table border="0" cellspacing="0" width="100%" ID="Table3">
+			<tbody>
+				<tr>
+					<td bgcolor="darkgreen" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<table border="0" cellspacing="0" width="100%" ID="Table4">
+			<tbody>
+				<tr>
+					<td bgcolor="#fcf8d5" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<blockquote style="background-color: #fcfcc5;">
+			<p align="justify">
+				In order for Copious Authorization to retrieve your password from <?php echo $servicedir?>, you will have to enter 
+				your <?php echo $servicedir?> user name and your verifying e-mail address.
+				<br>
+				You will receive an e-mail containing information to help you retrieve your 
+				password.
+				<br>
+				The e-mail will be sent to the e-mail address that Copious Authorization has on file.
+			</p>
+		</blockquote>
+		<!-- Biz Stuff  -->
+		<table border="0" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td bgcolor="darkgreen" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<table border="0" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td bgcolor="#fcf8d5" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<br>
+		<br>
+		<form name="passlink" action="recallpass.php" method="POST" ID="Form1" onsubmit="return submitScript()">
+			<input type="hidden" name="servicedir" value="<?php echo $servicedir; ?>">
+			<table align="center">
+				<tr>
+					<td>
+						Please enter your user name: &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" id="user_name" size="60" name="recall_name">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Please enter your e-mail address: &nbsp; <input type="text" id="user_address" size="60" name="recall_email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>
+						<input type="submit" value="get email">
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br>
+		<!-- Biz Stuff  -->
+		<table border="0" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td bgcolor="darkgreen" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<table border="0" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td bgcolor="#fcf8d5" height="1" width="100%">
+					</td>
+				</tr>
+			</tbody></table>
+		<font size="1">Copious Systems  2006</font><br>
+	</body>
+</html>
+<script language="javascript">
+
+	////
+	function check_required_fields() {
+		if ( document.passlink.recall_email.value == "" ) {
+			alert("Please enter a value for field, User Name.")
+			return false
+		}
+		if ( document.passlink.recall_email.value == "" ) {
+			alert("Please enter a value for field, E-mail.")
+			return false
+		}
+		return true;
+	}
+	
+
+	function submitScript()
+	{
+		var first_test = check_required_fields();
+		
+		return first_test
+	}
+	///
+
+</script>

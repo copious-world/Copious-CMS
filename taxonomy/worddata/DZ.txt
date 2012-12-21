@@ -1,0 +1,9 @@
+<table width='100%'>
+<tr><td id="W14829" class="vocabword" onclick="selword('14829','Dzaudzhikau')">Dzaudzhikau</td></tr>
+<tr><td id="W14830" class="vocabword" onclick="selword('14830','Dzerzhinsk')">Dzerzhinsk</td></tr>
+<tr><td id="W14831" class="vocabword" onclick="selword('14831','Dzhambul')">Dzhambul</td></tr>
+<tr><td id="W14832" class="vocabword" onclick="selword('14832','Dzhugashvili')">Dzhugashvili</td></tr>
+<tr><td id="W14833" class="vocabword" onclick="selword('14833','Dzoba')">Dzoba</td></tr>
+<tr><td id="W14834" class="vocabword" onclick="selword('14834','Dzongka')">Dzongka</td></tr>
+<tr><td id="W14835" class="vocabword" onclick="selword('14835','Dzungaria')">Dzungaria</td></tr>
+</table>

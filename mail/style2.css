@@ -1,0 +1,154 @@
+
+@import url("/hosted/css/drupal.css");
+@import url("/hosted/css/copious_menus.css");
+@import url("/hosted/css/peacenamesstyles.css");
+
+ 
+@import url("/hosted/css/classydex/style.css");
+@import url("/hosted/css/classydex/classydex.css");
+@import url("/hosted/css/classydex/stylesheet.css");
+
+body {
+	padding:0px;
+	margin: 0px;
+}
+
+#mailGroupNames {
+	font: bold 14 times, serif;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: darkred;
+}
+#mailCommandCentral {
+	font: bold 14 times, serif;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	background-color: #fcfcc5;
+	color: darkred;
+	border: solid 2px #fAfAc0;
+	border-bottom: solid 1px darkred;
+}
+.messageBox {
+	font: bold 12 times, serif;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: black;
+	border: solid 3px orange;
+	wrap: false;
+}
+.messageBoxControl {
+	font: bold 14 times, serif;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: darkred;
+	border: solid 2px darkgreen;
+	background-color: #fcfcc5;
+	cursor: pointer;
+}
+
+.messageBoxControl:hover {
+	background-color: transparent;
+}
+
+#mailGroupEditorDiv {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	width: 90%;
+}
+
+#mailGroupReaderDiv {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+}
+
+#uploaderDisplay {
+	visibility: hidden;
+}
+#uploaderSubmit {
+	visibility: hidden;
+}
+
+
+#groupEntryDiv {
+	position: absolute;
+	visibility: hidden;
+	background-color:#CCFFDD;
+	border: orange solid 2px;
+	zIndex: 205;
+	top: 20px;
+	left: 30px;
+	width: 200px;
+	height: 0px;
+	border: 1px solid blue;
+}
+#field_menu {
+	position: absolute;
+	visibility: hidden;
+	background-color:#fcfcc5;
+	border: orange solid 2px;
+	zIndex: 205;
+	top: 20px;
+	left: 30px;
+	width: 200px;
+	height: 0px;
+	border: 1px solid blue;
+	padding: 4;
+}
+
+
+.menuItemTxt {
+	border: 2px solid #fcfcc5;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+.menuItemTxt:hover {
+	border: 2px solid darkgreen;
+}
+
+
+
+.menuItemTitleTxt {
+	font-weight: bolder;
+	font-family: Courier;
+	color: darkorange;
+	cursor: pointer;
+}
+
+#copyrightBottom {
+	position: absolute;
+	top: 600;
+}
+
+#msgMover {
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+
+.groupstyles {
+	font: bolder, tahoma, serif;
+	text-align: center;
+	font-size: 1.05em;
+	color: darkgreen;
+	cursor: pointer;
+	background-color:#FEEDBA
+}
+#specialTag {
+	visibility: hidden;
+	height: 0;
+}
+
+
+.statusReportStyle {
+	background-color: #EFDFAA;
+	border: dashed 1px darkgreen;
+	height:18px;
+	font-size: 0.75em;
+	font-weight:bold;
+	color:darkgreen;
+	padding-left:12px;
+}

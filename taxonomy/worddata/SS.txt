@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W42609" class="vocabword" onclick="selword('42609','SS')">SS</td></tr>
+<tr><td id="W42610" class="vocabword" onclick="selword('42610','SS Troops')">SS Troops</td></tr>
+<tr><td id="W42611" class="vocabword" onclick="selword('42611','SSB')">SSB</td></tr>
+<tr><td id="W42612" class="vocabword" onclick="selword('42612','SSD')">SSD</td></tr>
+<tr><td id="W42613" class="vocabword" onclick="selword('42613','SSE')">SSE</td></tr>
+<tr><td id="W42614" class="vocabword" onclick="selword('42614','SSM')">SSM</td></tr>
+<tr><td id="W42615" class="vocabword" onclick="selword('42615','SSR')">SSR</td></tr>
+<tr><td id="W42616" class="vocabword" onclick="selword('42616','SSS')">SSS</td></tr>
+<tr><td id="W42617" class="vocabword" onclick="selword('42617','SST')">SST</td></tr>
+<tr><td id="W42618" class="vocabword" onclick="selword('42618','SSW')">SSW</td></tr>
+<tr><td id="W42619" class="vocabword" onclick="selword('42619','SScD')">SScD</td></tr>
+</table>

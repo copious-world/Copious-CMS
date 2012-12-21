@@ -1,0 +1,13 @@
+<table width='100%'>
+<tr><td id="W46842" class="vocabword" onclick="selword('46842','TC')">TC</td></tr>
+<tr><td id="W46843" class="vocabword" onclick="selword('46843','TCBM')">TCBM</td></tr>
+<tr><td id="W46844" class="vocabword" onclick="selword('46844','TCS')">TCS</td></tr>
+<tr><td id="W47298" class="vocabword" onclick="selword('47298','Tc')">Tc</td></tr>
+<tr><td id="W47299" class="vocabword" onclick="selword('47299','Tchad')">Tchad</td></tr>
+<tr><td id="W47300" class="vocabword" onclick="selword('47300','Tchaikovsky')">Tchaikovsky</td></tr>
+<tr><td id="W47301" class="vocabword" onclick="selword('47301','Tchao')">Tchao</td></tr>
+<tr><td id="W47302" class="vocabword" onclick="selword('47302','Tchebycheff equation')">Tchebycheff equation</td></tr>
+<tr><td id="W47303" class="vocabword" onclick="selword('47303','Tchebycheff polynomial')">Tchebycheff polynomial</td></tr>
+<tr><td id="W47304" class="vocabword" onclick="selword('47304','Tchekhov')">Tchekhov</td></tr>
+<tr><td id="W47305" class="vocabword" onclick="selword('47305','Tcherepnin')">Tcherepnin</td></tr>
+</table>
