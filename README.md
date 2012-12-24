@@ -45,7 +45,7 @@ A member of the product hunting community will look for an element of a class of
 For that, he will be given an abstract search form derived from the WYSIWG abstract form for the family of objects.
 He will be presented with ranges for physical constants in form elements.
 
-When the user searched based on the form elements, the searcher will be presented with a narrow list of objects to choose from.
+When the user searches, with the search based on the form elements, the searcher will be presented with a narrow list of objects to choose from.
 
 The CMS software should be ammenable to being used in purchasing situations.
 
