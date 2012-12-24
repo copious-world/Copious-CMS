@@ -52,7 +52,7 @@ The CMS software should be ammenable to being used in purchasing situations.
 The software should allow for fairly rapid searches based on numerical calculations and comparisons.
 
 
-So, that is all for now. This software is not at the moment on the fron of anyones mind, including my own.
+So, that is all for now. This software is not at the moment on the front of anyones mind, including my own.
 However, I can imagine revitalizing this effor with the help of others.
 
 
